@@ -26,8 +26,8 @@ Study following projects for best practices.
 
 ### Jekyll, GitHub Pages
 
-- Jekyll website
+- [Jekyll website](http://jekyllrb.com/)
 - GitHub Pages themes
-- Poole, Hyde themes
+- [Lanyon](https://github.com/poole/lanyon)
 - [Jekyll Themes](http://jekyllthemes.org/)
 

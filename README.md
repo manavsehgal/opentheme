@@ -29,4 +29,5 @@ Study following projects for best practices.
 - Jekyll website
 - GitHub Pages themes
 - Poole, Hyde themes
+- [Jekyll Themes](http://jekyllthemes.org/)
 

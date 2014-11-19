@@ -2,33 +2,25 @@
 
 Jekyll theme using Semantic UI for creating awesome websites on GitHub Pages.
 
----
-
-# Design Goals
+## Design Goals
 
 - Follow Jekyll and GitHub Pages best practices
 - Showcase relevant Semantic UI capabilities
 - Feature coverage for marketing, blogging, projects/portfolio scenarios
 - Easy to fork and reuse for creating GitHub Pages
 
----
-
-# Wish List
+## Wish List
 
 - Blog
 - Portfolio
 - Landing Page
 
----
-
-# Design Approach
+## Design Approach
 
 1. Reuse Jekyll generated boilerplate
 2. Add relevant features from Semantic UI demos
 
----
-
-# Reference Projects
+## Reference Projects
 
 Study following projects for best practices.
 
@@ -38,4 +30,3 @@ Study following projects for best practices.
 - GitHub Pages themes
 - Poole, Hyde themes
 
----

@@ -24,7 +24,7 @@ Jekyll theme using Semantic UI for creating awesome websites on GitHub Pages.
 
 Study following projects for best practices.
 
-## Jekyll, GitHub Pages patterns
+### Jekyll, GitHub Pages
 
 - Jekyll website
 - GitHub Pages themes

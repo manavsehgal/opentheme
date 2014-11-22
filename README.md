@@ -10,17 +10,17 @@ Jekyll theme using Semantic UI for creating awesome websites on GitHub Pages.
 - Easy to fork and reuse for creating GitHub Pages
 
 ## Features
-- Blog
-- Portfolio
-- Landing Page
-- **SASS with CSS asset pipeline.** This will require Gulp or Grunt automation.
-- **Coffee with JS asset pipeline.** This will require Gulp or Grunt automation.
+- **WIP.** Landing Page. See [Homepage](http://open-start.github.io/semantic-jekyll-theme/index.html).
+- **TODO.** Blog page.
+- **TODO.** Portfolio/project page.
+- **TODO.** SASS with CSS asset pipeline. This will require Gulp or Grunt automation.
+- **TODO.** Coffee with JS asset pipeline. This will require Gulp or Grunt automation.
 
 ## Design Approach
 
-1. **Done.** Reuse Jekyll generated boilerplate.
-2. **Done.** Add Semantic UI examples and structure css, js within Jekyll asset pipeline. Added [Kitchensink](http://open-start.github.io/semantic-jekyll-theme/kitchensink.html), [Feed](http://open-start.github.io/semantic-jekyll-theme/feed.html), and [Homepage](http://open-start.github.io/semantic-jekyll-theme/index.html).
-3. Split examples into reusable _includes, _layouts.
+1. Reuse Jekyll generated boilerplate.
+2. Add Semantic UI examples and structure css, js within Jekyll asset pipeline. Added [Kitchensink](http://open-start.github.io/semantic-jekyll-theme/kitchensink.html), [Feed](http://open-start.github.io/semantic-jekyll-theme/feed.html).
+3. **TODO.** Split examples into reusable _includes, _layouts.
 
 ## File Structure
 

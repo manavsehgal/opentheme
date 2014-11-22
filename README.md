@@ -9,22 +9,25 @@ Jekyll theme using Semantic UI for creating awesome websites on GitHub Pages.
 - Feature coverage for marketing, blogging, projects/portfolio scenarios
 - Easy to fork and reuse for creating GitHub Pages
 
-## Wish List
+## Features
 - Blog
 - Portfolio
 - Landing Page
+- **SASS with CSS asset pipeline.** This will require Gulp or Grunt automation.
+- **Coffee with JS asset pipeline.** This will require Gulp or Grunt automation.
 
 ## Design Approach
 
-1. Reuse Jekyll generated boilerplate
-2. Add relevant features from Semantic UI demos
+1. **Done.** Reuse Jekyll generated boilerplate.
+2. **Done.** Add Semantic UI examples and structure css, js within Jekyll asset pipeline. Added [Kitchensink](http://open-start.github.io/semantic-jekyll-theme/kitchensink.html), [Feed](http://open-start.github.io/semantic-jekyll-theme/feed.html), and [Homepage](http://open-start.github.io/semantic-jekyll-theme/index.html).
+3. Split examples into reusable _includes, _layouts.
 
 ## File Structure
 
 ### Folders
 
-- **public** includes css, js, img, font, and icon assets. Good candidates are third party libraries like Semantic UI. These are not processed by Jekyll and served as-is. Where available both minified and well-formatted css, js are included.
-- **css** contains main.scss with landing page specific styles defined here. main.scss imports layout specific styles from **_sass**.
+- **js** add site specific JavaScript to custom.js. Vendor libraries are added as minified where available.
+- **css** add site specific CSS to custom.css. Vendor libraries are added as minified where available. Contains folders for assets referenced by custom or vendor css.
 
 ### Files
 

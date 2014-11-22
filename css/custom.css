@@ -1,0 +1,183 @@
+/*******************************
+            Global
+*******************************/
+
+html {
+  font-size: 14px;
+}
+
+
+/*******************************
+            Home
+*******************************/
+
+#home .menu .right.menu > .mobile.item {
+  display: none;
+}
+
+/*--------------
+    Masthead
+---------------*/
+
+#home .masthead {
+  background-image: url(img/bg.jpg);
+  margin: 0em;
+  padding: 5rem 0rem;
+}
+#home .masthead .column {
+  position: relative;
+}
+#home .masthead .information {
+  margin: 10em 1em 1em 350px;
+}
+#home .masthead .information p {
+  max-width: 600px;
+}
+#home .masthead .image {
+  position: absolute;
+  left: 0%;
+  bottom: -110px;
+}
+
+/*--------------
+    Ribbons
+---------------*/
+
+#home .vertical.segment {
+  padding: 6rem 0rem;
+}
+
+#home .feature.segment {
+  margin: 0em;
+  padding: 2rem 0rem;
+}
+#home .feature.segment p {
+  min-height: 50px;
+}
+
+#home .selection.list {
+  margin: 0em -0.5em;
+}
+
+#home .logo.row {
+  height: 10rem;
+}
+
+/*--------------
+    Footer
+---------------*/
+
+#home .footer {
+  background-color: #000000;
+}
+
+/*******************************
+          Kithensink
+*******************************/
+
+/*--------------
+      Demo
+---------------*/
+
+#sink {
+  background-color: #FFFFFF;
+}
+#sink .demo h4 {
+  margin: 2em 0em 1em;
+}
+
+
+/* Awkwardly ported from docs */
+#sink .demo.row {
+  margin: 0 auto !important;
+  max-width: 1400px;
+}
+#sink .demo.row .button.demo > .buttons,
+#sink .demo.row .button.demo > .button,
+#sink .demo.row .button.demo > .segment > .button {
+  margin-bottom: 0.5em;
+}
+#sink .demo.row .ui.menu,
+#sink .demo.row .ui.card {
+  width: 100%;
+}
+#sink .demo.row h4 {
+  font-weight: bold !important;
+  margin: 0em 0em 1em !important;
+}
+#sink .demo.row .example {
+  clear: both;
+  padding-top: 3em;
+  margin-top: 3em;
+}
+#sink .demo.row .example:first-child {
+  margin-top: 0;
+  padding-top: 0;
+}
+#sink .demo.row .segment.example {
+  z-index: 1;
+}
+#sink .demo.row .ui.label:not(.empty) {
+  margin-bottom: 1em;
+}
+#sink .demo.row .segment .ui.label {
+  margin-bottom: 0em;
+}
+
+
+
+/*******************************
+          Responsive
+*******************************/
+
+/* Mobile Only */
+
+@media only screen and (max-width : 768px) {
+
+  #home .menu .right.menu > .item {
+    display: none;
+  }
+
+  #home .menu .right.menu > .mobile.item {
+    display: block;
+  }
+
+  #home h1 {
+    font-size: 1.5em;
+  }
+  #home .masthead.segment .information {
+    margin-left: 170px;
+  }
+
+  #home .masthead.segment .image {
+    width: 170px;
+  }
+
+  #home .masthead.segment .button {
+    font-size: 1rem;
+  }
+
+  #home .overview .divided.grid .header .icon {
+    font-size: 1.5em;
+  }
+
+  #home .overview .divided.grid .header + p {
+    min-height: 0px;
+  }
+
+  #home .masthead.segment .column {
+    font-size: 0.7rem;
+  }
+
+  #home .masthead.segment .column p {
+    display: none;
+  }
+
+  #home .selection.list .right.floated {
+    display: none;
+  }
+}
+
+@media only screen and (max-width : 1000px) {
+
+}

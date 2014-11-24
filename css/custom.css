@@ -43,6 +43,13 @@ html {
   margin-bottom: 10px;
 }
 
+/*--------------
+    Newsletter
+---------------*/
+
+#home .newsletter.button {
+  margin-top: 15px;
+}
 
 /*--------------
     Ribbons

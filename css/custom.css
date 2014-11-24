@@ -3,7 +3,7 @@
 *******************************/
 
 html {
-  font-size: 14px;
+  font-size: 18px;
 }
 
 
@@ -20,23 +20,18 @@ html {
 ---------------*/
 
 #home .masthead {
-  background-image: url(img/bg.jpg);
+  background-image: url(img/dark_wood.png);
   margin: 0em;
-  padding: 5rem 0rem;
+  padding: 2rem 0rem;
 }
 #home .masthead .column {
   position: relative;
 }
 #home .masthead .information {
-  margin: 10em 1em 1em 350px;
+  margin: 5em 1em 1em 50px;
 }
 #home .masthead .information p {
   max-width: 600px;
-}
-#home .masthead .image {
-  position: absolute;
-  left: 0%;
-  bottom: -110px;
 }
 
 /*--------------
@@ -72,7 +67,7 @@ html {
 }
 
 /*******************************
-          Kithensink
+          Kithen Sink
 *******************************/
 
 /*--------------
@@ -143,14 +138,10 @@ html {
   }
 
   #home h1 {
-    font-size: 1.5em;
+    font-size: 2em;
   }
   #home .masthead.segment .information {
-    margin-left: 170px;
-  }
-
-  #home .masthead.segment .image {
-    width: 170px;
+    margin-left: 10px;
   }
 
   #home .masthead.segment .button {

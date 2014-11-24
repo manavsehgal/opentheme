@@ -23,10 +23,12 @@ $(document)
       }
     ;
 
-    $('.ui.dropdown')
-      .dropdown({
-        on: 'hover'
-      })
+    $('.sidebar').first()
+      .sidebar('attach events', '.pagebar')
+    ;
+    
+    $('.pagebar')
+      .removeClass('disabled')
     ;
 
     $('.ui.form')

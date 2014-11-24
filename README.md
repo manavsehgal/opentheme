@@ -13,9 +13,10 @@ Jekyll theme using Semantic UI for creating awesome websites on GitHub Pages.
 
 ### Pages
 
-- **WIP.** Landing Page. See [Homepage](http://open-start.github.io/semantic-jekyll-theme/index.html).
-- **TODO.** Blog page.
-- **TODO.** Portfolio/project page.
+- **WIP.** Landing Page template. See [Homepage](http://open-start.github.io/semantic-jekyll-theme/index.html).
+- **TODO.** Blog Post template.
+- **TODO.** Project template.
+- **TODO.** Portfolio template.
 
 ### Pre-processing
 
@@ -25,11 +26,13 @@ Jekyll theme using Semantic UI for creating awesome websites on GitHub Pages.
 
 ## Design Approach
 
-1. Reuse Jekyll generated boilerplate.
-2. Add Semantic UI examples and structure css, js within Jekyll asset pipeline. Added [Kitchensink](http://open-start.github.io/semantic-jekyll-theme/kitchensink.html), [Feed](http://open-start.github.io/semantic-jekyll-theme/feed.html).
-3. Homepage example enhanced as basic Landing page template.
-4. **TODO.** Split Landing page into reusable Jekyll folder structure with _includes, _layouts.
-5. **TODO.** Design Blog post page.
+- Uses latest Semantic UI 1.0.0 release.
+- Reuse Jekyll generated boilerplate.
+- Add Semantic UI examples and structure css, js within Jekyll asset pipeline. Added [Kitchensink](http://open-start.github.io/semantic-jekyll-theme/kitchensink.html), [Feed](http://open-start.github.io/semantic-jekyll-theme/feed.html).
+- Homepage example enhanced as basic Landing page template.
+- Sidebar and floating menu added.
+- **TODO.** Split Landing page into reusable Jekyll folder structure with _includes, _layouts.
+- **TODO.** Design Blog post page.
 
 ## File Structure
 

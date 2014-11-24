@@ -56,12 +56,12 @@ html {
 ---------------*/
 
 #home .vertical.segment {
-  padding: 2rem 0rem;
+  padding: 3rem 0rem;
 }
 
 #home .feature.segment {
   margin: 0em;
-  padding: 2rem 0rem;
+  padding: 3rem 0rem;
 }
 #home .feature.segment p {
   min-height: 50px;

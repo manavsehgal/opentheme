@@ -35,11 +35,21 @@ html {
 }
 
 /*--------------
+    Tags
+---------------*/
+
+#home .tag {
+  margin-right: 5px;
+  margin-bottom: 10px;
+}
+
+
+/*--------------
     Ribbons
 ---------------*/
 
 #home .vertical.segment {
-  padding: 6rem 0rem;
+  padding: 2rem 0rem;
 }
 
 #home .feature.segment {

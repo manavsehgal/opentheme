@@ -28,7 +28,8 @@ Jekyll theme using Semantic UI for creating awesome websites on GitHub Pages.
 1. Reuse Jekyll generated boilerplate.
 2. Add Semantic UI examples and structure css, js within Jekyll asset pipeline. Added [Kitchensink](http://open-start.github.io/semantic-jekyll-theme/kitchensink.html), [Feed](http://open-start.github.io/semantic-jekyll-theme/feed.html).
 3. Homepage example enhanced as basic Landing page template.
-4. **TODO.** Split examples into reusable _includes, _layouts.
+4. **TODO.** Split Landing page into reusable Jekyll folder structure with _includes, _layouts.
+5. **TODO.** Design Blog post page.
 
 ## File Structure
 

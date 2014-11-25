@@ -35,6 +35,37 @@ Jekyll theme using Semantic UI for creating awesome websites on GitHub Pages.
 - Sidebar and floating menu added.
 - Split Landing page into reusable Jekyll folder structure.
 - **TODO.** Design Blog post page.
+ 
+## When to use posts, pages, collections?
+
+Jekyll has several ways to create content. Each is suitable for certain use cases.
+
+**Posts.** We will use posts for frequently created, chronological content.
+
+**Pages.** Typical use cases are lists of posts, single page content like a landing page.
+
+## How to design a blog in Jekyll?
+
+### Target Features
+
+- A typical blog has a collection of chronological posts. 
+- A widget listing recent posts to display on home page. 
+- A pagination component to leaf through posts in chronological order.
+- A post has an image, a thumbnail, summary, title, permalink, and content.
+- Each post has tags classifying related posts.
+
+## How to design pages in Jekyll?
+
+### Target Features
+
+- Pages are normally static or less frequently updated.
+- Can contain collection or list of posts.
+
+### Patterns
+
+**Clean URLs.** Achieve clean URLs by using folder by page name and index.html within folder for the page. 
+See [Jekyll Pages docs](http://jekyllrb.com/docs/pages/#named-folders-containing-index-html-files) on clean URLs.
+
 
 ## File Structure
 

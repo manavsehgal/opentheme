@@ -11,20 +11,22 @@ Jekyll theme using Semantic UI for creating awesome websites on GitHub Pages.
 
 ## Features
 
-### Pages
+### Page Templates
 
-- **WIP.** Landing Page template. See [Homepage](http://open-start.github.io/semantic-jekyll-theme/index.html).
-- **TODO.** Blog Post template.
-- **TODO.** Project template.
-- **TODO.** Portfolio template.
+- Landing Page. See [Homepage](http://open-start.github.io/semantic-jekyll-theme/index.html).
+- **TODO.** Blog Post.
+- **TODO.** Project.
+- **TODO.** Portfolio.
 
 ### Pre-processing
 
 - Simple CSS, JS, IMG asset pipeline.
+- Landing page reusable _includes - head, masthead, menu, sidebar, footer.
+- Landing page layout *landing.html*.
 - **TODO.** SASS with CSS asset pipeline. This will require Gulp or Grunt automation.
 - **TODO.** Coffee with JS asset pipeline. This will require Gulp or Grunt automation.
 
-## Design Approach
+## Design Log
 
 - Uses latest Semantic UI 1.0.0 release.
 - Reuse Jekyll generated boilerplate.
@@ -32,16 +34,17 @@ Jekyll theme using Semantic UI for creating awesome websites on GitHub Pages.
 - Homepage example enhanced as basic Landing page template.
 - Sidebar and floating menu added.
 - Split Landing page into reusable Jekyll folder structure.
-- Landing page lauout added.
-- Landing page reusable _includes added - head, masthead, menu, sidebar, footer.
 - **TODO.** Design Blog post page.
 
 ## File Structure
 
 ### Folders
 
+- **_includes** html partials reusable in layouts.
+- **_layouts** html layouts reusable in pages. 
 - **js** add site specific JavaScript to custom.js. Vendor libraries are added as minified where available.
 - **css** add site specific CSS to custom.css. Vendor libraries are added as minified where available. Contains folders for assets referenced by custom or vendor css.
+- **img** image assets.
 
 ### Files
 
@@ -60,4 +63,4 @@ Study following projects for best practices.
 
 ### GitHub hosted sites
 
-- Semantic UI website
+- [Semantic UI website](http://www.semantic-ui.com)

@@ -1,17 +1,18 @@
 # Site settings
-title: Your awesome title
-email: your-email@domain.com
+title: Semantic Jekyll Theme by OpenStart.co
+tagline: Create Awesome Websites on GitHub 
+email: sehgal.manav@gmail.com
+copyright: OpenStart.co
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Starter theme using Semantic UI and Jekyll for creating awesome
+  websites on GitHub Pages.
 
 # Only required for Project GitHub Pages
 baseurl: "/semantic-jekyll-theme" # the subpath of your site, e.g. /blog/
 
-url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
+url: "http://open-start.github.io" # the base hostname & protocol for your site
+twitter_username: manavsehgal
+github_username:  manavsehgal
 
 # Build settings
 markdown: kramdown

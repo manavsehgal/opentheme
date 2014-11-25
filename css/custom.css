@@ -8,10 +8,10 @@ html {
 
 
 /*******************************
-            Home
+            Landing Page
 *******************************/
 
-#home .menu .right.menu > .mobile.item {
+#landing .menu .right.menu > .mobile.item {
   display: none;
 }
 
@@ -19,18 +19,18 @@ html {
     Masthead
 ---------------*/
 
-#home .masthead {
+#landing .masthead {
   background-image: url(img/dark_wood.png);
   margin: 0em;
   padding: 2rem 0rem;
 }
-#home .masthead .column {
+#landing .masthead .column {
   position: relative;
 }
-#home .masthead .information {
+#landing .masthead .information {
   margin: 5em 1em 1em 50px;
 }
-#home .masthead .information p {
+#landing .masthead .information p {
   max-width: 600px;
 }
 
@@ -38,7 +38,7 @@ html {
     Tags
 ---------------*/
 
-#home .tag {
+#landing .tag {
   margin-right: 5px;
   margin-bottom: 10px;
 }
@@ -47,7 +47,7 @@ html {
     Newsletter
 ---------------*/
 
-#home .newsletter.button {
+#landing .newsletter.button {
   margin-top: 15px;
 }
 
@@ -55,23 +55,23 @@ html {
     Ribbons
 ---------------*/
 
-#home .vertical.segment {
+#landing .vertical.segment {
   padding: 3rem 0rem;
 }
 
-#home .feature.segment {
+#landing .feature.segment {
   margin: 0em;
   padding: 3rem 0rem;
 }
-#home .feature.segment p {
+#landing .feature.segment p {
   min-height: 50px;
 }
 
-#home .selection.list {
+#landing .selection.list {
   margin: 0em -0.5em;
 }
 
-#home .logo.row {
+#landing .logo.row {
   height: 10rem;
 }
 
@@ -79,7 +79,7 @@ html {
     Footer
 ---------------*/
 
-#home .footer {
+#landing .footer {
   background-color: #000000;
 }
 
@@ -146,42 +146,42 @@ html {
 
 @media only screen and (max-width : 768px) {
 
-  #home .menu .right.menu > .item {
+  #landing .menu .right.menu > .item {
     display: none;
   }
 
-  #home .menu .right.menu > .mobile.item {
+  #landing .menu .right.menu > .mobile.item {
     display: block;
   }
 
-  #home h1 {
+  #landing h1 {
     font-size: 2em;
   }
-  #home .masthead.segment .information {
+  #landing .masthead.segment .information {
     margin-left: 10px;
   }
 
-  #home .masthead.segment .button {
+  #landing .masthead.segment .button {
     font-size: 1rem;
   }
 
-  #home .overview .divided.grid .header .icon {
+  #landing .overview .divided.grid .header .icon {
     font-size: 1.5em;
   }
 
-  #home .overview .divided.grid .header + p {
+  #landing .overview .divided.grid .header + p {
     min-height: 0px;
   }
 
-  #home .masthead.segment .column {
+  #landing .masthead.segment .column {
     font-size: 0.7rem;
   }
 
-  #home .masthead.segment .column p {
+  #landing .masthead.segment .column p {
     display: none;
   }
 
-  #home .selection.list .right.floated {
+  #landing .selection.list .right.floated {
     display: none;
   }
 }

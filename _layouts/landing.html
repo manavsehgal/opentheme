@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+
+    <div id="landing">
+        <div class="ui right vertical labeled icon sidebar menu">
+            {% include sidebar.html %}
+        </div>
+        <div class="pusher">
+            {% include masthead.html %}
+            {{ content }}
+            {% include footer.html %}
+        </div>
+    </div>
+ </body>
+
+</html>

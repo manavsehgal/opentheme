@@ -2,6 +2,8 @@
 
 An open source theme using Jekyll and Semantic UI for creating awesome websites on GitHub.
 
+View live demo at http://opentheme.co
+
 ## Design Goals
 
 - Follow Jekyll and GitHub Pages best practices

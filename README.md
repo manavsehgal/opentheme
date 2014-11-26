@@ -1,6 +1,6 @@
-# OpenStart Semantic Jekyll Theme
+# OpenTheme Semantic Jekyll Theme
 
-Jekyll theme using Semantic UI for creating awesome websites on GitHub Pages.
+An open source theme using Jekyll and Semantic UI for creating awesome websites on GitHub.
 
 ## Design Goals
 
@@ -13,7 +13,7 @@ Jekyll theme using Semantic UI for creating awesome websites on GitHub Pages.
 
 ### Page Templates
 
-- Landing Page. See [Homepage](http://open-start.github.io/semantic-jekyll-theme/index.html).
+- Landing Page. See [Homepage](http://opentheme.co/index.html).
 - **TODO.** Blog Post.
 - **TODO.** Project.
 - **TODO.** Portfolio.
@@ -30,7 +30,7 @@ Jekyll theme using Semantic UI for creating awesome websites on GitHub Pages.
 
 - Uses latest Semantic UI 1.0.0 release.
 - Reuse Jekyll generated boilerplate.
-- Add Semantic UI examples and structure css, js within Jekyll asset pipeline. Added [Kitchensink](http://open-start.github.io/semantic-jekyll-theme/kitchensink.html), [Feed](http://open-start.github.io/semantic-jekyll-theme/feed.html).
+- Add Semantic UI examples and structure css, js within Jekyll asset pipeline. Added [Kitchensink](http://opentheme.co/kitchensink.html), [Feed](http://opentheme.co/feed.html).
 - Homepage example enhanced as basic Landing page template.
 - Sidebar and floating menu added.
 - Split Landing page into reusable Jekyll folder structure.

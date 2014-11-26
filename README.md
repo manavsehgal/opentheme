@@ -1,4 +1,4 @@
-# OpenTheme Semantic Jekyll Theme
+# OpenTheme
 
 An open source theme using Jekyll and Semantic UI for creating awesome websites on GitHub.
 
@@ -39,6 +39,12 @@ Collaborate in design workflow at https://trello.com/b/Jm8UFV7p
 - Sidebar and floating menu added.
 - Split Landing page into reusable Jekyll folder structure.
 - **TODO.** Design Blog post page.
+
+## Customizing Semantic UI
+
+Following Semantic UI customizations are active in current release of OpenTheme.
+
+- Raised theme for Buttons
  
 ## When to use posts, pages, collections?
 
@@ -84,6 +90,11 @@ See [Jekyll Pages docs](http://jekyllrb.com/docs/pages/#named-folders-containing
 ### Files
 
 - **Gemfile** defines gems required for creating local Jekyll building and serving "like" how GitHub Pages would.
+
+## Dependencies
+
+- Semantic UI 1.0.0
+- Jekyll
 
 ## Reference Projects
 

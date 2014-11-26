@@ -49,7 +49,7 @@ Jekyll has several ways to create content. Each is suitable for certain use case
 ### Target Features
 
 - A typical blog has a collection of chronological posts. 
-- A widget listing recent posts to display on home page. 
+- A component listing recent posts to display on home page. 
 - A pagination component to leaf through posts in chronological order.
 - A post has an image, a thumbnail, summary, title, permalink, and content.
 - Each post has tags classifying related posts.

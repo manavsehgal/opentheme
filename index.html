@@ -2,7 +2,6 @@
 layout: landing
 title: Home
 ---
-
 <div class="ui vertical feature segment">
   <div class="ui centered page grid">
     <div class="fourteen wide column">
@@ -88,7 +87,7 @@ title: Home
 </div>
 
 <div class="ui vertical segment">
-  <div class="ui stackable left aligned page grid">
+  <div class="ui stackable center aligned page grid">
     <div class="row">
       <div class="column">
         <h1 class="ui header">
@@ -101,7 +100,7 @@ title: Home
     <div class="row">
       <div class="column">
         <div class="ui statistics">
-          <div class="purple statistic">
+          <div class="green statistic">
             <div class="value">
               <i class="rocket icon"></i> 90
             </div>
@@ -117,7 +116,7 @@ title: Home
               Content Workflow
             </div>
           </div>
-          <div class="statistic">
+          <div class="green statistic">
             <div class="value">
               <i class="star icon"></i> 5
             </div>
@@ -160,20 +159,14 @@ title: Home
     </div>
     <div class="row">
       <div class="eight wide column">
-        <h3 class="ui inverted header">More articles</h3>
+        <h3 class="ui inverted header">Recent articles</h3>
         <div class="ui inverted animated selection list">
-          <div class="item">
-            Why front-end engineering is where you need to focus
-            <div class="right floated">Dec 1, 2014</div>
-          </div>
-          <div class="item">
-            How pre-processing can help faster time-to-market
-            <div class="right floated">Dec 2, 2014</div>
-          </div>
-          <div class="item">
-            How GitHub Pages reimagines Platform as a Service
-            <div class="right floated">Dec 3, 2014</div>
-          </div>
+          {% for post in site.posts %}
+          <a class="item" href="{{ post.url | prepend: site.baseurl }}">
+            <div>{{ post.title }}</div>
+            <div class="right floated">{{ post.date | date: "%b %-d, %Y" }}</div>
+          </a>
+          {% endfor %}
         </div>
       </div>
 

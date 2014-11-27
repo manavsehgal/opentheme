@@ -6,135 +6,102 @@ html {
   font-size: 18px;
 }
 
-
-/*******************************
-            Landing Page
-*******************************/
-
-#landing .menu .right.menu > .mobile.item {
-  display: none;
-}
-
 /*--------------
-    Masthead
+    Header
 ---------------*/
 
-#landing .masthead {
+.global .masthead {
   background-image: url(img/skulls.png);
   margin: 0em;
   padding: 2rem 0rem;
 }
-#landing .masthead .column {
+.global .masthead .column {
   position: relative;
 }
-#landing .masthead .information {
-  margin: 5em 1em 1em 50px;
+.global .masthead .information {
+  margin: 2em 1em 1em 10px;
 }
-#landing .masthead .information p {
+.global .masthead .information p {
   max-width: 600px;
 }
 
 /*--------------
-    Tags
+    Menu
 ---------------*/
 
-#landing .tag {
-  margin-right: 5px;
-  margin-bottom: 10px;
-}
-
-/*--------------
-    Newsletter
----------------*/
-
-#landing .newsletter.button {
-  margin-top: 15px;
+.global .menu .right.menu > .mobile.item {
+  display: none;
 }
 
 /*--------------
     Ribbons
 ---------------*/
 
-#landing .vertical.segment {
+.global .segment h1 {
+  font-size: 2em;
+  margin-bottom: 1em;
+}
+
+.global .vertical.segment {
   padding: 3rem 0rem;
 }
 
-#landing .feature.segment {
+.global .feature.segment {
   margin: 0em;
-  padding: 3rem 0rem;
+  padding: 6rem 0rem;
 }
-#landing .feature.segment p {
+.global .feature.segment p {
   min-height: 50px;
 }
 
-#landing .selection.list {
+.global .selection.list {
   margin: 0em -0.5em;
-}
-
-#landing .logo.row {
-  height: 10rem;
 }
 
 /*--------------
     Footer
 ---------------*/
 
-#landing .footer {
+.global .footer.segment {
   background-color: #000000;
+  padding: 3rem 0rem;
+}
+
+.global .copyright.segment {
+  margin: 0em;
 }
 
 /*******************************
-          Kithen Sink
+            Home Page
 *******************************/
 
 /*--------------
-      Demo
+    Newsletter
 ---------------*/
 
-#sink {
-  background-color: #FFFFFF;
-}
-#sink .demo h4 {
-  margin: 2em 0em 1em;
+.home .newsletter.button {
+  margin-top: 10px;
 }
 
 
-/* Awkwardly ported from docs */
-#sink .demo.row {
-  margin: 0 auto !important;
-  max-width: 1400px;
+/*--------------
+    Tags
+---------------*/
+
+.home .tag {
+  margin-right: 5px;
+  margin-bottom: 5px;
 }
-#sink .demo.row .button.demo > .buttons,
-#sink .demo.row .button.demo > .button,
-#sink .demo.row .button.demo > .segment > .button {
-  margin-bottom: 0.5em;
-}
-#sink .demo.row .ui.menu,
-#sink .demo.row .ui.card {
-  width: 100%;
-}
-#sink .demo.row h4 {
-  font-weight: bold !important;
-  margin: 0em 0em 1em !important;
-}
-#sink .demo.row .example {
-  clear: both;
-  padding-top: 3em;
-  margin-top: 3em;
-}
-#sink .demo.row .example:first-child {
-  margin-top: 0;
-  padding-top: 0;
-}
-#sink .demo.row .segment.example {
-  z-index: 1;
-}
-#sink .demo.row .ui.label:not(.empty) {
-  margin-bottom: 1em;
-}
-#sink .demo.row .segment .ui.label {
-  margin-bottom: 0em;
-}
+
+
+/*******************************
+            Post Layout
+*******************************/
+
+
+/*******************************
+            Landing Layout
+*******************************/
 
 
 
@@ -143,49 +110,47 @@ html {
 *******************************/
 
 /* Mobile Only */
-
 @media only screen and (max-width : 768px) {
 
-  #landing .menu .right.menu > .item {
+  .global .menu .right.menu > .item {
     display: none;
   }
 
-  #landing .menu .right.menu > .mobile.item {
+  .global .menu .right.menu > .mobile.item {
     display: block;
   }
-
-  #landing h1 {
-    font-size: 2em;
-  }
-  #landing .masthead.segment .information {
-    margin-left: 10px;
+  
+  .global .menu .right.menu > .mobile.item .menu {
+    left: auto;
+    right: 0em;
   }
 
-  #landing .masthead.segment .button {
-    font-size: 1rem;
+  .global .selection.list .right.floated {
+    display: none;
   }
 
-  #landing .overview .divided.grid .header .icon {
+  .global h1 {
+    font-size: 1.5em;
+  }
+  
+  .global .overview .divided.grid .header .icon {
     font-size: 1.5em;
   }
 
-  #landing .overview .divided.grid .header + p {
+  .global .overview .divided.grid .header + p {
     min-height: 0px;
   }
 
-  #landing .masthead.segment .column {
+  .global .masthead.segment .button {
+    font-size: 1rem;
+  }
+
+  .global .masthead.segment .column {
     font-size: 0.7rem;
   }
 
-  #landing .masthead.segment .column p {
+  .global .masthead.segment .column p {
     display: none;
   }
-
-  #landing .selection.list .right.floated {
-    display: none;
-  }
-}
-
-@media only screen and (max-width : 1000px) {
 
 }

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body class="global post">
+    <div class="ui right vertical labeled icon sidebar menu">
+        {% include page-bar.html %}
+    </div>
+    <div class="pusher">
+        {% include post-header.html %}
+        <div class="ui vertical feature segment">
+          <div class="ui centered page grid">
+            <div class="fourteen wide column">
+                {{ content }}
+            </div>
+          </div>
+        </div>
+        {% include footer.html %}
+    </div>
+ </body>
+
+</html>

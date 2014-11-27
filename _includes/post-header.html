@@ -1,0 +1,20 @@
+<!-- posthead -->
+<div class="ui masthead segment">
+  <div class="ui page grid">
+    <div class="column">
+        
+        {% include menu.html %}
+        
+        <!-- information -->
+        <div class="ui hidden transition information">
+          <h1 class="ui header">
+            {{ page.title }}
+          </h1>
+          <h2>Post summary. An open source theme using Jekyll and Semantic UI for creating awesome websites on GitHub.</h2>
+          <h3><i class="icon calendar"></i> {{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</h3>
+        </div> 
+        <!-- /information -->
+    </div>
+  </div>
+</div>
+<!-- /posthead -->

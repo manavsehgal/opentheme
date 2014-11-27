@@ -7,9 +7,6 @@ description: > # this means to ignore newlines until "baseurl:"
   Starter theme using Semantic UI and Jekyll for creating awesome
   websites on GitHub Pages.
 
-# Only required for Project GitHub Pages
-baseurl: "/" # the subpath of your site, e.g. /blog/
-
 url: "http://opentheme.co" # the base hostname & protocol for your site
 twitter_username: manavsehgal
 github_username:  manavsehgal

@@ -59,13 +59,23 @@ title: Home
     </div>
     <div class="row">
       <div class="eight wide column">
-        <h3 class="ui inverted header">Get Open Web to Power Your Website</h3>
-        <p>Websites are increasingly reliant on open source. Front-end is largely open built on open source libraries like jQuery. Back-end is many times powered by open source CMS like WordPress.</p>
-        <div class="ui basic inverted animated button button">
-          <div class="visible content">Read More</div>
-          <div class="hidden content"><i class="right arrow icon"></i></div>
-        </div>
-
+        {% for post in site.posts %}
+          {% if post.tags %}
+            {% for tag in post.tags %}
+              {% if tag == 'feature' %}
+                <div>
+                  <h3 class="ui inverted header">{{post.title}}</h3>
+                  <p>{{ post.excerpt }}</p>
+                  <a class="ui basic inverted animated button" href="{{ post.url | prepend: site.baseurl }}">
+                    <div class="visible content">Read More</div>
+                    <div class="hidden content"><i class="right arrow icon"></i></div>
+                  </a>
+                </div>
+              {% endif %}
+            {% endfor %}
+          {% endif %}      
+        {% endfor %}
+        
       </div>
       <div class="eight wide column">
         <div class="ui form segment">

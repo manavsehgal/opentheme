@@ -161,8 +161,9 @@ title: Home
       <div class="eight wide column">
         <h3 class="ui inverted header">Recent articles</h3>
         <div class="ui inverted animated selection list">
-          {% for post in site.posts %}
+          {% for post in site.posts limit:5 %}
           <a class="item" href="{{ post.url | prepend: site.baseurl }}">
+            {% if post.category %}<div class="ui ribbon label">{{ post.category }}</div>{% endif %}
             <div>{{ post.title }}</div>
             <div class="right floated">{{ post.date | date: "%b %-d, %Y" }}</div>
           </a>
@@ -171,14 +172,17 @@ title: Home
       </div>
 
       <div class="eight wide column">
-        <h3 class="ui inverted header categories">Categories</h3>
-          <a class="ui tag label">HTML5</a>
-          <a class="ui tag label">GitHub</a>
-          <a class="ui tag label">Semantic UI</a>
-          <a class="ui tag label">Jekyll</a>
-          <a class="ui tag label">JavaScript</a>
-          <a class="ui green tag label">Infographics</a>
-          <a class="ui tag label">Prototyping</a>
+        <h3 class="ui inverted header">Tags</h3>
+          {% for tag in site.tags %}
+            <a class="ui tag label orange">{{ tag | first }} <div class="detail">{{ tag | last | size }}</div></a>
+          {% endfor %}
+        
+        <div class="ui inverted divider"></div>
+        
+        <h3 class="ui inverted header">Categories</h3>
+          {% for category in site.categories %}
+            <a class="ui tag label">{{ category | first }} <div class="detail">{{ category | last | size }}</div></a>
+          {% endfor %}
       </div>
   </div> <!-- /row -->
   </div>

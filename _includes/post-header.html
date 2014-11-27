@@ -10,8 +10,18 @@
           <h1 class="ui header">
             {{ page.title }}
           </h1>
-          <h2>Post summary. An open source theme using Jekyll and Semantic UI for creating awesome websites on GitHub.</h2>
-          <h3><i class="icon calendar"></i> {{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</h3>
+          <h2>{{ page.excerpt | strip_html }}</h2>
+          <h3>
+            <i class="icon calendar"></i> {{ page.date | date: "%b %-d, %Y" }}
+            {% if page.author %} • <i class="edit icon"></i> {{ page.author }}{% endif %}
+            {% if page.meta %} • {{ page.meta }}{% endif %}
+            {% if page.tags %}
+              • <i class="icon tags"></i> 
+              {% for tag in page.tags %}
+                <a class="ui tag label purple">{{ tag }}</a>
+              {% endfor %}
+            {% endif %}
+          </h3>
         </div> 
         <!-- /information -->
     </div>

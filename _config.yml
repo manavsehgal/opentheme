@@ -12,7 +12,7 @@ twitter_username: manavsehgal
 github_username:  manavsehgal
 
 # Layout configuration
-pagebar: false
+pagebar: true
 
 # Build settings
 markdown: kramdown

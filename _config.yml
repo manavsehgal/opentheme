@@ -11,6 +11,11 @@ url: "http://opentheme.co" # the base hostname & protocol for your site
 twitter_username: manavsehgal
 github_username:  manavsehgal
 
+# List Limits
+tags_limit: 10          # Alphabetical sort
+categories_limit: 10    # Alphabetical sort
+recent_posts_limit: 5   # Chronological sort
+
 # Layout configuration
 pagebar: true
 postbar: true

@@ -66,6 +66,11 @@ title: Home
                 <div>
                   <h3 class="ui inverted header">{{post.title}}</h3>
                   <p>{{ post.excerpt }}</p>
+                  {% if post.thumb %}
+                  <a href="{{ post.url | prepend: site.baseurl }}">
+                    <img class="ui rounded left floated image" src="/img/blog/thumbs/{{ post.thumb }}">
+                  </a>
+                  {% endif %}
                   <a class="ui basic inverted animated button" href="{{ post.url | prepend: site.baseurl }}">
                     <div class="visible content">Read More</div>
                     <div class="hidden content"><i class="right arrow icon"></i></div>

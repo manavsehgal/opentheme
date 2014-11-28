@@ -67,6 +67,10 @@ html {
   margin-bottom: 5px;
 }
 
+.global .recent-posts-title {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
 
 /*--------------
     Footer
@@ -103,6 +107,10 @@ html {
 }
 
 .postbar .column {
+  margin-bottom: 1em;
+}
+
+.post .image {
   margin-bottom: 1em;
 }
 

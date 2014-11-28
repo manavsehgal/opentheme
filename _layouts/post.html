@@ -16,6 +16,9 @@
             {% else %}
             <div class="sixteen wide column">
             {% endif %}
+                {% if page.image %}
+                <img class="ui rounded image" src="/img/blog/{{ page.image }}">
+                {% endif %}
                 {{ content }}
             </div>
             {% if site.postbar %}

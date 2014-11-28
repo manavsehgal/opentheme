@@ -1,8 +1,11 @@
 <div class="ui inverted animated selection list">
-  {% for post in site.posts limit:5 %}
+  {% for post in site.posts limit:site.recent_posts_limit %}
   <a class="item" href="{{ post.url | prepend: site.baseurl }}">
     {% if post.category %}<div class="ui ribbon small label">{{ post.category }}</div>{% endif %}
-    <div>{{ post.title }}</div>
+    <div class="recent-posts-title">{{ post.title }}</div>
+    {% if post.thumb %}
+      <img class="ui rounded image" src="/img/blog/thumbs/{{ post.thumb }}">
+    {% endif %}
     <div class="right floated"><small>{{ post.date | date: "%b %-d, %Y" }}</small></div>
   </a>
   {% endfor %}

@@ -4,14 +4,18 @@
   {% include head.html %}
 
   <body class="global landing home">
+    {% if site.pagebar %}
     <div class="ui right vertical labeled icon sidebar menu">
         {% include page-bar.html %}
     </div>
     <div class="pusher">
+    {% endif %}
         {% include home-header.html %}
         {{ content }}
         {% include footer.html %}
+    {% if site.pagebar %}
     </div>
+    {% endif %}
  </body>
 
 </html>

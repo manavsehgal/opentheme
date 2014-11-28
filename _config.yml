@@ -1,8 +1,8 @@
 # Site settings
-title: Semantic Jekyll Theme by OpenStart.co
+title: Jekyll Semantic UI Theme | OpenTheme.co
 tagline: Create Awesome Websites on GitHub 
 email: sehgal.manav@gmail.com
-copyright: OpenStart.co
+copyright: Manav Sehgal
 description: > # this means to ignore newlines until "url:"
   Starter theme using Semantic UI and Jekyll for creating awesome
   websites on GitHub Pages.
@@ -10,6 +10,9 @@ description: > # this means to ignore newlines until "url:"
 url: "http://opentheme.co" # the base hostname & protocol for your site
 twitter_username: manavsehgal
 github_username:  manavsehgal
+
+# Layout configuration
+pagebar: false
 
 # Build settings
 markdown: kramdown

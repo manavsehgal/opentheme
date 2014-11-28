@@ -4,24 +4,29 @@
   {% include head.html %}
 
   <body class="global post">
-    {% if site.pagebar %}
     <div class="ui right vertical labeled icon sidebar menu">
         {% include page-bar.html %}
     </div>
     <div class="pusher">
-    {% endif %}
         {% include post-header.html %}
         <div class="ui vertical segment">
           <div class="ui very relaxed stackable page grid">
+            {% if site.postbar %}
+            <div class="ten wide column">
+            {% else %}
             <div class="sixteen wide column">
+            {% endif %}
                 {{ content }}
             </div>
+            {% if site.postbar %}
+            <div class="six wide column">
+                {% include post-bar.html %}
+            </div>
+            {% endif %}
           </div>
         </div>
         {% include footer.html %}
-    {% if site.pagebar %}
     </div>
-    {% endif %}
  </body>
 
 </html>

@@ -59,6 +59,16 @@ html {
 }
 
 /*--------------
+    Tags
+---------------*/
+
+.global .tag {
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+
+
+/*--------------
     Footer
 ---------------*/
 
@@ -83,20 +93,19 @@ html {
   margin-top: 10px;
 }
 
-
-/*--------------
-    Tags
----------------*/
-
-.home .tag {
-  margin-right: 5px;
-  margin-bottom: 5px;
-}
-
-
 /*******************************
             Post Layout
 *******************************/
+
+.postbar {
+  margin: 0em;
+  padding: 1rem;
+}
+
+.postbar .column {
+  margin-bottom: 1em;
+}
+
 
 
 /*******************************

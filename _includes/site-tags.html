@@ -1,0 +1,3 @@
+{% for tag in site.tags %}
+<a class="ui tag small label orange">{{ tag | first }} <div class="detail">{{ tag | last | size }}</div></a>
+{% endfor %}

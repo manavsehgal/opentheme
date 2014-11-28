@@ -1,0 +1,3 @@
+{% for category in site.categories %}
+  <a class="ui small label">{{ category | first }} <div class="detail">{{ category | last | size }}</div></a>
+{% endfor %}

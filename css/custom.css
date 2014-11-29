@@ -77,6 +77,11 @@ html {
   margin-bottom: 5px;
 }
 
+.global .thumb-img {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
 /*--------------
     Footer
 ---------------*/

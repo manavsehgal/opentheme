@@ -59,30 +59,7 @@ title: Home
     </div>
     <div class="row">
       <div class="eight wide column">
-      {% for post in site.posts %}
-        {% if post.tags %}
-          {% for tag in post.tags %}
-            {% if tag == 'feature' %}
-              <div>
-                <h3 class="ui inverted header">{{post.title}}</h3>
-                {% if post.thumb %}
-                <a href="{{ post.url | prepend: site.baseurl }}">
-                  <div>
-                  <img class="ui rounded image" src="/img/blog/thumbs/{{ post.thumb }}">
-                  </div>
-                </a>
-                {% endif %}
-                <p>{{ post.excerpt }}</p>
-                <a class="ui basic inverted animated button" href="{{ post.url | prepend: site.baseurl }}">
-                  <div class="visible content">Read More</div>
-                  <div class="hidden content"><i class="right arrow icon"></i></div>
-                </a>
-              </div>
-            {% endif %}
-          {% endfor %}
-        {% endif %}      
-      {% endfor %}
-        
+        {% include feature-post.html %}        
       </div>
       <div class="eight wide column">
         <div class="ui form segment">

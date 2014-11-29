@@ -131,6 +131,47 @@ html {
 *******************************/
 
 
+/*******************************
+            Kitchen Sink
+*******************************/
+
+.demo.container {
+  width: 1024px;
+  margin: 10px auto;
+}
+
+.demo.container .example {
+  padding: 2em 0em;
+  margin: 2em 0em;
+}
+
+.demo h4 {
+  font-size: 1.5em;
+  margin: 2em 0em 1em;
+}
+.sink .demo.container .button.demo > .buttons,
+.sink .demo.container .button.demo > .button,
+.sink .demo.container .button.demo > .segment > .button {
+  margin-bottom: 0.5em;
+}
+.demo.container h4:first-child {
+  font-weight: bold !important;
+  margin: 0em 0em 1em !important;
+}
+.demo.container .example:first-child {
+  margin-top: 0;
+  padding-top: 0;
+}
+.demo.container .segment.example {
+  z-index: 1;
+}
+.demo.container .ui.label:not(.empty) {
+  margin-bottom: 1em;
+}
+.demo.container .segment .ui.label {
+  margin-bottom: 0em;
+}
+
 
 /*******************************
           Responsive

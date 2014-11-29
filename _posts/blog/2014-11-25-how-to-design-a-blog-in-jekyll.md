@@ -14,5 +14,6 @@ This article discusses our design journey in creating a blog using Jekyll.
 - A typical blog has a collection of chronological posts. 
 - A component listing recent posts to display on home page. 
 - A pagination component to leaf through posts in chronological order.
-- A post has an image, a thumbnail, summary, title, permalink, and content.
+- A post has an image, thumbnail, summary, title, permalink, and content.
 - Each post has tags classifying related posts.
+- Posts are classified under categories.

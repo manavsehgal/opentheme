@@ -51,7 +51,7 @@ best-fit for OpenTheme + GitHub stack. Stay tuned for more.
 When we have reactive web apps, we can start using them for realtime updates, like
 social streams, stock prices, weather updates, and such. Realtime content management,
 is an Opentheme feature in the idea stage. Follow developments and design discussions on 
-the [OpenTheme Trello Board][trello-opentheme].
+the [OpenTheme Trello Board](https://trello.com/b/Jm8UFV7p).
 
 ### Convention over Configuration over Coding
 
@@ -62,5 +62,3 @@ it adds to ease of content creation and design.
 
 Coding follows best practices from top GitHub libraries like Semantic UI 
 and projects like Jekyll that OpenTheme has as dependencies.
-
-[trello-opentheme0]: https://trello.com/b/Jm8UFV7p

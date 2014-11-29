@@ -1,0 +1,17 @@
+ <!-- Pagination -->   
+<div class="ui 2 fluid basic buttons">
+  {% if page.previous.url %} 
+  <a class="ui labeled icon button" href="{{page.previous.url}}" 
+    title="{{page.previous.title}}">
+    <i class="left arrow icon"></i>
+    Previous Post
+  </a>
+  {% endif %} 
+  {% if page.next.url %} 
+  <a class="ui right labeled icon button" href="{{page.next.url}}" 
+    title="{{page.next.title}}">
+    <i class="right arrow icon"></i>
+    Next Post
+  </a>
+  {% endif %} 
+</div>

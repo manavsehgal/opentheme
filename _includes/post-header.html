@@ -7,9 +7,11 @@
         
         <!-- information -->
         <div class="ui hidden transition information">
+          <a href="{{ page.url }}">
           <h1 class="ui header">
             {{ page.title }}
           </h1>
+          </a>
           <h2>{{ page.excerpt | strip_html }}</h2>
           <h3>
             <i class="icon calendar"></i> {{ page.date | date: "%b %-d, %Y" }}

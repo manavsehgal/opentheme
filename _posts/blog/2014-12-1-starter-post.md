@@ -9,6 +9,8 @@ category: theme             # Only use one category. Multiple categories will du
 
 This is a starter post which you can duplicate to create your own. It demonstrates Markdown syntax, Liquid tags, and GitHub whitelisted HTML.
 
+**Note.** Read this post in Markdown to see the easy to write [source syntax](https://raw.githubusercontent.com/open-start/opentheme/master/_posts/blog/2014-12-1-starter-post.md) this HTML page.
+
 ### Markdown
 
 #### This is a level four heading. Use hash symbol and repeat for levels.

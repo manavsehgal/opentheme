@@ -136,7 +136,7 @@ html {
 *******************************/
 
 .demo.container {
-  width: 80%;
+  width: 90%;
   margin: 10px auto;
 }
 
@@ -161,17 +161,19 @@ html {
 .global .segment.example {
   z-index: 1;
 }
-.global .ui.label:not(.empty) {
-  margin-bottom: 1em;
-}
-.global .segment .ui.label {
-  margin-bottom: 0em;
-}
 
 
 /*******************************
           Responsive
 *******************************/
+
+/* [Hack] for Kitchen Sink. Needs to be done in Semantic UI Grid or take care of all resolutions. */
+@media only screen and (min-width : 950px) {
+  .demo.container {
+    width: 950px;
+  }
+  
+}
 
 /* Mobile Only */
 @media only screen and (max-width : 768px) {

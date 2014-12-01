@@ -22,6 +22,9 @@ recent_posts_limit: 5   # Chronological sort
 pagebar: true
 postbar: true
 
+# Features
+reading_time: true    # Show est. reading time for posts
+
 # Build settings
 markdown: kramdown
 

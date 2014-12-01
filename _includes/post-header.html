@@ -13,17 +13,29 @@
           </h1>
           </a>
           <h2>{{ page.excerpt | strip_html }}</h2>
-          <h3>
+          <p>
             <i class="icon calendar"></i> {{ page.date | date: "%b %-d, %Y" }}
             {% if page.author %} • <i class="edit icon"></i> {{ page.author }}{% endif %}
-            {% if page.meta %} • {{ page.meta }}{% endif %}
+            
+            {% if site.reading_time %}
+              <!-- Based on https://andytaylor.me/2013/04/07/reading-time/ -->
+              {% capture content_length %}
+                {{ page.content | number_of_words | minus:180 }}
+              {% endcapture %}
+              {% if content_length contains '-' %}
+               • <i class="icon clock"></i> < 1 min to read
+              {% else %}
+               • <i class="icon clock"></i> ~ <span class="time">{{ page.content | number_of_words | divided_by:180 }}</span> min to read
+              {% endif %}
+            {% endif %}
+
             {% if page.tags %}
               • <i class="icon tags"></i> 
               {% for tag in page.tags %}
-                <a class="ui tag label purple">{{ tag }}</a>
+                <a class="ui tag label mini purple">{{ tag }}</a>
               {% endfor %}
             {% endif %}
-          </h3>
+          </p>
         </div> 
         <!-- /information -->
     </div>

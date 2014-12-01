@@ -21,9 +21,6 @@ html {
 .global .masthead .information {
   margin: 2em 1em 1em 10px;
 }
-.global .masthead .information p {
-  max-width: 600px;
-}
 
 /*--------------
     Menu

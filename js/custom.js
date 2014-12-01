@@ -6,12 +6,10 @@ $(document)
 *******************************/
 
     $('.sidebar').first()
-      .sidebar('attach events', '.pagebar')
-    ;
+      .sidebar('attach events', '.pagebar');
     
     $('.pagebar')
-      .removeClass('disabled')
-    ;
+      .removeClass('disabled');
 
 
 /*******************************
@@ -19,8 +17,11 @@ $(document)
 *******************************/
 
     $('.posthead .information')
-      .transition('scale in', 1000)
-    ;
+      .transition('scale in', 1000);
+    
+    $(".time").text(function (index, value) {
+      return Math.round(parseFloat(value));
+    });
 
 
 /*******************************
@@ -48,13 +49,10 @@ $(document)
     $('.ui.form')
       .form(validationRules, {
         on: 'blur'
-      })
-    ;
+      });
 
     $('.masthead .information')
-      .transition('scale in', 1000)
-    ;
+      .transition('scale in', 1000);
 
     
-})
-;
+});

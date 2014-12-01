@@ -54,3 +54,7 @@ $(document)
     $('.masthead .information')
       .transition('scale in', 1000)
     ;
+
+    
+})
+;

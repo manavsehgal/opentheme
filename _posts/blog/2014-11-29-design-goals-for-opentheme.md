@@ -28,12 +28,15 @@ This one minute should take care of asset pipeline incluing HTML, JS, CSS, image
 testing your web app where tests are included, optimizing your assets where required,
 including features that you designed for, saving a version of GitHub, publishing to live.
 
+We also want you to have the capability to author your website directly using GitHub web based editors.
+This means OpenTheme only uses markup, tags, conventions that are 100% GitHub whitelisted.
+That way you skip any pre-processing, Jekyll, or dev box requirements. **GitHub is your Content Management System!**
+
 ### Reusable
 
 Every feature on OpenTheme is designed with reusability in mind.
-OpenTheme's growing list of _includes contains reusable several partials.
-You got tag lists, category lists, recent posts, top menu, post side bar, page bar, 
-header, footer, and featured post.
+OpenTheme's growing list of _includes are - tag lists, category lists, recent posts, top menu, 
+post side bar, page bar, post paginator, header, footer, and featured post.
 
 ### Reactive
 

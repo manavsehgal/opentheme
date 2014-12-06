@@ -41,14 +41,14 @@ You can use Liquid Tags to reference other posts. Here is one on [design goals f
 Site variables can be used as well. Here is the tagline for OpenTheme as descibed in a site variable - **{{ site.tagline }}**.
 Page variables are also available. Title for this post is **{{ page.title }}** and it uses **{{ page.layout }}** template.
 
-### Social Embeds
+### <a name="twitter"></a>Social Embeds
 
 You can add social media content as embeds. Here is an example of Twitter post announcing OpenTheme.
 
 <blockquote class="twitter-tweet" lang="en"><p>Create Awesome Websites on GitHub for Free! <a href="http://t.co/tXj8H17vZE">http://t.co/tXj8H17vZE</a> <a href="http://t.co/2VCbLf0KrL">pic.twitter.com/2VCbLf0KrL</a></p>&mdash; Manav Sehgal (@manavsehgal) <a href="https://twitter.com/manavsehgal/status/539376525720977410">December 1, 2014</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-### Media Embeds
+### <a name="youtube"></a>Media Embeds
 
 Here is an example of a custom embed available as a configurable _include with OpenTheme.
 The size is parametrized as per theme. So if you turn on post bar then size is small, otherwise large. 

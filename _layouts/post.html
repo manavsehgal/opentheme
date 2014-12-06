@@ -18,7 +18,9 @@
                 <img class="ui rounded image" src="/img/blog/{{ page.image }}">
                 {% endif %}
                 {{ content }}
-                {% include posts-paginator.html %}                
+                {% include posts-paginator.html %}
+                <div class="ui divider"></div>
+                {% include disqus.html %}    
             </div>
             {% if site.postbar %}
             <div class="six wide column">

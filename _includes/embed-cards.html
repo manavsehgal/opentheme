@@ -1,0 +1,44 @@
+<div class="ui special cards">
+{% for embed in site.data.embeds %}
+  <div class="card">
+    <div class="dimmable image">
+      <div class="ui inverted dimmer">
+        <div class="content">
+          <div class="center">
+            <a class="ui primary button" href="{{ embed.usecase }}">View Example</a>
+          </div>
+        </div>
+      </div>
+      <img src="{{ embed.image }}">
+    </div>
+    <div class="content">
+      <div class="header"><i class="{{ embed.icon }} icon"></i> {{ embed.name }}</div>
+      <div class="meta">
+        <div class="group">
+          {{ embed.group }}
+          <div class="ui star rating right floated" data-rating="{{ embed.rating }}"></div>
+        </div>
+        
+      </div>
+      <div class="description">
+        {{ embed.about }}
+      </div>
+    </div>
+
+    <div class="extra content">
+        {% if embed.responsive %}
+        <i class="expand icon embed-features" data-content="Mobile Responsive" data-position="top left"></i>
+        {% endif %}
+        {% if embed.jekyll_friendly %}
+        <i class="github icon embed-features" data-content="GitHub Friendly" data-position="top left"></i>
+        {% endif %}
+      <div class="right floated created">
+        <a href="{{ embed.docs }}"><i class="question icon"></i></a> | 
+        <a href="{{ embed.create }}"><i class="wizard icon"></i> Create</a>
+      </div>
+    </div>
+
+
+  </div>
+{% endfor %}
+</div>

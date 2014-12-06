@@ -1,0 +1,30 @@
+- name: Embedded Tweets  # Official name of embed
+  
+  about: An Embedded Tweet brings brings the best content created on Twitter into your article or website.
+  group: Social    # Social, News, Doc, RSS, Video, Photo, Graphic
+  image: /img/embed/twitter-bird.jpg              # Image used in card view
+  icon: twitter              # Icon used in table view. Refer http://semantic-ui.com/elements/icon.html
+  scope: None              # Site, Post configurable. None, if per use case.
+  responsive: true    # true/false = Is the embed UI responsive
+  jekyll_friendly: true # Does the embed work well on Jekyll and Github Pages
+  rating: 5           # Rating based on popularity, features
+  # Link to to create embed
+  create: https://twitter.com/              
+  # Link to embed docs
+  docs: https://dev.twitter.com/web/embedded-tweets               
+  # URL to usecase
+  usecase: http://opentheme.co/theme/2014/12/01/starter-post/
+  
+- name: Disqus Comments  # Official name of embed
+  
+  about: If you’re passionate about writing and sharing, Disqus helps you build a community of active readers and commenters.
+  group: Social
+  image: /img/embed/disqus-splash.png
+  icon: share alternate square icon
+  scope: Site
+  responsive: true
+  jekyll_friendly: true
+  rating: 4
+  create: https://disqus.com/admin/signup/?utm_source=New-Site              
+  docs: https://disqus.com/websites/               
+  usecase: http://opentheme.co/workflow/2014/11/26/open-cloud-based-workflow-for-designing-your-website/

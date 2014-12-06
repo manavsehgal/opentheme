@@ -25,6 +25,9 @@ postbar: true
 # Features
 reading_time: true    # Show est. reading time for posts
 
+# Embeds
+disqus_name: opentheme  # Your site name at Disqus
+
 # Build settings
 markdown: kramdown
 

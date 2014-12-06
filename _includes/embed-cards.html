@@ -32,6 +32,12 @@
         {% if embed.jekyll_friendly %}
         <i class="github icon embed-features" data-content="GitHub Friendly" data-position="top left"></i>
         {% endif %}
+        {% if embed.scope == 'Site' %}
+        <i class="globe icon embed-features" data-content="Site Configurable" data-position="top left"></i>
+        {% endif %}
+        {% if embed.scope == 'Post' %}
+        <i class="file icon embed-features" data-content="Post Configurable" data-position="top left"></i>
+        {% endif %}
       <div class="right floated created">
         <a href="{{ embed.docs }}"><i class="question icon"></i></a> | 
         <a href="{{ embed.create }}"><i class="wizard icon"></i> Create</a>
@@ -41,4 +47,4 @@
 
   </div>
 {% endfor %}
-</div>
+</div>  

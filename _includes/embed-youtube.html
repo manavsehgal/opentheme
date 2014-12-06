@@ -1,0 +1,9 @@
+<iframe 
+  {% if site.postbar %}
+  width="540" height="315"
+  {% else %}
+  width="853" height="480"
+  {% endif %}
+  src="//www.youtube.com/embed/{{ include.video }}?rel=0&amp;controls={{ site.youtube_controls }}&amp;showinfo={{ site.youtube_controls }}" 
+  frameborder="0" allowfullscreen>
+</iframe>

@@ -27,6 +27,7 @@ reading_time: true    # Show est. reading time for posts
 
 # Embeds
 disqus_name: opentheme  # Your site name at Disqus
+youtube_controls: 0  # Turn on=1/off=0 Youtube player features when embedding videos
 
 # Build settings
 markdown: kramdown

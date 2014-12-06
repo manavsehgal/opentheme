@@ -48,6 +48,16 @@ You can add social media content as embeds. Here is an example of Twitter post a
 <blockquote class="twitter-tweet" lang="en"><p>Create Awesome Websites on GitHub for Free! <a href="http://t.co/tXj8H17vZE">http://t.co/tXj8H17vZE</a> <a href="http://t.co/2VCbLf0KrL">pic.twitter.com/2VCbLf0KrL</a></p>&mdash; Manav Sehgal (@manavsehgal) <a href="https://twitter.com/manavsehgal/status/539376525720977410">December 1, 2014</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
+### Media Embeds
+
+Here is an example of a custom embed available as a configurable _include with OpenTheme.
+The size is parametrized as per theme. So if you turn on post bar then size is small, otherwise large. 
+Features like player controls are configurable at site level, within _config.yml.
+To embed a YouTube video you just need to copy the unique video id at the end of the video url.
+OpenTheme takes care of the rest!
+
+{% include embed-youtube.html video="62E4FJTwSuc" %}
+
 ### References
 
 - [Markdown cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) is a good place to start for Markdown syntax.

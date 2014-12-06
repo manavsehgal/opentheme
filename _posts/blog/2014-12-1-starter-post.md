@@ -58,7 +58,7 @@ OpenTheme takes care of the rest!
 
 {% include embed-youtube.html video="eRsGyueVLvQ" %}
 
-### Embed Google Maps
+### <a name="map"></a>Embed Google Maps
 
 You can embed Google maps using custom embed created for OpenTheme. Just provide the location in url escaped format. 
 Specify custom height for the map viewer, otherwise site default is taken. Width adjusts responsively to container.

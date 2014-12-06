@@ -36,7 +36,7 @@
 - name: YouTube Video
   about: Embed YouTube video player using custom OpenTheme embed tag. Player features are site configurable. 
   group: Video
-  image: /img/embed/youtube-snap.png
+  image: /img/embed/youtube-splash.png
   icon: film
   scope: Post
   responsive: false

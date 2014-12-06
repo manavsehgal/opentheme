@@ -56,7 +56,7 @@ Features like player controls are configurable at site level, within _config.yml
 To embed a YouTube video you just need to copy the unique video id at the end of the video url.
 OpenTheme takes care of the rest!
 
-{% include embed-youtube.html video="62E4FJTwSuc" %}
+{% include embed-youtube.html video="eRsGyueVLvQ" %}
 
 ### References
 

@@ -81,6 +81,53 @@ title: Home
 </div>
 
 <div class="ui vertical segment">
+  <div class="ui very relaxed stackable page grid">
+    <div class="row">
+      <div class="column">
+        <h1 class="center aligned ui header">
+          Embeds In Posts
+        </h1>
+      </div>
+    </div>
+    <div class="row">
+      <div class="column">
+      {% include embed-cards.html %}
+      </div>
+    </div> <!-- /row -->
+  </div>
+</div>
+
+
+<div class="ui inverted purple vertical segment">
+  <div class="ui very relaxed stackable page grid">
+    <div class="row">
+      <div class="column">
+        <h1 class="center aligned ui inverted header">
+          Browse Our Content
+        </h1>
+      </div>
+    </div>
+    <div class="row">
+      <div class="eight wide column">
+        <h3 class="ui inverted header">Recent articles</h3>
+        {% include recent-posts.html %}
+      </div>
+
+      <div class="eight wide column">
+        <h3 class="ui inverted header">Tags</h3>
+          {% include site-tags.html %}
+          
+        <div class="ui inverted divider"></div>
+        
+        <h3 class="ui inverted header">Categories</h3>
+          {% include site-categories.html %}
+          
+      </div>
+    </div> <!-- /row -->
+  </div>
+</div>
+
+<div class="ui vertical segment">
   <div class="ui stackable center aligned page grid">
     <div class="row">
       <div class="column">
@@ -141,50 +188,3 @@ title: Home
     
   </div>
 </div>
-
-<div class="ui inverted purple vertical segment">
-  <div class="ui very relaxed stackable page grid">
-    <div class="row">
-      <div class="column">
-        <h1 class="center aligned ui inverted header">
-          Browse Our Content
-        </h1>
-      </div>
-    </div>
-    <div class="row">
-      <div class="eight wide column">
-        <h3 class="ui inverted header">Recent articles</h3>
-        {% include recent-posts.html %}
-      </div>
-
-      <div class="eight wide column">
-        <h3 class="ui inverted header">Tags</h3>
-          {% include site-tags.html %}
-          
-        <div class="ui inverted divider"></div>
-        
-        <h3 class="ui inverted header">Categories</h3>
-          {% include site-categories.html %}
-          
-      </div>
-    </div> <!-- /row -->
-  </div>
-</div>
-
-<div class="ui vertical segment">
-  <div class="ui very relaxed stackable page grid">
-    <div class="row">
-      <div class="column">
-        <h1 class="center aligned ui header">
-          Embeds In Posts
-        </h1>
-      </div>
-    </div>
-    <div class="row">
-      <div class="column">
-      {% include embed-cards.html %}
-      </div>
-    </div> <!-- /row -->
-  </div>
-</div>
-

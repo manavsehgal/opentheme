@@ -1,0 +1,9 @@
+<iframe 
+width="100%" height="{% if include.height %}{{ include.height }}{% else %}{{ site.google_map_height }}{% endif %}" 
+frameborder="0" style="border:0" 
+src="https://www.google.com/maps/embed/v1/place
+?q={{ include.location }}
+&key={{ site.google_api_key }}
+&zoom={{ site.google_map_zoom }}
+&maptype={{ site.google_map_view }}">
+</iframe>

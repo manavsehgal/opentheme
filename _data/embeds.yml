@@ -3,7 +3,7 @@
   # Description of embed
   about: An Embedded Tweet brings brings the best content created on Twitter into your article or website.
 
-  group: Social    # Social, News, Doc, RSS, Video, Photo, Graphic
+  group: Social    # Social, News, Doc, RSS, Video, Photo, Graphic, Map
   image: /img/embed/twitter-bird.jpg              # Image used in card view
   icon: twitter              # Icon used in table view. Refer http://semantic-ui.com/elements/icon.html
   scope: None              # Site, Post configurable. None, if per use case.
@@ -45,3 +45,16 @@
   create: https://www.youtube.com/              
   docs: https://support.google.com/youtube/answer/171780?hl=en               
   usecase: "http://opentheme.co/theme/2014/12/01/starter-post/#youtube"
+
+- name: Google Map
+  about: You can embed Google maps using custom embed created for OpenTheme. Just provide location.
+  group: Map
+  image: /img/embed/map.png
+  icon: pin
+  scope: Post
+  responsive: true
+  jekyll_friendly: true
+  rating: 5
+  create: https://developers.google.com/maps/documentation/embed/start              
+  docs: https://developers.google.com/maps/documentation/embed/guide             
+  usecase: "http://opentheme.co/theme/2014/12/01/starter-post/#map"

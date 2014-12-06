@@ -28,6 +28,14 @@ reading_time: true    # Show est. reading time for posts
 # Embeds
 disqus_name: opentheme  # Your site name at Disqus
 youtube_controls: 0  # Turn on=1/off=0 Youtube player features when embedding videos
+google_map_zoom: 18 # 1=Global zoom 18=Street Level
+google_map_view: satellite # hybrid | satellite | roadmap
+google_map_height: 450 # Default map height. Width adjusts to container.
+
+# API Keys
+
+# PLEASE DO NOT USE THIS KEY. Get your own free at https://code.google.com/apis/console/
+google_api_key: AIzaSyDmt_iRsE8kQ1glUPC2GZpNLBsw1Laj9_0
 
 # Build settings
 markdown: kramdown

@@ -13,14 +13,14 @@
     {% endif %}
   </title>
   
+  <meta name="description" content="{% if page.title == 'Home' %}{{ site.description }}{% else %}{{ page.excerpt | strip_html }}{% endif %}">
+  <meta name="keywords" content="{% if page.title == 'Home' %}{{ site.keywords }}{% else %}{% for tag in page.tags %}{{ tag }}, {% endfor %}{% endif %}">
+  
   <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
   <link rel="icon" href="/favicon.ico" type="image/x-icon">
 
   <link rel="stylesheet" type="text/css" href="/css/semantic.min.css">
   <link rel="stylesheet" type="text/css" href="/css/custom.css">
 
-  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.js"></script>
-  <script src="/js/semantic.min.js"></script>
-  <script src="/js/custom.js"></script>
 
 </head>

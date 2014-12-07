@@ -3,6 +3,7 @@ title: Jekyll Semantic UI Theme | OpenTheme.co
 tagline: Create Awesome Websites on GitHub 
 email: sehgal.manav@gmail.com
 copyright: Manav Sehgal
+keywords: theme, github, jekyll, semantic ui
 description: > # this means to ignore newlines until "url:"
   Starter theme using Semantic UI and Jekyll for creating awesome
   websites on GitHub Pages.
@@ -13,12 +14,12 @@ github_username:  manavsehgal
 
 permalink: pretty
 
-# List Limits
+# Lists
 tags_limit: 10          # Alphabetical sort
 categories_limit: 10    # Alphabetical sort
-recent_posts_limit: 5   # Chronological sort
+recent_posts_limit: 10   # Chronological sort
 
-# Layout configuration
+# Layout
 pagebar: true
 postbar: true
 
@@ -26,11 +27,11 @@ postbar: true
 reading_time: true    # Show est. reading time for posts
 
 # Embeds
-disqus_name: opentheme  # Your site name at Disqus
-youtube_controls: 0  # Turn on=1/off=0 Youtube player features when embedding videos
-google_map_zoom: 18 # 1=Global zoom 18=Street Level
-google_map_view: satellite # hybrid | satellite | roadmap
-google_map_height: 450 # Default map height. Width adjusts to container.
+disqus_name: opentheme            # Your site name at Disqus
+youtube_controls: 0               # Turn on=1/off=0 Youtube player features when embedding videos
+google_map_zoom: 18               # 1=Global zoom 18=Street Level
+google_map_view: satellite        # hybrid | satellite | roadmap
+google_map_height: 450            # Default map height. Width adjusts to container.
 
 # API Keys
 

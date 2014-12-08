@@ -13,14 +13,13 @@
     {% endif %}
   </title>
   
-  <meta name="description" content="{% if page.title == 'Home' %}{{ site.description }}{% else %}{{ page.excerpt | strip_html }}{% endif %}">
-  <meta name="keywords" content="{% if page.title == 'Home' %}{{ site.keywords }}{% else %}{% for tag in page.tags %}{{ tag }}, {% endfor %}{% endif %}">
+  <meta name="description" content="{% if page.layout != 'post' %}{{ site.description | strip_newlines }}{% else %}{{ page.excerpt | strip_html | strip_newlines }}{% endif %}">
+  <meta name="keywords" content="{% if page.layout != 'post' %}{{ site.keywords }}{% else %}{{ page.tags | join: ', ' }}, {{ page.categories | join: ', ' }}{% endif %}">
   
   <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
   <link rel="icon" href="/favicon.ico" type="image/x-icon">
 
   <link rel="stylesheet" type="text/css" href="/css/semantic.min.css">
   <link rel="stylesheet" type="text/css" href="/css/custom.css">
-
 
 </head>

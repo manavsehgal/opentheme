@@ -58,3 +58,16 @@
   create: https://developers.google.com/maps/documentation/embed/start              
   docs: https://developers.google.com/maps/documentation/embed/guide             
   usecase: "http://opentheme.co/theme/2014/12/01/starter-post/#map"
+
+- name: Panoramio Maps
+  about: Add geo-tagged photo search to maps, along with autocomplete places search. 
+  group: Map
+  image: /img/embed/panoramio.png
+  icon: pin
+  scope: Site
+  responsive: true
+  jekyll_friendly: true
+  rating: 5
+  create: http://opentheme.co/panoramio/              
+  docs: https://developers.google.com/maps/documentation/embed/start             
+  usecase: http://opentheme.co/panoramio/

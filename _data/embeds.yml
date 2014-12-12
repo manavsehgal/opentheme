@@ -18,7 +18,7 @@
   docs: https://dev.twitter.com/web/embedded-tweets               
   
   # URL to usecase
-  usecase: "http://opentheme.co/theme/2014/12/01/starter-post/#twitter"
+  usecase: "/theme/2014/12/01/starter-post/#twitter"
   
 - name: Disqus Social
   about: If you’re passionate about writing and sharing, Disqus helps you build a community of active readers and commenters.
@@ -44,7 +44,7 @@
   rating: 5
   create: https://www.youtube.com/              
   docs: https://support.google.com/youtube/answer/171780?hl=en               
-  usecase: "http://opentheme.co/theme/2014/12/01/starter-post/#youtube"
+  usecase: "/theme/2014/12/01/starter-post/#youtube"
 
 - name: Google Map
   about: You can embed Google maps using custom embed created for OpenTheme. Just provide location.
@@ -57,7 +57,7 @@
   rating: 5
   create: https://developers.google.com/maps/documentation/embed/start              
   docs: https://developers.google.com/maps/documentation/embed/guide             
-  usecase: "http://opentheme.co/theme/2014/12/01/starter-post/#map"
+  usecase: "/theme/2014/12/01/starter-post/#map"
 
 - name: Panoramio Maps
   about: Add geo-tagged photo search to maps, along with autocomplete places search. 
@@ -68,6 +68,6 @@
   responsive: true
   jekyll_friendly: true
   rating: 5
-  create: http://opentheme.co/panoramio/              
+  create: /panoramio/              
   docs: https://developers.google.com/maps/documentation/embed/start             
-  usecase: http://opentheme.co/panoramio/
+  usecase: /panoramio/

@@ -1,7 +1,3 @@
-<script src="//maps.googleapis.com/maps/api/js?v=3.exp&libraries=panoramio,places"></script>
-<script src="//ssl.panoramio.com/wapi/wapi.js?v=1"></script>
-
-<script>
 function initialize() {
   // The photoDiv defines the DIV within the info window for
   // displaying the Panoramio photo within its PhotoWidget.
@@ -118,4 +114,3 @@ function initialize() {
 }
 
 google.maps.event.addDomListener(window, 'load', initialize);
-</script>

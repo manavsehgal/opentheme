@@ -2,7 +2,8 @@
 <html>
   <head>
   {% include head.html %}
-  {% include css.html %}
+  <link rel="stylesheet" type="text/css" href="/css/semantic.min.css">
+  <link rel="stylesheet" type="text/css" href="/css/custom.css">
   </head>
   <body class="global landing home">
     {% if site.pagebar %}
@@ -16,7 +17,9 @@
     </div>
     {% endif %}
     
-    {% include js.html %}
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.js"></script>
+    <script src="/js/semantic.min.js"></script>
+    <script src="/js/custom.js"></script>
   </body>
 
 </html>

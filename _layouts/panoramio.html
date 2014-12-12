@@ -3,6 +3,10 @@
   <head>
   {% include head.html %}
   {% include css.html %}
+  {% include css-panoramio.html %}
+  
+  <!-- Google Maps requires pre-loading JS -->
+  {% include js-panoramio.html %}
   </head>
   <body class="global landing home">
     {% if site.pagebar %}

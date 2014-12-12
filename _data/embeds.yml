@@ -20,7 +20,7 @@
   # URL to usecase
   usecase: "http://opentheme.co/theme/2014/12/01/starter-post/#twitter"
   
-- name: Disqus Comments
+- name: Disqus Social
   about: If you’re passionate about writing and sharing, Disqus helps you build a community of active readers and commenters.
   group: Social
   image: /img/embed/disqus-splash.png

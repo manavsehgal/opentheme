@@ -36,6 +36,7 @@ google_map_height: 450            # Default map height. Width adjusts to contain
 
 # PLEASE DO NOT USE THIS KEY. Get your own free at https://code.google.com/apis/console/
 google_api_key: AIzaSyDmt_iRsE8kQ1glUPC2GZpNLBsw1Laj9_0
+mapbox: pk.eyJ1Ijoib3BlbnRoZW1lIiwiYSI6ImNIWC1LTUUifQ.vq4k3nfTeTtDAk7eLCrVAw
 
 # Build settings
 markdown: kramdown

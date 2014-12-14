@@ -32,7 +32,7 @@
             {% if page.tags %}
               • <i class="icon tags"></i> 
               {% for tag in page.tags %}
-                <a class="ui tag label mini purple">{{ tag }}</a>
+                <a class="ui tag label mini purple" href="/tag/#{{ tag }}">{{ tag }}</a>
               {% endfor %}
             {% endif %}
           </p>

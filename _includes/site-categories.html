@@ -1,3 +1,3 @@
 {% for category in site.categories limit:site.categories_limit %}
-  <a class="ui small label categories">{{ category | first }} <div class="detail">{{ category | last | size }}</div></a>
+  <a class="ui small label categories" href="/category/#{{ category | first }}">{{ category | first }} <div class="detail">{{ category | last | size }}</div></a>
 {% endfor %}

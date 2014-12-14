@@ -3,7 +3,7 @@ layout: post
 title:  "Design Goals for OpenTheme"
 date:   2014-11-29 12:00:00
 author: Manav Sehgal
-tags: best-practices
+tags: goals patterns
 category: design
 ---
 

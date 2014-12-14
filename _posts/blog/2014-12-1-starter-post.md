@@ -3,7 +3,7 @@ layout: post                # Name of the _layouts template used by this post
 title:  "Starter Post"      # Title used in HTML Meta, Post Header, Recent Posts list
 date:   2014-12-1 12:00:00  # Date is picked up for Post Header, Recent Posts list
 author: Manav Sehgal        # Post author
-tags: sample blog jekyll    # Tags to relate multiple topics to a post
+tags: blog jekyll    # Tags to relate multiple topics to a post
 category: theme             # Only use one category. Multiple categories will duplicate content. Not good for SEO.
 ---
 

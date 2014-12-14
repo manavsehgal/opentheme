@@ -8,27 +8,9 @@
       width: 345px;
     }
 
-#filter {
-  background-color: #fff;
-  padding: 3px;
-  width: 250px;
-  margin-bottom: 10px;
-  font-family: Roboto;
-  font-size: 15px;
-  font-weight: 300;
-  text-overflow: ellipsis;
-}
-
-#filter:focus {
-  border-color: #4d90fe;
-  margin-left: -1px;
-  padding-left: 4px;  /* Regular padding-left + 1. */
-  width: 251px;
-}
-
-
 .controls {
   margin-top: 16px;
+  margin-bottom: 16px;
   border: 1px solid transparent;
   border-radius: 2px 0 0 2px;
   box-sizing: border-box;
@@ -38,7 +20,7 @@
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
 }
 
-#pac-input {
+#tag, #pac-input {
   background-color: #fff;
   padding: 0 11px 0 13px;
   width: 250px;
@@ -48,7 +30,7 @@
   text-overflow: ellipsis;
 }
 
-#pac-input:focus {
+#tag:focus, #pac-input:focus {
   border-color: #4d90fe;
   margin-left: -1px;
   padding-left: 14px;  /* Regular padding-left + 1. */

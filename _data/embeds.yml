@@ -1,22 +1,21 @@
 - name: Embedded Tweets  # Official name of embed
-  
   # Description of embed
   about: An Embedded Tweet brings brings the best content created on Twitter into your article or website.
-
-  group: Social    # Social, News, Doc, RSS, Video, Photo, Graphic, Map
-  image: /img/embed/twitter-bird.jpg              # Image used in card view
-  icon: twitter              # Icon used in table view. Refer http://semantic-ui.com/elements/icon.html
-  scope: None              # Site, Post configurable. None, if per use case.
+  # Social, News, Doc, RSS, Video, Photo, Graphic, Map
+  group: Social    
+  # Image used in card view
+  image: /img/embed/twitter-bird.jpg
+  # Icon used in table view. Refer http://semantic-ui.com/elements/icon.html
+  icon: twitter            
+  # Site, Layout, Post configurable. None, if per use case.
+  scope: None              
   responsive: true    # true/false = Is the embed UI responsive
   jekyll_friendly: true # Does the embed work well on Jekyll and Github Pages
   rating: 3           # Rating based on popularity, features
-  
   # Link to to create embed
   create: https://twitter.com/              
-  
   # Link to embed docs
   docs: https://dev.twitter.com/web/embedded-tweets               
-  
   # URL to usecase
   usecase: "/theme/2014/12/01/starter-post/#twitter"
   
@@ -64,7 +63,7 @@
   group: Map
   image: /img/embed/panoramio.png
   icon: pin
-  scope: Site
+  scope: Layout
   responsive: true
   jekyll_friendly: true
   rating: 5

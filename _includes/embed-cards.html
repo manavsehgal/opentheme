@@ -38,6 +38,9 @@
         {% if embed.scope == 'Post' %}
         <i class="file icon embed-features" data-content="Post Configurable" data-position="top left"></i>
         {% endif %}
+        {% if embed.scope == 'Layout' %}
+        <i class="grid layout icon embed-features" data-content="Layout Configurable" data-position="top left"></i>
+        {% endif %}
       <div class="right floated created">
         <a href="{{ embed.docs }}"><i class="question icon"></i></a> | 
         <a href="{{ embed.create }}"><i class="wizard icon"></i> Create</a>

@@ -33,14 +33,15 @@ function initialize() {
   panoramioLayer.setMap(map);
 
   var tag = document.getElementById('tag');
-  var button = document.getElementById('filter-button');
 
-  google.maps.event.addDomListener(button, 'click', function() {
-    panoramioLayer.setTag(tag.value);
+  google.maps.event.addDomListener(tag, 'input', function() {
+    if (tag.value.length >= 3 || tag.value.length == 0) {
+      panoramioLayer.setTag(tag.value);
+    }
   });
 
-  map.controls[google.maps.ControlPosition.BOTTOM_LEFT].push(
-      document.getElementById('filter'));
+  map.controls[google.maps.ControlPosition.BOTTOM_CENTER].push(
+      document.getElementById('tag'));
 
   google.maps.event.addListener(panoramioLayer, 'click', function(e) {
     var photoRequestOptions = {
@@ -59,7 +60,7 @@ function initialize() {
 // Create the search box and link it to the UI element.
   var input = /** @type {HTMLInputElement} */(
       document.getElementById('pac-input'));
-  map.controls[google.maps.ControlPosition.TOP_LEFT].push(input);
+  map.controls[google.maps.ControlPosition.TOP_CENTER].push(input);
 
   var searchBox = new google.maps.places.SearchBox(
     /** @type {HTMLInputElement} */(input));

@@ -1,33 +1,6 @@
 $(document)
   .ready(function() {
 
-/*******************************
-          Global
-*******************************/
-
-    $('.sidebar').first()
-      .sidebar('attach events', '.pagebar');
-    
-    $('.pagebar')
-      .removeClass('disabled');
-
-
-/*******************************
-          Post
-*******************************/
-
-    $('.posthead .information')
-      .transition('scale in', 1000);
-    
-    $(".time").text(function (index, value) {
-      return Math.round(parseFloat(value));
-    });
-
-
-/*******************************
-          Landing
-*******************************/
-
     var
       validationRules = {
         firstName: {
@@ -50,9 +23,6 @@ $(document)
       .form(validationRules, {
         on: 'blur'
       });
-
-    $('.masthead .information')
-      .transition('scale in', 1000);
 
     $('.special.cards .image').dimmer({
       on: 'hover'

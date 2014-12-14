@@ -8,8 +8,14 @@
   </head>
   
   <body class="global post">
+    {% if site.facebook %}
+      {% include fb-setup.html %}
+    {% endif %}
+    
+    {% if site.pagebar %}
     {% include page-bar.html %}
     <div class="pusher">
+    {% endif %}
         {% include post-header.html %}
         <div class="ui vertical segment">
           <div class="ui very relaxed stackable page grid">
@@ -23,8 +29,15 @@
                 {% endif %}
                 {{ content }}
                 {% include posts-paginator.html %}
-                <div class="ui divider"></div>
-                {% include disqus.html %}    
+
+                {% if site.comments == 'disqus' %}
+                  <div class="ui divider"></div>
+                  {% include disqus.html %}
+                {% elsif site.facebook && site.comments == 'facebook' %}
+                  <div class="ui divider"></div>
+                  {% include fb-comments.html %}
+                {% endif %}
+
             </div>
             {% if site.postbar %}
             <div class="six wide column">
@@ -34,7 +47,9 @@
           </div>
         </div>
         {% include footer.html %}
-    </div>
+    {% if site.pagebar %}
+    </div> <!-- pusher -->
+    {% endif %}
 
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.js"></script>
     <script src="/js/semantic.min.js"></script>

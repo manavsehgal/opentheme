@@ -36,6 +36,11 @@
               {% endfor %}
             {% endif %}
           </p>
+          {% if site.facebook %}
+          <p>
+            {% include fb-button.html %}
+          </p>
+          {% endif %}
         </div> 
         <!-- /information -->
     </div>

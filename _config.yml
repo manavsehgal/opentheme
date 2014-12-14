@@ -24,6 +24,8 @@ postbar: true
 
 # Features
 reading_time: true    # Show est. reading time for posts
+facebook: true        # Use facebook features
+comments: facebook      # Switch disqus | facebook | none - comments. facebook = true required for facebook comments
 
 # Embeds
 disqus_name: opentheme            # Your site name at Disqus
@@ -34,9 +36,10 @@ google_map_height: 450            # Default map height. Width adjusts to contain
 
 # API Keys
 
-# PLEASE DO NOT USE THIS KEY. Get your own free at https://code.google.com/apis/console/
-google_api_key: AIzaSyDmt_iRsE8kQ1glUPC2GZpNLBsw1Laj9_0
+# PLEASE DO NOT USE THESE KEYS. Get your own.
+google_api_key: AIzaSyDmt_iRsE8kQ1glUPC2GZpNLBsw1Laj9_0 # https://code.google.com/apis/console/
 mapbox: pk.eyJ1Ijoib3BlbnRoZW1lIiwiYSI6ImNIWC1LTUUifQ.vq4k3nfTeTtDAk7eLCrVAw
+facebook_app: 390272554479803 # https://developers.facebook.com/
 
 # Build settings
 markdown: kramdown

@@ -6,6 +6,10 @@
   <link rel="stylesheet" type="text/css" href="/css/global.css">
   </head>
   <body class="global landing home">
+    {% if site.facebook %}
+      {% include fb-setup.html %}
+    {% endif %}
+
     {% if site.pagebar %}
     {% include page-bar.html %}
     <div class="pusher">

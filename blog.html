@@ -1,0 +1,53 @@
+---
+layout: landing
+title: Blog
+description: Latest posts, tags, categories related to OpenTheme.
+---
+
+<div class="ui inverted orange vertical segment">
+  <div class="ui very relaxed stackable page grid">
+    <div class="row">
+      <div class="eight wide column">
+        {% include feature-post.html %}        
+      </div>
+      <div class="eight wide column">
+        <div class="ui form segment">
+          <h3 class="ui header">Get Our Amazing Blog Updates</h3>
+          <p>Sign up now. We do not spam your inbox.</p>
+          <div class="field">
+            <div class="ui left icon input">
+              <i class="user icon"></i>
+              <input name="email" type="text" placeholder="name@email.com">
+            </div>
+            <div class="ui fluid green submit newsletter button">Sign up</div>
+          </div>
+          <div class="ui error message"></div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="ui inverted purple vertical segment">
+  <div class="ui very relaxed stackable page grid">
+    <div class="row">
+      <div class="eight wide column">
+        <h3 class="ui inverted header">Recent articles</h3>
+        {% include recent-posts.html %}
+      </div>
+
+      <div class="eight wide column">
+        <h3 class="ui inverted header">Tags</h3>
+          {% include site-tags.html %}
+          
+        <div class="ui inverted divider"></div>
+        
+        <h3 class="ui inverted header">Categories</h3>
+          {% include site-categories.html %}
+          
+      </div>
+    </div> <!-- /row -->
+  </div>
+</div>

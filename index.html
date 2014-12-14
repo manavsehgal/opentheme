@@ -2,7 +2,7 @@
 layout: landing
 title: Home
 ---
-<div class="ui vertical feature segment">
+<div class="ui feature vertical segment">
   <div class="ui centered page grid">
     <div class="fourteen wide column">
       <div class="ui three column center aligned stackable divided grid">
@@ -11,7 +11,7 @@ title: Home
             <i class="purple github icon"></i>
             Free GitHub Hosting
           </div>
-          <p>Free world-class hosting for your website on largest open source repository on the planet.</p>
+          <p>Free world-class hosting for your website on world's largest open source repository.</p>
           <p>
             <a class="ui button" href="#">
               GitHub
@@ -48,44 +48,72 @@ title: Home
   </div>
 </div>
 
-<div class="ui inverted purple vertical segment">
-  <div class="ui very relaxed stackable page grid">
-    <div class="row">
-      <div class="column">
-        <h1 class="center aligned ui inverted header">
-          Designing an Open Website
-        </h1>
-      </div>
-    </div>
-    <div class="row">
-      <div class="eight wide column">
-        {% include feature-post.html %}        
-      </div>
-      <div class="eight wide column">
-        <div class="ui form segment">
-          <h3 class="ui header">Get Our Amazing Newsletter Weekly</h3>
-          <p>Sign up now. We do not spam your inbox.</p>
-          <div class="field">
-            <div class="ui left icon input">
-              <i class="user icon"></i>
-              <input name="email" type="text" placeholder="name@email.com">
+<div class="ui inverted tertiary purple vertical segment">
+  <div class="ui centered page grid">
+    <div class="fourteen wide column">
+      <div class="ui five column center aligned stackable divided grid">
+        <div class="column">
+          <div class="ui small statistic">
+            <div class="value">
+              <i class="rocket icon"></i> 90
             </div>
-            <div class="ui fluid green submit newsletter button">Sign up</div>
+            <div class="label">
+              Pagespeed Score
+            </div>
           </div>
-          <div class="ui error message"></div>
         </div>
-
+        <div class="column">
+          <a class="ui small statistic pagebar" href="#">
+            <div class="value">
+              <i class="content icon"></i> {{ site.pages | size  }}
+            </div>
+            <div class="label">
+              Templates
+            </div>
+          </a>
+        </div>
+        <div class="column">
+          <div class="ui small statistic">
+            <div class=" value">
+              <i class="wizard icon"></i> {{ site.data.embeds | size }}
+            </div>
+            <div class="label">
+              Reusable Embeds
+            </div>
+          </div>
+        </div>
+        <div class="column">
+          <a class="ui small statistic" href="{% post_url /blog/2014-11-26-open-cloud-based-workflow-for-designing-your-website %}">
+            <div class="text value">
+              One Minute
+            </div>
+            <div class="label">
+              Content Workflow
+            </div>
+          </a>
+        </div>
+        <div class="column">
+          <a class="ui small statistic" href="/category/#theme">
+            <div class="value">
+              <i class="student icon"></i> {{ site.categories.theme | size  }}
+            </div>
+            <div class="label">
+              Theme Tutorials
+            </div>
+          </a>
+        </div>
       </div>
     </div>
   </div>
 </div>
+
 
 <div class="ui vertical segment">
   <div class="ui very relaxed stackable page grid">
     <div class="row">
       <div class="column">
         <h1 class="center aligned ui header">
-          Embeds In Posts
+          Reusable Embeds
         </h1>
       </div>
     </div>
@@ -97,94 +125,3 @@ title: Home
   </div>
 </div>
 
-
-<div class="ui inverted purple vertical segment">
-  <div class="ui very relaxed stackable page grid">
-    <div class="row">
-      <div class="column">
-        <h1 class="center aligned ui inverted header">
-          Browse Our Content
-        </h1>
-      </div>
-    </div>
-    <div class="row">
-      <div class="eight wide column">
-        <h3 class="ui inverted header">Recent articles</h3>
-        {% include recent-posts.html %}
-      </div>
-
-      <div class="eight wide column">
-        <h3 class="ui inverted header">Tags</h3>
-          {% include site-tags.html %}
-          
-        <div class="ui inverted divider"></div>
-        
-        <h3 class="ui inverted header">Categories</h3>
-          {% include site-categories.html %}
-          
-      </div>
-    </div> <!-- /row -->
-  </div>
-</div>
-
-<div class="ui vertical segment">
-  <div class="ui stackable center aligned page grid">
-    <div class="row">
-      <div class="column">
-        <h1 class="ui header">
-          Important Goals For This Theme
-        </h1>
-        <div class="ui horizontal divider"><i class="bar chart icon"></i></div>
-      </div>
-    </div>
-    
-    <div class="row">
-      <div class="column">
-        <div class="ui statistics">
-          <div class="green statistic">
-            <div class="value">
-              <i class="rocket icon"></i> 90
-            </div>
-            <div class="label">
-              Pagespeed Score
-            </div>
-          </div>
-          <div class="statistic">
-            <div class="text value">
-              One Minute
-            </div>
-            <div class="label">
-              Content Workflow
-            </div>
-          </div>
-          <div class="green statistic">
-            <div class="value">
-              <i class="star icon"></i> 5
-            </div>
-            <div class="label">
-              Top GitHub Libraries
-            </div>
-          </div>
-          <div class="statistic">
-            <div class="text value">
-              Twenty One
-            </div>
-            <div class="label">
-              UI Design Patterns
-            </div>
-          </div>
-          <div class="statistic">
-            <div class="value">
-              <i class="grid layout icon"></i> 9
-            </div>
-            <div class="label">
-              New Templates
-            </div>
-          </div>
-        </div>
-    
-      </div>
-    </div>
-    
-  </div>
-</div>

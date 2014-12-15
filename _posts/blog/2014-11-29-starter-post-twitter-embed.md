@@ -5,6 +5,7 @@ date: 2014-11-29 12:00:00
 author: Manav Sehgal
 tags: social embeds
 category: theme
+image: /img/embed/twitter-bird.jpg
 ---
 
 You can add social media content as embeds. 

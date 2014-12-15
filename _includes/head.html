@@ -5,13 +5,9 @@
 
 <!-- Site Properities -->
 {% if page.title == "Home" %}
-
   {% capture title_tag %}{{ site.tagline }}{% endcapture %}
-
 {% else %}
-
   {% capture title_tag %}{{ page.title }}{% endcapture %}
-
 {% endif %}
 
 <title>{{ title_tag }} &middot; {{ site.title }}</title>
@@ -23,7 +19,7 @@
 <meta property="og:title" content="{{ title_tag }}">
 <meta property="og:site_name" content="{{ site.title }}">
 <meta property="og:description" content="{% if page.layout != 'post' %}{{ site.description | strip_newlines }}{% else %}{{ page.excerpt | strip_html | strip_newlines }}{% endif %}">
-<meta property="og:image" content="{% if page.thumb %}{{ page.thumb | prepend: site.url }}{% else %}{{ site.default_thumb | prepend: site.url }}{% endif %}">
+<meta property="og:image" content="{% if page.image %}{{ page.image | prepend: site.url }}{% else %}{{ site.default_image | prepend: site.url }}{% endif %}">
 
 <meta name="description" content="{% if page.layout != 'post' %}{{ site.description | strip_newlines }}{% else %}{{ page.excerpt | strip_html | strip_newlines }}{% endif %}">
 <meta name="keywords" content="{% if page.layout != 'post' %}{{ site.keywords }}{% else %}{{ page.tags | join: ', ' }}, {{ page.categories | join: ', ' }}{% endif %}">

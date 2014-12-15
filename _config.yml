@@ -1,6 +1,6 @@
 # Site settings
-title: Jekyll Semantic UI Theme | OpenTheme.co
-tagline: Create Awesome Websites on GitHub 
+title: Jekyll Semantic UI Theme for GitHub Pages | OpenTheme.co
+tagline: Create Awesome Websites on GitHub
 email: sehgal.manav@gmail.com
 copyright: Manav Sehgal
 keywords: theme, github, jekyll, semantic ui
@@ -10,7 +10,7 @@ description: > # this means to ignore newlines until "url:"
 url: "http://opentheme.co" # the base hostname & protocol for your site
 twitter_username: manavsehgal
 github_username:  manavsehgal
-
+default_image: /img/opentheme-workflow.png
 permalink: pretty
 
 # Lists

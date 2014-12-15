@@ -5,6 +5,7 @@ date:   2014-12-15 12:00:00
 author: Manav Sehgal        
 tags: media embeds    
 category: theme
+image: /img/embed/youtube-splash.png
 ---
 
 You can embed YouTube video in a post using custom embed tag designed in Liquid markup.

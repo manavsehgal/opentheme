@@ -1,10 +1,11 @@
 ---
-layout: post                # Name of the _layouts template used by this post
-title:  "Starter Post"      # Title used in HTML Meta, Post Header, Recent Posts list
-date:   2014-12-1 12:00:00  # Date is picked up for Post Header, Recent Posts list
-author: Manav Sehgal        # Post author
-tags: blog jekyll    # Tags to relate multiple topics to a post
-category: theme             # Only use one category. Multiple categories will duplicate content. Not good for SEO.
+layout: post                        # Name of the _layouts template used by this post
+title:  "Starter Post"              # Title used in HTML Meta, Post Header, Recent Posts list
+date:   2014-12-1 12:00:00          # Date is picked up for Post Header, Recent Posts list
+author: Manav Sehgal                # Post author
+tags: blog jekyll                   # Tags to relate multiple topics to a post
+category: theme                     # Only use one category. Multiple categories will duplicate content. Not good for SEO.
+image: /img/opentheme-workflow.png  # Image loaded for the blog post
 ---
 
 This is a starter post which you can duplicate to create your own. It demonstrates Markdown syntax, Liquid tags, and GitHub whitelisted HTML.

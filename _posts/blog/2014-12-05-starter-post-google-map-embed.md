@@ -5,6 +5,7 @@ date: 2014-12-05 12:00:00
 author: Manav Sehgal
 tags: maps embeds
 category: theme
+image: /img/embed/map.png
 ---
 
 You can embed Google maps using custom embed created for OpenTheme. 

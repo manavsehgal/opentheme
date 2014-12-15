@@ -30,11 +30,11 @@ description: Recent posts listed by tags.
         <div class="column">
           <div class="ui {% if inverted == '0' %}inverted {% endif %}animated selection list">
           {% for post in site.tags[tag.first] %}
-            <a class="item" href="{{ post.url | prepend: site.baseurl }}">
+            <a class="item" href="{{ post.url }}">
               <div class="recent-posts-title">{{ post.title }}</div>
-              {% if post.thumb %}
-              <div clas="thumb-img">
-                <img class="ui rounded image" src="{{ post.thumb }}">
+              {% if post.image %}
+              <div class="thumb-img">
+                <img class="ui rounded image" src="{{ post.image }}">
               </div>
               {% else %}
               <small> {{post.excerpt}} </small>

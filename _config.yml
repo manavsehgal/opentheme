@@ -24,8 +24,8 @@ postbar: true
 
 # Features
 reading_time: true    # Show est. reading time for posts
-facebook: true        # Use facebook features
-comments: facebook      # Switch disqus | facebook | none - comments. facebook = true required for facebook comments
+facebook: false        # Use facebook features
+comments: disqus      # Switch disqus | facebook | none - comments. facebook = true required for facebook comments
 
 # Embeds
 disqus_name: opentheme            # Your site name at Disqus

@@ -34,7 +34,7 @@ description: Recent posts listed by tags.
               <div class="recent-posts-title">{{ post.title }}</div>
               {% if post.thumb %}
               <div clas="thumb-img">
-                <img class="ui rounded image" src="/img/blog/thumbs/{{ post.thumb }}">
+                <img class="ui rounded image" src="{{ post.thumb }}">
               </div>
               {% else %}
               <small> {{post.excerpt}} </small>

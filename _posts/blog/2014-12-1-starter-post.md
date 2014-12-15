@@ -41,36 +41,6 @@ You can use Liquid Tags to reference other posts. Here is one on [design goals f
 Site variables can be used as well. Here is the tagline for OpenTheme as descibed in a site variable - **{{ site.tagline }}**.
 Page variables are also available. Title for this post is **{{ page.title }}** and it uses **{{ page.layout }}** template.
 
-### <a name="twitter"></a>Social Embeds
-
-You can add social media content as embeds. Here is an example of Twitter post announcing OpenTheme.
-
-<blockquote class="twitter-tweet" lang="en"><p>Create Awesome Websites on GitHub for Free! <a href="http://t.co/tXj8H17vZE">http://t.co/tXj8H17vZE</a> <a href="http://t.co/2VCbLf0KrL">pic.twitter.com/2VCbLf0KrL</a></p>&mdash; Manav Sehgal (@manavsehgal) <a href="https://twitter.com/manavsehgal/status/539376525720977410">December 1, 2014</a></blockquote>
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-### <a name="youtube"></a>Media Embeds
-
-Here is an example of a custom embed available as a configurable _include with OpenTheme.
-The size is parametrized as per theme. So if you turn on post bar then size is small, otherwise large. 
-Features like player controls are configurable at site level, within _config.yml.
-To embed a YouTube video you just need to copy the unique video id at the end of the video url.
-OpenTheme takes care of the rest!
-
-{% include embed-youtube.html video="eRsGyueVLvQ" %}
-
-### <a name="map"></a>Embed Google Maps
-
-You can embed Google maps using custom embed created for OpenTheme. Just provide the location in url escaped format. 
-Specify custom height for the map viewer, otherwise site default is taken. Width adjusts responsively to container.
-
-{% include embed-google-map.html location="The+Shard+London" %}
-
-### Custom Embed Code
-
-Review code for all the custom embeds in one place.
-
-<script src="https://gist.github.com/manavsehgal/1cade8a785f97738ed9b.js"></script>
-
 ### References
 
 - [Markdown cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) is a good place to start for Markdown syntax.

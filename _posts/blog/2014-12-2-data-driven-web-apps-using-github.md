@@ -4,7 +4,7 @@ title:  "Data Driven Web Apps Using GitHub"
 date:   2014-12-2 12:00:00
 author: Manav Sehgal
 tags: data analytics
-category: apps
+category: theme
 ---
 
 GitHub Pages can use JSON, YAML, CSV, and Real-time databases like Firebase.

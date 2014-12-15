@@ -3,8 +3,8 @@ layout: post
 title:  "Design Goals for OpenTheme"
 date:   2014-11-29 12:00:00
 author: Manav Sehgal
-tags: goals patterns
-category: design
+tags: design patterns
+category: strategy
 ---
 
 Rapid, Responsive, Reactive, Realtime, Reusable. Convention over Configuration over Coding.

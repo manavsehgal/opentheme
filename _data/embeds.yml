@@ -17,7 +17,7 @@
   # Link to embed docs
   docs: https://dev.twitter.com/web/embedded-tweets               
   # URL to usecase
-  usecase: "/theme/2014/12/01/starter-post/#twitter"
+  usecase: /theme/2014/11/29/starter-post-twitter-embed/
   
 - name: Disqus Social
   about: If you’re passionate about writing and sharing, Disqus helps you build a community of active readers and commenters.
@@ -30,7 +30,7 @@
   rating: 4
   create: https://disqus.com/admin/signup/?utm_source=New-Site              
   docs: https://disqus.com/websites/               
-  usecase: http://opentheme.co/workflow/2014/11/26/open-cloud-based-workflow-for-designing-your-website/
+  usecase: /workflow/2014/11/26/open-cloud-based-workflow-for-designing-your-website/
 
 - name: YouTube Video
   about: Embed YouTube video player using custom OpenTheme embed tag. Player features are site configurable. 
@@ -43,7 +43,7 @@
   rating: 5
   create: https://www.youtube.com/              
   docs: https://support.google.com/youtube/answer/171780?hl=en               
-  usecase: "/theme/2014/12/01/starter-post/#youtube"
+  usecase: /theme/2014/12/15/starter-post-media-embeds/
 
 - name: Google Map
   about: You can embed Google maps using custom embed created for OpenTheme. Just provide location.
@@ -56,7 +56,7 @@
   rating: 5
   create: https://developers.google.com/maps/documentation/embed/start              
   docs: https://developers.google.com/maps/documentation/embed/guide             
-  usecase: "/theme/2014/12/01/starter-post/#map"
+  usecase: /theme/2014/12/05/starter-post-google-maps-embed/
 
 - name: Panoramio Maps
   about: Add geo-tagged photo search to maps, along with autocomplete places search. 

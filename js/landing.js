@@ -24,19 +24,5 @@ $(document)
         on: 'blur'
       });
 
-    $('.special.cards .image').dimmer({
-      on: 'hover'
-    });
-    
-    $('.ui.rating')
-      .rating({
-        maxRating: 5
-      });
-
-    $('.ui.rating')
-      .rating('disable');
-      
-    $('.embed-features')
-      .popup();
 
 });

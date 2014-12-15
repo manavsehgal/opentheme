@@ -1,4 +1,5 @@
-- name: Embedded Tweets  # Official name of embed
+  # Official name of embed
+- name: Embedded Tweets
   # Description of embed
   about: An Embedded Tweet brings brings the best content created on Twitter into your article or website.
   # Social, News, Doc, RSS, Video, Photo, Graphic, Map
@@ -8,10 +9,13 @@
   # Icon used in table view. Refer http://semantic-ui.com/elements/icon.html
   icon: twitter            
   # Site, Layout, Post configurable. None, if per use case.
-  scope: None              
-  responsive: true    # true/false = Is the embed UI responsive
-  jekyll_friendly: true # Does the embed work well on Jekyll and Github Pages
-  rating: 3           # Rating based on popularity, features
+  scope: None     
+  # true/false = Is the embed UI responsive
+  responsive: true
+  # Does the embed work well on Jekyll and Github Pages
+  jekyll_friendly: true
+  # Rating based on popularity, features
+  rating: 3                 
   # Link to to create embed
   create: https://twitter.com/              
   # Link to embed docs

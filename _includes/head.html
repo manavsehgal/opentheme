@@ -11,16 +11,25 @@
 {% endif %}
 
 <title>{{ title_tag }} &middot; {{ site.title }}</title>
-
-<!-- Open Graph. Refer https://developers.facebook.com/docs/web/tutorials/scrumptious/open-graph-object -->
-<meta property="og:locale" content="en_US">
 <link rel="canonical" href="{{ page.url | prepend: site.url }}">
-<meta property="og:url" content="{{ page.url | prepend: site.url }}">
-<meta property="og:title" content="{{ title_tag }}">
-<meta property="og:site_name" content="{{ site.title }}">
-<meta property="og:description" content="{% if page.layout != 'post' %}{{ site.description | strip_newlines }}{% else %}{{ page.excerpt | strip_html | strip_newlines }}{% endif %}">
-<meta property="og:image" content="{% if page.image %}{{ page.image | prepend: site.url }}{% else %}{{ site.default_image | prepend: site.url }}{% endif %}">
 
+{% if site.facebook %}
+  <!-- Open Graph. Refer https://developers.facebook.com/docs/web/tutorials/scrumptious/open-graph-object -->
+  <meta property="fb:app_id" content="{{ site.facebook_app }}">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:url" content="{{ page.url | prepend: site.url }}">
+  <meta property="og:title" content="{{ title_tag }}">
+  <meta property="og:site_name" content="{{ site.title }}">
+  <meta property="og:description" content="{% if page.layout != 'post' %}{{ site.description | strip_newlines }}{% else %}{{ page.excerpt | strip_html | strip_newlines }}{% endif %}">
+  <meta property="og:image" content="{% if page.image %}{{ page.image | prepend: site.url }}{% else %}{{ site.default_image | prepend: site.url }}{% endif %}">
+  
+  {% if page.layout == 'post' %}
+    <meta property="og:type" content="article" />
+  {% else %}
+    <meta property="og:type" content="website" />
+  {% endif %}
+
+{% endif %}
 <meta name="description" content="{% if page.layout != 'post' %}{{ site.description | strip_newlines }}{% else %}{{ page.excerpt | strip_html | strip_newlines }}{% endif %}">
 <meta name="keywords" content="{% if page.layout != 'post' %}{{ site.keywords }}{% else %}{{ page.tags | join: ', ' }}, {{ page.categories | join: ', ' }}{% endif %}">
 

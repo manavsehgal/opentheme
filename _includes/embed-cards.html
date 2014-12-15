@@ -1,5 +1,5 @@
 <div class="ui special cards">
-{% for embed in site.data.embeds %}
+{% for embed in site.data.embeds limit: include.cards %}
   <div class="card">
     <div class="dimmable image">
       <div class="ui inverted dimmer">

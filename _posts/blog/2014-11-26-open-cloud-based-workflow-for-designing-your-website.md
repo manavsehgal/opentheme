@@ -1,8 +1,5 @@
 ---
-layout: post
 title:  "Open Cloud Based Workflow For Designing Your Website"
-date:   2014-11-26 11:44:53
-author: Manav Sehgal
 image: /img/blog/open-workflow.png
 tags: github jekyll
 category: workflow

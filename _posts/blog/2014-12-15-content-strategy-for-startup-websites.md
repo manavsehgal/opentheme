@@ -1,10 +1,6 @@
 ---
-layout: post                
 title: Content Strategy For Startup Websites
-date: 2014-12-15 12:00:00
-author: Manav Sehgal
 tags: feature content
-category: theme
 image: /img/opentheme-workflow.png
 ---
 

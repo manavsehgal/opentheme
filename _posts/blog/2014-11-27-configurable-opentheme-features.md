@@ -1,10 +1,6 @@
 ---
-layout: post
 title:  "Configurable OpenTheme Features"
-date:   2014-11-27 12:00:00
-author: Manav Sehgal
 tags: layout configure
-category: theme
 ---
 
 OpenTheme is designed to be adequately configurable. 

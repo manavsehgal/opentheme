@@ -1,10 +1,6 @@
 ---
-layout: post                
 title: Starter Post - Google Maps Embed
-date: 2014-12-05 12:00:00
-author: Manav Sehgal
 tags: maps embeds
-category: theme
 image: /img/embed/map.png
 ---
 

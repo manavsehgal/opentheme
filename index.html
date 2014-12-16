@@ -44,22 +44,22 @@ title: Home
   </div>
 </div>
 
-<div class="ui inverted tertiary purple vertical segment">
+<div class="ui inverted vertical segment">
   <div class="ui centered page grid">
     <div class="fourteen wide column">
-      <div class="ui five column center aligned stackable divided grid">
+      <div class="ui five column center aligned stackable inverted divided grid">
         <div class="column">
-          <div class="ui small statistic">
+          <div class="ui small orange inverted statistic">
             <div class="value">
               <i class="rocket icon"></i> 90
             </div>
-            <div class="label">
+            <p class="label">
               Pagespeed Score
-            </div>
+            </p>
           </div>
         </div>
         <div class="column">
-          <a class="ui small statistic pagebar" href="#">
+          <a class="ui small blue inverted statistic pagebar" href="#">
             <div class="value">
               <i class="content icon"></i> {{ site.pages | size  }}
             </div>
@@ -69,7 +69,7 @@ title: Home
           </a>
         </div>
         <div class="column">
-          <div class="ui small statistic">
+          <div class="ui small orange inverted statistic">
             <div class=" value">
               <i class="wizard icon"></i> {{ site.data.embeds | size }}
             </div>
@@ -79,7 +79,7 @@ title: Home
           </div>
         </div>
         <div class="column">
-          <a class="ui small statistic" href="{% post_url /blog/2014-12-15-content-strategy-for-startup-websites %}">
+          <a class="ui small blue inverted statistic" href="{% post_url /blog/2014-12-15-content-strategy-for-startup-websites %}">
             <div class="text value">
               One Minute
             </div>
@@ -89,7 +89,7 @@ title: Home
           </a>
         </div>
         <div class="column">
-          <a class="ui small statistic" href="/category/#theme">
+          <a class="ui small blue inverted statistic" href="/category/#theme">
             <div class="value">
               <i class="student icon"></i> {{ site.categories.theme | size  }}
             </div>

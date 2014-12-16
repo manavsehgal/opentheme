@@ -6,14 +6,15 @@ category: design
 
 This article discusses our design journey in creating a blog using Jekyll.
 
-### Target Features
+### OpenTheme Blog Features
 
-- A typical blog has a collection of chronological posts. 
+- A typical blog has a collection of chronological posts.
 - A component listing recent posts to display on home page. 
 - A pagination component to leaf through posts in chronological order.
 - A post has an image, thumbnail, summary, title, permalink, and content.
 - Each post has tags classifying related posts.
 - Posts are classified under categories.
+- Viewing a post shows related posts based on lexical analysis of post content.
 
 ### Content Workflow
 
@@ -38,4 +39,6 @@ While marketing for your blog requires several activities outside the scope of a
 there are ways OpenTheme can help.
 
 **Variables to Meta.** Many variables like *title*, site *tagline*, and *description*, need only by defined in one place. 
-These variables then auto-populate the HTML Meta keywords, description, post titles, HTML title, as appropriate.
+These variables then auto-populate the HTML Meta keywords, description, post titles, HTML title, and Facebook Open Graph, as appropriate.
+
+**SEO Friendly URLs.** Human readable, unique urls for each post and page, minus the trailing *.html*. Organized by date for posts. Canonical url specified in head.

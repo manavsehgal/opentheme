@@ -23,4 +23,4 @@ Just add the following embed code.
 {% endraw %}
 
 
-OpenTheme takes care of the rest!
+OpenTheme takes care of the rest for you including embed code, and width sizing based on theme configuration.

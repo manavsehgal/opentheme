@@ -73,9 +73,9 @@ This means designing for fewest configuration options, that allow for maximum de
 
 **facebook_app** - Required for Facebook plugins. Get your app at [Facebook developers site](https://developers.facebook.com/).
 
-**mailchimp_u** - Mailchimp u=unique identification.
+**mailchimp_u** - MailChimp u=unique identification.
 
-**mailchimp_id** - Mailchip id.
+**mailchimp_id** - MailChimp id.
 
 **google_analytics_ua** - Google Analytics ID.
 

@@ -74,3 +74,16 @@
   create: /panoramio/              
   docs: https://developers.google.com/maps/documentation/embed/start             
   usecase: /panoramio/
+
+- name: MailChimp
+  about: Add MailChimp signup forms with OpenTheme UI. Reuse across site with text variations.
+  group: Mail
+  image: /img/embed/mailchimp.png
+  icon: mail
+  scope: Post
+  responsive: true
+  jekyll_friendly: true
+  rating: 3
+  create: http://mailchimp.com/              
+  docs: http://mailchimp.com/resources/             
+  usecase: http://opentheme.co

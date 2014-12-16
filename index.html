@@ -38,19 +38,7 @@ title: Home
         {% include feature-post.html %}        
       </div>
       <div class="eight wide column">
-        <div class="ui form segment">
-          <h3 class="ui header">Get Our Amazing Blog Updates</h3>
-          <p>Sign up now. We do not spam your inbox.</p>
-          <div class="field">
-            <div class="ui left icon input">
-              <i class="user icon"></i>
-              <input name="email" type="text" placeholder="name@email.com">
-            </div>
-            <div class="ui fluid green submit newsletter button">Sign up</div>
-          </div>
-          <div class="ui error message"></div>
-        </div>
-
+        {% include embed-mailchimp.html header="Get Amazing OpenTheme Updates" tagline="Subscribe now. We do not spam your inbox." button="Subscribe Now!" %}
       </div>
     </div>
   </div>

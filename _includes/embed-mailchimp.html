@@ -1,0 +1,22 @@
+<!-- Begin MailChimp Signup Form -->
+<div id="mc_embed_signup" class="ui form segment">
+  <form action="//opentheme.us9.list-manage.com/subscribe/post?u={{ site.mailchimp_u }}&amp;id={{ site.mailchimp_id }}" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+    <h3 class="ui header">{{ include.header }}</h3>
+    <p>{{ include.tagline }}</p>
+    <div class="field">
+      <div class="ui left icon input">
+        <i class="user icon"></i>
+      	<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="name@email.com">
+    	</div>
+      	<div id="mce-responses" class="clear">
+      		<div class="response" id="mce-error-response" style="display:none"></div>
+      		<div class="response" id="mce-success-response" style="display:none"></div>
+      	</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+        <div style="position: absolute; left: -5000px;"><input type="text" name="b_{{ site.mailchimp_u }}_{{ site.mailchimp_id }}" tabindex="-1" value=""></div>
+        <input type="submit" value="{{ include.button }}" name="subscribe" id="mc-embedded-subscribe" class="ui fluid green submit newsletter button">
+    </div>
+  </form>
+    <div class="ui error message"></div>
+</div>
+
+<!--End mc_embed_signup-->

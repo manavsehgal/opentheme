@@ -7,7 +7,7 @@ tags: design patterns
 category: strategy
 ---
 
-Rapid, Responsive, Reactive, Realtime, Reusable. Convention over Configuration over Coding.
+OpenTheme Design Goals are Rapid, Responsive, Reactive, Realtime, Reusable, and Relaxed.
 
 ### Responsive
 
@@ -56,11 +56,18 @@ social streams, stock prices, weather updates, and such. Realtime content manage
 is an Opentheme feature in the idea stage. Follow developments and design discussions on 
 the [OpenTheme Trello Board](https://trello.com/b/Jm8UFV7p).
 
-### Convention over Configuration over Coding
+### Relaxed - convention over configuration over coding
 
-We favor conventions, like all partials go into _includes folder in Jekyll.
+We favor conventions that are intuitive, yet relaxed for flexibility.
+Like, all partials go into _includes folder, all templates in _layouts folder.
 Conventions are favored over configuration where these are popular, and well
-known patterns. Configuration in _config.yml and frontmatter is used where 
+known patterns. 
+
+Relaxed because, you can decide to follow conventions, 
+intuitively default to known patterns (example - global configuration), 
+or create your own (example - your own data structures in _data folder).
+
+Configuration in _config.yml and frontmatter is used where 
 it adds to ease of content creation and design. 
 
 Coding follows best practices from top GitHub libraries like Semantic UI 

@@ -10,9 +10,14 @@ image: /img/opentheme-workflow.png
 
 How important is your website's content strategy for your startup or small team?
 
-OpenTheme content strategy can be a good starting point for your website. It promotes a product - a modern theme. The website addresses an active and vibrant target audience - GitHub community.
+OpenTheme content strategy can be a good starting point for your website. It promotes a product - a modern theme.
+The website addresses an active and vibrant target audience - GitHub community. 
+OpenTheme showcases user experience best practices - [Semantic UI](http://semantic-ui.com/). 
+Websites built with OpenTheme use latest content workflow tool-chain including Jekyll and GitHub.
 
-### The Five-S Content Strategy
+OpenTheme Content Strategy can be summarized as the 6-S guiding principles and the [6-R design goals]({% post_url /blog/2014-11-29-design-goals-for-opentheme %}).
+
+### The 6-S Guiding Principles
 
 **Snackable.** Provide easy, quick views for your content.
 
@@ -20,9 +25,11 @@ OpenTheme content strategy can be a good starting point for your website. It pro
 
 **Semantic.** Add structure and meaning to content. Allow humans and software to understand your content in the same way.
 
-**Speed.** Content publishing and reading need to be speedy.
+**Speedy.** Content publishing and presentation speedy and high performance.
 
 **Simple.** Keep things simple. Authoring content should be intuitive, easy, and efficient.
+
+**Scalable.** Scaling cost-effectively for bandwidth, compute, storage, and concurrency.
 
 ### Blog Posts Used For Theme Tutorials
 

@@ -8,11 +8,15 @@ description: Latest posts, tags, categories related to OpenTheme.
   <div class="ui very relaxed stackable page grid">
     <div class="row">
       <div class="eight wide column">
-        <h3 class="ui inverted header">Recent articles</h3>
         {% include recent-posts.html %}
       </div>
 
       <div class="eight wide column">
+          
+          {% include feature-post.html %}        
+
+        <div class="ui inverted divider"></div>
+
         <h3 class="ui inverted header">Tags</h3>
           {% include site-tags.html %}
           

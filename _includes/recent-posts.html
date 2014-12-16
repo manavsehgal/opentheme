@@ -1,6 +1,7 @@
 <div class="ui inverted animated selection list">
   {% for post in site.posts limit:site.recent_posts_limit %}
-  {% if page.title != post.title %}
+  {% capture first_tag %}{{ post.tags | first }}{% endcapture %}
+  {% if first_tag != 'feature' %}
     {% if post.category %}<a class="ui ribbon small label"  href="/category/#{{ post.category }}">{{ post.category }}</a>{% endif %}
     <a class="item" href="{{ post.url }}">
       <div class="recent-posts-title">{{ post.title }}</div>

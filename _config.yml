@@ -12,11 +12,12 @@ twitter_username: manavsehgal
 github_username:  manavsehgal
 default_image: /img/opentheme-workflow.png
 permalink: pretty
+lsi: true
 
 # Lists
-tags_limit: 10          # Alphabetical sort
-categories_limit: 10    # Alphabetical sort
-recent_posts_limit: 10   # Chronological sort
+tags_limit: 20          # Alphabetical sort
+categories_limit: 20    # Alphabetical sort
+recent_posts_limit: 5   # Chronological sort
 
 # Layout
 pagebar: true

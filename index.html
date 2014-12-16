@@ -12,11 +12,6 @@ title: Home
             Free GitHub Hosting
           </div>
           <p>Free world-class hosting for your website on world's largest open source repository.</p>
-          <p>
-            <a class="ui button" href="#">
-              GitHub
-            </a>
-          </p>
         </div>
         <div class="column">
           <div class="ui icon header">
@@ -24,12 +19,6 @@ title: Home
             Semantic UI Goodness
           </div>
           <p>Create rich, modern user experience with tags as easy as describing design in English.</p>
-          <p>
-            <a class="ui green right labeled icon button" href="#">
-              Semantic UI
-              <i class="right chevron icon"></i>
-            </a>
-          </p>
         </div>
         <div class="column">
           <div class="ui icon header">
@@ -37,12 +26,32 @@ title: Home
             Jekyll Pre-processing 
           </div>
           <p>No server or database to maintain. No plugin hassels. Just focus on your content.</p>
-          <p>
-            <a class="ui button" href="#">
-              Jekyll
-            </a>
-          </p>
         </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="ui inverted purple vertical segment">
+  <div class="ui very relaxed stackable page grid">
+    <div class="row">
+      <div class="eight wide column">
+        {% include feature-post.html %}        
+      </div>
+      <div class="eight wide column">
+        <div class="ui form segment">
+          <h3 class="ui header">Get Our Amazing Blog Updates</h3>
+          <p>Sign up now. We do not spam your inbox.</p>
+          <div class="field">
+            <div class="ui left icon input">
+              <i class="user icon"></i>
+              <input name="email" type="text" placeholder="name@email.com">
+            </div>
+            <div class="ui fluid green submit newsletter button">Sign up</div>
+          </div>
+          <div class="ui error message"></div>
+        </div>
+
       </div>
     </div>
   </div>

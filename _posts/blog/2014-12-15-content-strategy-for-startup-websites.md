@@ -42,9 +42,13 @@ You can add following features by adding *name: value* pairs in the front of pos
 
 **author** Post author name.
 
-**date** Publish date for the post. Also decides the folder hierarchy for pretty permalinks.
-
 **title** Post title is picked up from here. Added to HTML meta and post masthead.
+
+#### Conventions For Blog Posts
+
+**date** Publish date for the post is now picked from file name following YYYY-MM-DD-Title-Of-Blog-Post convention. Also decides the folder hierarchy for pretty permalinks.
+
+**_config defaults** You can set/change defaults for category, layout, author based on type and folder of post/pages.
 
 ### YAML Data For Embed Plugins
 
@@ -65,3 +69,6 @@ Best part of describing content in YAML? It can be edited using GitHub directly.
 Eases pull requests for content, when you are collaborating with the community.
 
 You can view [OpenTheme embed YAML file on GitHub](https://github.com/open-start/opentheme/blob/master/_data/embeds.yml).
+
+This structure can be further "relaxed" by handling default behaviour in the respective views. 
+This way only minimal number values are specified for each document (record).

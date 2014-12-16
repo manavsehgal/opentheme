@@ -49,7 +49,7 @@ This means designing for fewest configuration options, that allow for maximum de
 
 **facebook** - Use facebook plugins. true/false.
 
-**comments** - Switch disqus | facebook | none - comments. facebook = true required for facebook comments.
+**comments** - Switch disqus / facebook / none for comments. facebook = true required for facebook comments.
 
 ### Embeds
 
@@ -59,7 +59,7 @@ This means designing for fewest configuration options, that allow for maximum de
 
 **google_map_zoom** - 1=Global zoom 18=Street Level.
 
-**google_map_view** - hybrid | satellite | roadmap.
+**google_map_view** - hybrid / satellite / roadmap.
 
 **google_map_height** - Default map height. Width adjusts to container.
 
@@ -71,7 +71,7 @@ This means designing for fewest configuration options, that allow for maximum de
 
 **mapbox** - Required for using Open Street Maps with Mapbox.
 
-**facebook_app** - Required for Facebook plugins. Get your app at https://developers.facebook.com/
+**facebook_app** - Required for Facebook plugins. Get your app at [Facebook developers site](https://developers.facebook.com/).
 
 **mailchimp_u** - Mailchimp u=unique identification.
 

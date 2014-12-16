@@ -61,6 +61,7 @@ mapbox: pk.eyJ1Ijoib3BlbnRoZW1lIiwiYSI6ImNIWC1LTUUifQ.vq4k3nfTeTtDAk7eLCrVAw
 facebook_app: 390272554479803 # https://developers.facebook.com/
 mailchimp_u: cf72d9276397b3175b874eb39 # Mailchimp u=unique identification
 mailchimp_id: 3a51637dcc # Mailchip id
+google_analytics_ua: UA-57703915-1
 
 # Build settings
 markdown: kramdown

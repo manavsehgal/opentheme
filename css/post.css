@@ -1,0 +1,13 @@
+
+.post .postbar {
+  margin: 0em;
+  padding: 1rem;
+}
+
+.post .postbar .column {
+  margin-bottom: 1em;
+}
+
+.post .image {
+  margin-bottom: 1em;
+}

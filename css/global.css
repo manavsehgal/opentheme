@@ -102,34 +102,13 @@ html {
 .global .copyright.segment {
   margin: 0em;
 }
-
-/*******************************
-            Home Page
-*******************************/
-
+  
 /*--------------
     Newsletter
 ---------------*/
 
-.home .newsletter.button {
+.global .newsletter.button {
   margin-top: 10px;
-}
-
-/*******************************
-            Post Layout
-*******************************/
-
-.postbar {
-  margin: 0em;
-  padding: 1rem;
-}
-
-.postbar .column {
-  margin-bottom: 1em;
-}
-
-.post .image {
-  margin-bottom: 1em;
 }
 
 
@@ -204,7 +183,7 @@ html {
   }
 
   .global h1 {
-    font-size: 1.5em;
+    font-size: 2em;
   }
   
   .global .overview .divided.grid .header .icon {

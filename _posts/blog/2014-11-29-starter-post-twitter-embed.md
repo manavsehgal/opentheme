@@ -1,4 +1,7 @@
 ---
+layout: post
+author: Manav Sehgal
+category: theme
 title: Starter Post - Twitter Embed
 tags: social embeds
 image: /img/embed/twitter-bird.jpg

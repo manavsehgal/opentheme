@@ -1,4 +1,6 @@
 ---
+layout: post
+author: Manav Sehgal
 title:  "Design Goals for OpenTheme"
 tags: design patterns
 category: strategy

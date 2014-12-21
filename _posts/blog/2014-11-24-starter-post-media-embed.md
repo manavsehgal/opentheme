@@ -1,6 +1,9 @@
 ---
+layout: post
+author: Manav Sehgal
+category: theme
 title:  "Starter Post - Media Embeds"      
-tags: media embeds    
+tags: media embeds
 image: /img/embed/youtube-splash.png
 ---
 

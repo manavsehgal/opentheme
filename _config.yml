@@ -14,28 +14,10 @@ default_image: /img/opentheme-workflow.png
 permalink: pretty
 lsi: true
 
-# Defaults
-
-defaults:
-  -
-    scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
-      author: "Manav Sehgal"
-      category: "theme"
-  -
-    scope:
-      path: ""
-      type: "pages"
-    values:
-      layout: "landing"
-
 # Lists
 tags_limit: 20          # Alphabetical sort
 categories_limit: 20    # Alphabetical sort
-recent_posts_limit: 5   # Chronological sort
+recent_posts_limit: 10   # Chronological sort
 
 # Layout
 pagebar: true

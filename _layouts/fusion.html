@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head prefix="og: http://ogp.me/ns#">
+    {% include head.html %}
+
+  </head>
+
+  <body class="global landing fusion">
+    {% if site.facebook %}
+      {% include fb-setup.html %}
+    {% endif %}
+
+    {% if site.pagebar %}
+    {% include page-bar.html %}
+    <div class="pusher">
+    {% endif %}
+    {% include landing-header.html %}
+    <div class="ui vertical segment">
+      <div class="ui very relaxed stackable page grid">
+        <div class="row">
+          <div class="column">
+            {{ content }}
+          </div>
+        </div>
+      </div>
+    </div>
+        {% include footer.html %}
+    {% if site.pagebar %}
+    </div>
+    {% endif %}
+    
+    {% include js.html %}
+    <script type="text/javascript" src="//www.google.com/jsapi"></script>
+    <script type="text/javascript">google.load('visualization', '1', { packages: ['table', 'corechart'] });</script>
+    <script src="/js/fusion-grid.js"></script>
+
+  </body>
+
+</html>

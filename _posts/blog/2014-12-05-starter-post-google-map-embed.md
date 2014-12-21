@@ -1,4 +1,7 @@
 ---
+layout: post
+author: Manav Sehgal
+category: theme
 title: Starter Post - Google Maps Embed
 tags: maps embeds
 image: /img/embed/map.png

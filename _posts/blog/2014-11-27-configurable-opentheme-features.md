@@ -1,4 +1,7 @@
 ---
+layout: post
+author: Manav Sehgal
+category: theme
 title:  "Configurable OpenTheme Features"
 tags: layout configure
 ---

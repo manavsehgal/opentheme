@@ -1,4 +1,7 @@
 ---
+layout: post
+author: Manav Sehgal
+category: theme
 title: Content Strategy For Startup Websites
 tags: feature content
 image: /img/opentheme-workflow.png

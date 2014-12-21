@@ -1,4 +1,6 @@
 ---
+layout: post
+author: Manav Sehgal
 title:  "How To Design A Blog in Jekyll"
 tags: blog jekyll
 category: design

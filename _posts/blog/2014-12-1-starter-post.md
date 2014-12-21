@@ -1,4 +1,7 @@
 ---
+layout: post
+author: Manav Sehgal
+category: theme
 title:  "Starter Post"              # Title used in HTML Meta, Post Header, Recent Posts list
 tags: blog jekyll                   # Tags to relate multiple topics to a post
 ---

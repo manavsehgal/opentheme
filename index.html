@@ -51,14 +51,14 @@ title: Home
     <div class="fourteen wide column">
       <div class="ui five column center aligned stackable inverted divided grid">
         <div class="column">
-          <div class="ui small orange inverted statistic">
+          <a class="ui small blue inverted statistic" href="/apps/">
             <div class="value">
-              <i class="rocket icon"></i> 90
+              <i class="cube icon"></i> {{ site.categories.app | size  }}
             </div>
             <p class="label">
-              Pagespeed Score
+              Single Page Apps
             </p>
-          </div>
+          </a>
         </div>
         <div class="column">
           <a class="ui small blue inverted statistic pagebar" href="#">
@@ -71,14 +71,14 @@ title: Home
           </a>
         </div>
         <div class="column">
-          <div class="ui small orange inverted statistic">
+          <a class="ui small blue inverted statistic" href="/embeds/">
             <div class=" value">
               <i class="wizard icon"></i> {{ site.data.embeds | size }}
             </div>
             <div class="label">
               Reusable Embeds
             </div>
-          </div>
+          </a>
         </div>
         <div class="column">
           <a class="ui small blue inverted statistic" href="{% post_url /blog/2014-12-15-content-strategy-for-startup-websites %}">
@@ -117,7 +117,7 @@ title: Home
     </div>
     <div class="row">
       <div class="column">
-      {% include embed-cards.html cards=4 %}
+      {% include embed-cards.html cards=3 %}
       </div>
     </div> <!-- /row -->
   </div>

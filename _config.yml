@@ -15,9 +15,11 @@ permalink: pretty
 lsi: true
 
 # Lists
-tags_limit: 20          # Alphabetical sort
-categories_limit: 20    # Alphabetical sort
-recent_posts_limit: 5   # Chronological sort
+tags_limit: 20
+categories_limit: 20
+recent_posts_limit: 10
+recent_apps_limit: 10 
+related_posts_limit: 5
 
 # Layout
 pagebar: true

@@ -32,20 +32,6 @@ title: Home
   </div>
 </div>
 
-<div class="ui inverted purple vertical segment">
-  <div class="ui very relaxed stackable page grid">
-    <div class="row">
-      <div class="eight wide column">
-        {% include feature-post.html %}        
-      </div>
-      <div class="eight wide column">
-        <h3 class="ui inverted header">Get Amazing OpenTheme Updates</h3>
-        {% include embed-mailchimp.html tagline="Subscribe now. We do not spam your inbox." button="Subscribe Now!" %}
-      </div>
-    </div>
-  </div>
-</div>
-
 <div class="ui inverted vertical segment">
   <div class="ui centered page grid">
     <div class="fourteen wide column">
@@ -61,7 +47,7 @@ title: Home
           </a>
         </div>
         <div class="column">
-          <a class="ui small blue inverted statistic pagebar" href="#">
+          <a class="ui small purple inverted statistic pagebar" href="#">
             <div class="value">
               <i class="content icon"></i> {{ site.pages | size  }}
             </div>
@@ -81,7 +67,7 @@ title: Home
           </a>
         </div>
         <div class="column">
-          <a class="ui small blue inverted statistic" href="{% post_url /blog/2014-12-15-content-strategy-for-startup-websites %}">
+          <a class="ui small orange inverted statistic" href="{% post_url /blog/2014-12-15-content-strategy-for-startup-websites %}">
             <div class="text value">
               One Minute
             </div>
@@ -100,6 +86,21 @@ title: Home
             </div>
           </a>
         </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="ui inverted purple vertical segment">
+  <div class="ui very relaxed stackable page grid">
+    <div class="row">
+      <div class="eight wide column">
+        {% include feature-post.html %}        
+      </div>
+      <div class="eight wide column">
+        <h3 class="ui inverted header">Get Amazing OpenTheme Updates</h3>
+        {% include embed-mailchimp.html tagline="Subscribe now. We do not spam your inbox." button="Subscribe Now!" %}
       </div>
     </div>
   </div>

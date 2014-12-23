@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head prefix="og: http://ogp.me/ns#">
+    {% include head.html %}
+    <link rel="stylesheet" type="text/css" href="/css/flexslider/flexslider.css">
+  </head>
+  <body class="global landing">
+    {% if site.facebook %}
+      {% include fb-setup.html %}
+    {% endif %}
+
+    {% if site.pagebar %}
+    {% include page-bar.html %}
+    <div class="pusher">
+    {% endif %}
+      {% include slider-header.html %}
+      {{ content }}
+      {% include footer.html %}
+    {% if site.pagebar %}
+    </div>
+    {% endif %}
+
+    {% include js.html %}
+    <script src="/js/landing.js"></script>
+
+    <!-- Optional FlexSlider Additions -->
+    <script src="/js/flexslider/jquery.flexslider-min.js"></script>
+    <script src="/js/flexslider/jquery.easing.js"></script>
+    <script src="/js/flexslider/jquery.mousewheel.js"></script>
+    <script src="/js/slider.js"></script>
+  </body>
+
+</html>

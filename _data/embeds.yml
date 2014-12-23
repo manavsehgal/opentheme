@@ -87,3 +87,16 @@
   create: http://mailchimp.com/              
   docs: http://mailchimp.com/resources/             
   usecase: http://opentheme.co
+
+- name: FlexSlider
+  about: An awesome, fully responsive jQuery slider toolkit. Custom OpenTheme layout, include, and demo. 
+  group: Media
+  image: /img/embed/flexslider.png
+  icon: play
+  scope: Layout
+  responsive: true
+  jekyll_friendly: true
+  rating: 4
+  create: /apps/              
+  docs: http://www.woothemes.com/flexslider/             
+  usecase: /apps/

@@ -1,23 +1,11 @@
-<div id="slider" class="flexslider" style="margin-bottom:10px">
+<div class="flexslider">
   <ul class="slides">
   {% for post in site.posts limit:site.recent_posts_limit %}
     {% capture first_tag %}{{ post.tags | first }}{% endcapture %}
     {% if first_tag != 'feature' and post.category == 'app' %}
     <li>
-      <a href="{{ post.url }}"><img class="ui rounded image" src="{{ post.image }}"></a>
-      <p class="flex-caption">This image is wrapped in a link.</p>
-    </li>
-    {% endif %}
-  {% endfor %}
-  </ul>
-</div>
-<div id="carousel" class="flexslider">
-  <ul class="slides">
-  {% for post in site.posts limit:site.recent_posts_limit %}
-    {% capture first_tag %}{{ post.tags | first }}{% endcapture %}
-    {% if first_tag != 'feature' and post.category == 'app' %}
-    <li>
-      <img class="ui rounded image thumb-img" src="{{ post.image }}">
+      <a href="{{ post.url }}"><img src="{{ post.image }}"></a>
+      <p class="ui label">{{ post.title }}</p>
     </li>
     {% endif %}
   {% endfor %}

@@ -1,8 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
   <head prefix="og: http://ogp.me/ns#">
-    {% include head.html %}
-    <link rel="stylesheet" type="text/css" href="/css/flexslider/flexslider.css">
+  {% include head.html %}
+  <link rel="stylesheet" type="text/css" href="/css/flexslider/flexslider.css">
+  <!-- Modernizr -->
+  <script src="/js/modernizr.js"></script>
+  
   </head>
   <body class="global landing">
     {% if site.facebook %}
@@ -21,12 +24,17 @@
     {% endif %}
 
     {% include js.html %}
-    <!-- Optional FlexSlider Additions -->
-    <script src="/js/slider.js"></script>
-    <script src="/js/flexslider/jquery.flexslider-min.js"></script>
-    <script src="/js/flexslider/jquery.easing.js"></script>
-    <script src="/js/flexslider/jquery.mousewheel.js"></script>
 
+    <script src="/js/flexslider/jquery.flexslider-min.js"></script>
+    <script type="text/javascript">
+    // Can also be used with $(document).ready()
+    $(window).load(function() {
+      $('.flexslider').flexslider({
+        animation: "slide"
+      });
+    });
+  	</script>
+  
     <script src="/js/landing.js"></script>
   </body>
 

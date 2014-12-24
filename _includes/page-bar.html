@@ -1,7 +1,14 @@
-<div class="ui right vertical labeled icon purple inverted very thin sidebar menu">
+<div class="ui right vertical sidebar menu">
+    <div class="item">
+      <div class="ui transparent mini icon input">
+        <input type="text" placeholder="Search..." class="menu-search">
+        <i class="search link icon"></i>
+      </div>
+    </div>
+
     <a class="item" href="/apps/">
     <i class="cube icon"></i>
-    Apps
+    Apps <span class="ui teal mini label">{{ site.categories.app | size  }}</span>
     </a>
     <a class="item" href="/blog/">
     <i class="comments icon"></i>
@@ -9,7 +16,7 @@
     </a>
     <a class="item" href="/embeds/">
     <i class="wizard icon"></i>
-    Embeds
+    Embeds <span class="ui purple mini label">{{ site.data.embeds | size }}</span>
     </a>
     <a class="item" href="/panoramio/">
     <i class="pin icon"></i>

@@ -1,18 +1,17 @@
 <div class="ui menu">
   <a class="header item" href="/">OpenTheme.co</a>
-  <a class="item {% if page.title == 'Apps' %}active{% endif %}" href="/apps/"><i class="icon cube"></i> Apps</a>
-  <a class="item {% if page.title == 'Blog' %}active{% endif %}" href="/blog/"><i class="icon comments"></i> Blog</a>
-  <a class="item {% if page.title == 'Categories' %}active{% endif %}" href="/category/#theme"><i class="icon flag"></i> Features</a>
   <div class="right menu">
+    <a class="item {% if page.title == 'Apps' %}active{% endif %}" href="/apps/"><i class="icon cube"></i> Apps</a>
+    <a class="item {% if page.title == 'Blog' %}active{% endif %}" href="/blog/"><i class="icon comments"></i> Blog</a>
     <div class="item">
-      <div class="ui transparent icon input">
+      <div class="ui transparent mini icon input">
         <input type="text" placeholder="Search..." class="menu-search">
         <i class="search link icon"></i>
       </div>
     </div>
     {% if site.pagebar %}
       <a class="mobile item pagebar"><i class="icon content"></i></a>
-      <a class="item pagebar"><i class="icon content"></i> Templates</a>
+      <a class="item pagebar"><i class="icon content"></i> More</a>
     {% endif %}
   </div>
 </div>

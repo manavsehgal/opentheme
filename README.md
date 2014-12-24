@@ -6,6 +6,8 @@ View live demo at http://opentheme.co
 
 Collaborate on OpenTheme features and content design workflow at https://trello.com/b/Jm8UFV7p
 
+![alt text](https://travis-ci.org/open-start/opentheme.svg "Travis Build Status")
+
 ## Design Goals
 
 - Follow Jekyll and GitHub Pages best practices

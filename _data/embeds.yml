@@ -113,3 +113,16 @@
   create: https://github.com/carrot/share-button              
   docs: https://github.com/carrot/share-button/wiki/Configuration-Options             
   usecase: /blog/
+
+- name: Google Custom Search
+  about: Google custom search engine enables powerful search features for GitHub Pages websites. 
+  group: Search
+  image: /img/embed/google-cse.png
+  icon: search
+  scope: Site
+  responsive: true
+  jekyll_friendly: true
+  rating: 5
+  create: https://www.google.co.in/cse/all              
+  docs: https://www.google.co.in/cse/docs/all             
+  usecase: "/search/?q=theme"

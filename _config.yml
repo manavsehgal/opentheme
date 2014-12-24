@@ -41,11 +41,12 @@ google_map_height: 450            # Default map height. Width adjusts to contain
 
 # PLEASE DO NOT USE THESE KEYS. Get your own.
 google_api_key: AIzaSyDmt_iRsE8kQ1glUPC2GZpNLBsw1Laj9_0 # https://code.google.com/apis/console/
-mapbox: pk.eyJ1Ijoib3BlbnRoZW1lIiwiYSI6ImNIWC1LTUUifQ.vq4k3nfTeTtDAk7eLCrVAw
+mapbox: "pk.eyJ1Ijoib3BlbnRoZW1lIiwiYSI6ImNIWC1LTUUifQ.vq4k3nfTeTtDAk7eLCrVAw"
 facebook_app: 390272554479803 # https://developers.facebook.com/
 mailchimp_u: cf72d9276397b3175b874eb39 # Mailchimp u=unique identification
 mailchimp_id: 3a51637dcc # Mailchip id
 google_analytics_ua: UA-57703915-1
+google_cse_id: "012558675018178618302:kw1_r8qgyqc"
 
 # Build settings
 markdown: kramdown

@@ -5,6 +5,15 @@ $(document)
           Global
 *******************************/
 
+   $('.menu-search').bind('change', function () {
+        var search_string = $(this).val(); // get value
+        var url = '/search/?q=' + search_string
+        if (url) { // require a URL
+            window.location = url; // redirect
+        }
+        return false;
+    });
+
     $('.sidebar').first()
       .sidebar('attach events', '.pagebar');
     

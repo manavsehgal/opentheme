@@ -1,2 +1,23 @@
 _site/
 .sass-cache/
+
+# Based on https://github.com/mfenner/jekyll-travis/blob/master/.gitignore
+*.gem
+*.rbc
+.bundle
+.config
+coverage
+InstalledFiles
+lib/bundler/man
+pkg
+rdoc
+spec/reports
+test/tmp
+test/version_tmp
+tmp
+vendor
+
+# YARD artifacts
+.yardoc
+_yardoc
+doc/

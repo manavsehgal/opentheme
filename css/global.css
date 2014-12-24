@@ -7,8 +7,12 @@ html {
 }
 
 /*--------------
-    Header
+    Subtle Patterns
 ---------------*/
+.global .escheresque {
+  background-image: url(img/escheresque_ste.png);
+}
+
 .global .grey-wash-wall {
   background-image: url(img/grey_wash_wall.png);
 }
@@ -21,6 +25,9 @@ html {
   background-image: url(img/symphony.png);
 }
 
+/*--------------
+    Header
+---------------*/
 .global .masthead {
   margin: 0em;
   padding: 1rem 0rem;

@@ -24,7 +24,7 @@
             <div class="sixteen wide column">
             {% endif %}
                 {% if page.image %}
-                <img class="ui rounded image" src="{{ page.image }}">
+                <img class="ui rounded image" src="{{ page.image }}" alt="{{ page.title }}">
                 {% endif %}
                 {{ content }}
                 {% include posts-paginator.html %}

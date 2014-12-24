@@ -35,7 +35,7 @@ description: Recent posts listed by category.
               <div class="recent-posts-title">{{ post.title }}</div>
               {% if post.image %}
               <div class="thumb-img">
-                <img class="ui rounded image" src="{{ post.image }}">
+                <img class="ui rounded image" src="{{ post.image }}" alt="{{ post.title }}">
               </div>
               {% else %}
               <small> {{post.excerpt}} </small>

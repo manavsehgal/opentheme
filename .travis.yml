@@ -1,7 +1,7 @@
 language: ruby
 rvm:
 - 2.1
-script: ./script/cibuild
+script: ./script/cibuild.sh
 
 # branch whitelist
 branches:

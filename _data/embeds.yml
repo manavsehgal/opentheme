@@ -100,3 +100,16 @@
   create: /apps/              
   docs: http://www.woothemes.com/flexslider/             
   usecase: /apps/
+
+- name: Carrot Social Button
+  about: Simple, light, flexible, and good-looking share button. 
+  group: Social
+  image: /img/embed/carrot-social.png
+  icon: share
+  scope: Post
+  responsive: true
+  jekyll_friendly: true
+  rating: 4
+  create: https://github.com/carrot/share-button              
+  docs: https://github.com/carrot/share-button/wiki/Configuration-Options             
+  usecase: /blog/

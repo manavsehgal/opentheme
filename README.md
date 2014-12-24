@@ -6,7 +6,7 @@ View live demo at http://opentheme.co
 
 Collaborate on OpenTheme features and content design workflow at https://trello.com/b/Jm8UFV7p
 
-![alt text](https://travis-ci.org/open-start/opentheme.svg "Travis Build Status")
+<a href="https://travis-ci.org/open-start/opentheme"><img src="https://travis-ci.org/open-start/opentheme.svg" alt="Travis Build Status"></a>
 
 ## Design Goals
 

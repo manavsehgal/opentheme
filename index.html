@@ -110,14 +110,25 @@ title: Home
     <div class="row">
       <div class="column">
         <h1 class="center aligned ui header">
-          Reusable Embeds <a href="/embeds/"><small>View All Embeds</small></a>
+          Browse OpenTheme Content
         </h1>
       </div>
     </div>
     <div class="row">
-      <div class="column">
-      {% include embed-cards.html cards=3 %}
+      <div class="eight wide column">
+
+        <h3 class="ui header">Tags</h3>
+          {% include site-tags.html %}
+
       </div>
+
+      <div class="eight wide column">
+
+        <h3 class="ui header">Categories</h3>
+          {% include site-categories.html %}
+
+      </div>
+
     </div> <!-- /row -->
   </div>
 </div>

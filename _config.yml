@@ -1,11 +1,11 @@
 # Site settings
-title: Jekyll Semantic UI Theme for GitHub Pages | OpenTheme.co
-tagline: Create Awesome Websites on GitHub
+title: GitHub Pages Free Theme Using Semantic UI | OpenTheme.co
+tagline: Rapidly Create Awesome Websites on GitHub Pages
 email: sehgal.manav@gmail.com
 copyright: Manav Sehgal
-keywords: theme, github, jekyll, semantic ui
+keywords: free theme, github pages, semantic ui, single page apps
 description: > # this means to ignore newlines until "url:"
-  Starter theme using Semantic UI and Jekyll for creating awesome
+  Powerful theme using Semantic UI for rapidly creating awesome
   websites on GitHub Pages.
 url: "http://opentheme.co" # the base hostname & protocol for your site
 twitter_username: manavsehgal

@@ -9,9 +9,19 @@ html {
 /*--------------
     Header
 ---------------*/
+.global .grey-wash-wall {
+  background-image: url(img/grey_wash_wall.png);
+}
+
+.global .skulls {
+  background-image: url(img/skulls.png);
+}
+
+.global .symphony {
+  background-image: url(img/symphony.png);
+}
 
 .global .masthead {
-  background-image: url(img/skulls.png);
   margin: 0em;
   padding: 1rem 0rem;
 }

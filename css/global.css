@@ -9,6 +9,14 @@ html {
 /*--------------
     Subtle Patterns
 ---------------*/
+.global .dark-wood {
+  background-image: url(img/dark_wood.png);
+}
+
+.global .retina-wood {
+  background-image: url(img/retina_wood.png);
+}
+
 .global .escheresque {
   background-image: url(img/escheresque_ste.png);
 }

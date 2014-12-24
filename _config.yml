@@ -12,21 +12,7 @@ twitter_username: manavsehgal
 github_username:  manavsehgal
 default_image: /img/opentheme-workflow.png
 permalink: pretty
-
-# For Travis
-safe: true
-lsi: false
-pygments: true
-
-exclude:
-  - README.md
-  - Rakefile
-  - Gemfile
-  - Gemfile.lock
-  - changelog.md
-  - "*.Rmd"
-  - vendor
-  - .travis.yml
+lsi: true
 
 # Lists
 tags_limit: 20

@@ -3,7 +3,21 @@
 
   <head prefix="og: http://ogp.me/ns#">
   {% include head.html %}
-  <link rel="stylesheet" type="text/css" href="/css/post.css">
+  <style>
+  .post .postbar {
+    margin: 0em;
+    padding: 1rem;
+  }
+  
+  .post .postbar .column {
+    margin-bottom: 1em;
+  }
+  
+  .post .image {
+    margin-bottom: 1em;
+  }
+
+  </style>
   </head>
   
   <body class="global post">
@@ -52,7 +66,7 @@
 
     {% include js.html %}
     <script src="/js/carrot/share.min.js"></script>
-
+    
     <script>
     $(document).ready(function() {
     

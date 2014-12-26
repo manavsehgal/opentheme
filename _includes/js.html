@@ -1,7 +1,9 @@
 {% include embed-google-analytics.html %}
 
+<!-- Cannot make async calls for jQuery or Semantic. Breaks Cards, Page Bar, others. -->
 <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.js"></script>
 <script src="/js/semantic.min.js"></script>
+
 <script>
 $(document)
   .ready(function() {

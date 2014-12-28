@@ -1,48 +1,56 @@
-<!-- Standard Meta -->
-<meta charset="utf-8" />
-<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+  <head prefix="og: http://ogp.me/ns#">
 
-<!-- Site Properities -->
-{% if page.title == "Home" %}
-  {% capture title_tag %}{{ site.tagline }}{% endcapture %}
-{% else %}
-  {% capture title_tag %}{{ page.title }}{% endcapture %}
-{% endif %}
-
-<title>{{ title_tag }} &middot; {{ site.title }}</title>
-<link rel="canonical" href="{{ page.url | prepend: site.url }}">
-
-<!-- Open Graph. Refer https://developers.facebook.com/docs/web/tutorials/scrumptious/open-graph-object -->
-{% if site.facebook %}
-<meta property="fb:app_id" content="{{ site.facebook_app }}">
-{% endif %}
-
-<meta property="og:locale" content="en_US">
-<meta property="og:url" content="{{ page.url | prepend: site.url }}">
-<meta property="og:title" content="{{ title_tag }}">
-<meta property="og:site_name" content="{{ site.title }}">
-<meta property="og:description" content="{% if page.layout != 'post' %}{{ site.description | strip_newlines }}{% else %}{{ page.excerpt | strip_html | strip_newlines }}{% endif %}">
-<meta property="og:image" content="{% if page.image %}{{ page.image | prepend: site.url }}{% else %}{{ site.default_image | prepend: site.url }}{% endif %}">
-<meta property="og:image:width" content="640">
-<meta property="og:image:height" content="300">
-
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:site" content="@open_theme">
-<meta name="twitter:creator" content="@{{ site.twitter_username }}">
-
-{% if page.layout == 'post' %}
-<meta property="og:type" content="article" />
-{% else %}
-<meta property="og:type" content="website" />
-{% endif %}
-
-<meta name="description" content="{% if page.layout != 'post' %}{{ site.description | strip_newlines }}{% else %}{{ page.excerpt | strip_html | strip_newlines }}{% endif %}">
-<meta name="keywords" content="{% if page.layout != 'post' %}{{ site.keywords }}{% else %}{{ page.tags | join: ', ' }}, {{ page.categories | join: ', ' }}{% endif %}">
-
-<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
-<link rel="icon" href="/favicon.ico" type="image/x-icon">
-
-<!-- Common Styles -->
-<link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.4.1/semantic.min.css">
-<link rel="stylesheet" type="text/css" href="/css/global.css">
+  <!-- Standard Meta -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+  
+  <!-- Site Properities -->
+  {% if page.title == "Home" %}
+    {% capture title_tag %}{{ site.tagline }}{% endcapture %}
+  {% else %}
+    {% capture title_tag %}{{ page.title }}{% endcapture %}
+  {% endif %}
+  
+  <title>{{ title_tag }} &middot; {{ site.title }}</title>
+  <link rel="canonical" href="{{ page.url | prepend: site.url }}">
+  
+  <!-- Open Graph. Refer https://developers.facebook.com/docs/web/tutorials/scrumptious/open-graph-object -->
+  {% if site.facebook %}
+  <meta property="fb:app_id" content="{{ site.facebook_app }}">
+  {% endif %}
+  
+  <meta property="og:locale" content="en_US">
+  <meta property="og:url" content="{{ page.url | prepend: site.url }}">
+  <meta property="og:title" content="{{ title_tag }}">
+  <meta property="og:site_name" content="{{ site.title }}">
+  <meta property="og:description" content="{% if page.layout != 'post' %}{{ site.description | strip_newlines }}{% else %}{{ page.excerpt | strip_html | strip_newlines }}{% endif %}">
+  <meta property="og:image" content="{% if page.image %}{{ page.image | prepend: site.url }}{% else %}{{ site.default_image | prepend: site.url }}{% endif %}">
+  <meta property="og:image:width" content="640">
+  <meta property="og:image:height" content="300">
+  
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@open_theme">
+  <meta name="twitter:creator" content="@{{ site.twitter_username }}">
+  
+  {% if page.layout == 'post' %}
+  <meta property="og:type" content="article" />
+  {% else %}
+  <meta property="og:type" content="website" />
+  {% endif %}
+  
+  <meta name="description" content="{% if page.layout != 'post' %}{{ site.description | strip_newlines }}{% else %}{{ page.excerpt | strip_html | strip_newlines }}{% endif %}">
+  <meta name="keywords" content="{% if page.layout != 'post' %}{{ site.keywords }}{% else %}{{ page.tags | join: ', ' }}, {{ page.categories | join: ', ' }}{% endif %}">
+  
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  
+  <link rel="stylesheet" href="/css/normalize.min.css">
+  <!-- Common Styles -->
+  <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.4.1/semantic.min.css">
+  <link rel="stylesheet" type="text/css" href="/css/global.css">

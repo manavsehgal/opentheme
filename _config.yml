@@ -1,57 +1,76 @@
 # Site settings
+
 title: GitHub Pages Free Theme Using Semantic UI | OpenTheme.co
 tagline: Rapidly Create Awesome Websites on GitHub Pages
 email: sehgal.manav@gmail.com
 copyright: Manav Sehgal
 keywords: free theme, github pages, semantic ui, single page apps
-description: > # this means to ignore newlines until "url:"
+
+description: > # this means to ignore newlines until "url:". One indent required.
   Powerful theme using Semantic UI for rapidly creating awesome
   websites on GitHub Pages.
-url: "http://opentheme.co" # the base hostname & protocol for your site
+
+# the base hostname & protocol for your site
+url: "http://opentheme.co"
+
 twitter_username: manavsehgal
 github_username:  manavsehgal
+
 default_image: /img/opentheme-workflow.png
-permalink: pretty
-lsi: true
 
-# For Travis
-exclude: [vendor]
+# SEO and Related Content
 
+permalink: pretty # YYYY/MM/DD/page-title/index.html
+lsi: true # Lexical analysis (true) takes longer for higher quality
+
+# Exclude from Jekyll processing
+
+exclude: [vendor, README.md, Rakefile, node_modules]
 
 # Lists
+
 tags_limit: 20
 categories_limit: 20
+
 recent_posts_limit: 10
 recent_apps_limit: 10 
 related_posts_limit: 5
 
 # Layout
+
 pagebar: true
 postbar: true
 
 # Features
+
 reading_time: true    # Show est. reading time for posts
 facebook: false        # Use facebook features
 comments: disqus      # Switch disqus | facebook | none - comments. facebook = true required for facebook comments
 
 # Embeds
+
 disqus_name: opentheme            # Your site name at Disqus
+
 youtube_controls: 0               # Turn on=1/off=0 Youtube player features when embedding videos
+
 google_map_zoom: 18               # 1=Global zoom 18=Street Level
 google_map_view: satellite        # hybrid | satellite | roadmap
 google_map_height: 450            # Default map height. Width adjusts to container.
 
-# API Keys
+# API Keys. PLEASE DO NOT USE THESE KEYS. Get your own at links in comments.
 
-# PLEASE DO NOT USE THESE KEYS. Get your own.
 google_api_key: AIzaSyDmt_iRsE8kQ1glUPC2GZpNLBsw1Laj9_0 # https://code.google.com/apis/console/
+google_analytics_ua: UA-57703915-1 # Google Analytics site specific id
+google_cse_id: "012558675018178618302:kw1_r8qgyqc" # Google Custom Search Engine unique id
+
 mapbox: "pk.eyJ1Ijoib3BlbnRoZW1lIiwiYSI6ImNIWC1LTUUifQ.vq4k3nfTeTtDAk7eLCrVAw"
+
 facebook_app: 390272554479803 # https://developers.facebook.com/
+
 mailchimp_u: cf72d9276397b3175b874eb39 # Mailchimp u=unique identification
 mailchimp_id: 3a51637dcc # Mailchip id
-google_analytics_ua: UA-57703915-1
-google_cse_id: "012558675018178618302:kw1_r8qgyqc"
 
 # Build settings
+
 markdown: kramdown
 

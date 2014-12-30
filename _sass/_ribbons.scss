@@ -1,0 +1,34 @@
+/*--------------
+    Ribbons
+---------------*/
+
+.global .segment h1 {
+  font-size: 2em;
+  margin-bottom: 1em;
+}
+
+.global .vertical.segment {
+  padding: 3rem 0rem;
+}
+
+.global .feature.segment {
+  margin: 0em;
+  padding: 3rem 0rem;
+}
+.global .feature.segment p {
+  min-height: 50px;
+}
+
+.global .selection.list {
+  margin: 0em -0.5em;
+}
+
+
+.special.cards .image {
+  overflow: hidden;
+  height: 135px;
+}
+
+.special.cards .description {
+  min-height: 100px;
+}

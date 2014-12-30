@@ -18,10 +18,12 @@ github_username:  manavsehgal
 
 default_image: /img/opentheme-workflow.png
 
-# SEO and Related Content
+# Pre-processing
 
 permalink: pretty # YYYY/MM/DD/page-title/index.html
 lsi: true # Lexical analysis (true) takes longer for higher quality
+sass:
+    style: :compressed
 
 # Exclude from Jekyll processing
 

@@ -1,0 +1,49 @@
+/*******************************
+          Responsive
+*******************************/
+
+/* Mobile Only */
+@media only screen and (max-width : 768px) {
+
+  .global .menu .right.menu > .item {
+    display: none;
+  }
+
+  .global .menu .right.menu > .mobile.item {
+    display: block;
+  }
+  
+  .global .menu .right.menu > .mobile.item .menu {
+    left: auto;
+    right: 0em;
+  }
+
+  .global .selection.list .right.floated {
+    display: none;
+  }
+
+  .global h1 {
+    font-size: 2em;
+  }
+  
+  .global .overview .divided.grid .header .icon {
+    font-size: 1.5em;
+  }
+
+  .global .overview .divided.grid .header + p {
+    min-height: 0px;
+  }
+
+  .global .masthead.segment .button {
+    font-size: 1rem;
+  }
+
+  .global .masthead.segment .column {
+    font-size: 0.7rem;
+  }
+
+  .global .masthead.segment .column p {
+    display: none;
+  }
+
+}

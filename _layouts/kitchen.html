@@ -1,0 +1,65 @@
+  {% include head.html %}
+    <style>
+      .demo.container {
+        width: 90%;
+        margin: 10px auto;
+      }
+      
+      .global .example {
+        padding: 2em 0em;
+        margin: 2em 0em;
+      }
+      
+      .global .button.demo > .buttons,
+      .global .button.demo > .button,
+      .global .button.demo > .segment > .button {
+        margin-bottom: 0.5em;
+      }
+      .global h4:first-child {
+        font-weight: bold !important;
+        margin: 0em 0em 1em !important;
+      }
+      .global .example:first-child {
+        margin-top: 0;
+        padding-top: 0;
+      }
+      .global .segment.example {
+        z-index: 1;
+      }
+
+      /* [Hack] for Kitchen Sink. Needs to be done in Semantic UI Grid or take care of all resolutions. */
+      @media only screen and (min-width : 950px) {
+        .demo.container {
+          width: 950px;
+        }
+        
+      }
+
+    </style>
+
+  </head>
+  <body class="global landing">
+    <!--[if lt IE 7]>
+        <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+    {% if site.facebook %}
+      {% include fb-setup.html %}
+    {% endif %}
+
+    {% if site.pagebar %}
+    {% include page-bar.html %}
+    <div class="pusher">
+    {% endif %}
+        {% include landing-header.html %}
+        {{ content }}
+        {% include footer.html %}
+    {% if site.pagebar %}
+    </div>
+    {% endif %}
+
+    {% include js.html %}
+    {% include embed-google-analytics.html %}
+  </body>
+
+</html>

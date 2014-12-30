@@ -1,6 +1,6 @@
 # OpenTheme
 
-Powerful theme using Semantic UI for rapidly creating awesome websites on GitHub Pages.
+Powerful Theme for Websites and Single Page Apps on GitHub Pages.
 
 View live demo and docs at http://opentheme.co 
 

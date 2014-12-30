@@ -1,14 +1,14 @@
 # Site settings
 
-title: GitHub Pages Free Theme Using Semantic UI | OpenTheme.co
-tagline: Rapidly Create Awesome Websites on GitHub Pages
+title: Powerful Theme for Websites and Single Page Apps on GitHub Pages | OpenTheme.co
+tagline: Rapidly Create Awesome Websites and Single Page Apps
 email: sehgal.manav@gmail.com
 copyright: Manav Sehgal
 keywords: free theme, github pages, semantic ui, single page apps
 
 description: > # this means to ignore newlines until "url:". One indent required.
   Powerful theme using Semantic UI for rapidly creating awesome
-  websites on GitHub Pages.
+  websites and single page apps on GitHub Pages.
 
 # the base hostname & protocol for your site
 url: "http://opentheme.co"
@@ -53,7 +53,7 @@ disqus_name: opentheme            # Your site name at Disqus
 
 youtube_controls: 0               # Turn on=1/off=0 Youtube player features when embedding videos
 
-google_map_zoom: 18               # 1=Global zoom 18=Street Level
+google_map_zoom: 16               # 1=Global zoom 18=Street Level
 google_map_view: satellite        # hybrid | satellite | roadmap
 google_map_height: 450            # Default map height. Width adjusts to container.
 

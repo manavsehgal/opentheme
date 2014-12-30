@@ -1,8 +1,8 @@
 # OpenTheme
 
-An open source theme using Jekyll and Semantic UI for creating awesome websites on GitHub.
+Powerful theme using Semantic UI for rapidly creating awesome websites on GitHub Pages.
 
-View live demo at http://opentheme.co 
+View live demo and docs at http://opentheme.co 
 
 Collaborate on OpenTheme features and content design workflow at https://trello.com/b/Jm8UFV7p
 
@@ -15,21 +15,24 @@ Collaborate on OpenTheme features and content design workflow at https://trello.
 - Feature coverage for marketing, blogging, projects/portfolio scenarios
 - Easy to fork and reuse for creating GitHub Pages
 
-## Customizing Semantic UI
-
-Following Semantic UI customizations are active in current release of OpenTheme.
-
-- Raised theme for Buttons
- 
 ## File Structure
 
-### Folders
+### Folders Pre-processed by GitHub Pages / Jekyll
 
 - **_includes** html partials reusable in layouts.
 - **_layouts** html layouts reusable in pages. 
+- **_posts** Post types organized by folder. **apps** contains single page apps. **blog** contains blog posts.
+- **_data** Static data files including YAML Front Matter, CSV, JSON formats usable by GitHub Pages sites.
+
+### Asset Folders
+
 - **js** add site specific JavaScript to custom.js. Vendor libraries are added as minified where available.
 - **css** add site specific CSS to custom.css. Vendor libraries are added as minified where available. Contains folders for assets referenced by custom or vendor css.
 - **img** image assets.
+
+### Development Automation
+
+- **script** Automation shell scripts for development, testing. [TO DO] Replace with Gulp pipeline automation, E2E, Lint tests.
 
 ### Files
 
@@ -37,7 +40,7 @@ Following Semantic UI customizations are active in current release of OpenTheme.
 
 ## Dependencies
 
-- Semantic UI 1.0.0
+- Semantic UI
 - Jekyll
 
 ## Reference Projects

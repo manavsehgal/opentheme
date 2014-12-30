@@ -1,0 +1,9 @@
+{
+  "name": "opentheme",
+  "description": "Powerful Theme for Websites and Single Page Apps on GitHub Pages",
+  "version": "0.0.0",
+  "homepage": "https://github.com/open-start/opentheme",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {}
+}

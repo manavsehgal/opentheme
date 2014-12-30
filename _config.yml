@@ -4,7 +4,7 @@ title: Powerful Theme for Websites and Single Page Apps on GitHub Pages | OpenTh
 tagline: Rapidly Create Awesome Websites and Single Page Apps
 email: sehgal.manav@gmail.com
 copyright: Manav Sehgal
-keywords: free theme, github pages, semantic ui, single page apps
+keywords: open theme, github pages, semantic ui, single page apps
 
 description: > # this means to ignore newlines until "url:". One indent required.
   Powerful theme using Semantic UI for rapidly creating awesome
@@ -20,10 +20,11 @@ default_image: /img/opentheme-workflow.png
 
 # Pre-processing
 
+markdown: kramdown
 permalink: pretty # YYYY/MM/DD/page-title/index.html
 lsi: true # Lexical analysis (true) takes longer for higher quality
 sass:
-    style: :compressed
+  style: :compressed  # Generate minified css
 
 # Exclude from Jekyll processing
 
@@ -40,8 +41,8 @@ related_posts_limit: 5
 
 # Layout
 
-pagebar: true
-postbar: true
+pagebar: true # Show (true) page sidebar menu or hide (false) 
+postbar: true # Show (true) post sidebar or hide (false) 
 
 # Features
 
@@ -71,8 +72,3 @@ facebook_app: 390272554479803 # https://developers.facebook.com/
 
 mailchimp_u: cf72d9276397b3175b874eb39 # Mailchimp u=unique identification
 mailchimp_id: 3a51637dcc # Mailchip id
-
-# Build settings
-
-markdown: kramdown
-

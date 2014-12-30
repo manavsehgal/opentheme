@@ -7,7 +7,7 @@ View live demo and docs at http://opentheme.co
 Collaborate on OpenTheme features and content design workflow at https://trello.com/b/Jm8UFV7p
 
 <a href="https://travis-ci.org/open-start/opentheme"><img src="https://travis-ci.org/open-start/opentheme.svg" alt="Travis Build Status"></a>
-<a href="https://codeclimate.com/github/open-start/opentheme"><img src="https://codeclimate.com/github/open-start/opentheme/badges/gpa.svg" /></a>
+<!-- <a href="https://codeclimate.com/github/open-start/opentheme"><img src="https://codeclimate.com/github/open-start/opentheme/badges/gpa.svg" /></a> -->
 
 ## Design Goals
 

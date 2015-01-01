@@ -28,7 +28,7 @@ sass:
 
 # Exclude from Jekyll processing
 
-exclude: [vendor, README.md, Rakefile, node_modules]
+exclude: [vendor, README.md]
 
 # Lists
 

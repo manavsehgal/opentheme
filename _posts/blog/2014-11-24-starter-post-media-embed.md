@@ -19,11 +19,10 @@ To embed a YouTube video you just need to copy the unique video id at the end of
 
 Just add the following embed code.
 
+{% highlight liquid %}
 {% raw  %}
-```
-{% include embed-youtube.html video="eRsGyueVLvQ" %}
-```
+  {% include embed-youtube.html video="eRsGyueVLvQ" %}
 {% endraw %}
-
+{% endhighlight %}
 
 OpenTheme takes care of the rest for you including embed code, and width sizing based on theme configuration.

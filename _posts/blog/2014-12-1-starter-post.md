@@ -20,9 +20,15 @@ Dividers can separate sections with three dashes or minus symbols. Not to be con
 
 Code blocks can be fenced with three back-apostrophe characters like so.
 
-```
-var some_variable = true;
-```
+{% highlight javascript linenos %}
+{% raw  %}
+  var some_variable = "Hello";
+  if (some_variable == "Hello") {
+    // Do something...
+  }
+{% endraw  %}
+{% endhighlight %}
+
 
 Text formatting can include **bold text**, and *emphasized text*.
 

@@ -21,6 +21,7 @@ default_image: /img/opentheme-workflow.png
 # Pre-processing
 
 markdown: kramdown
+highlighter: pygments
 permalink: pretty # YYYY/MM/DD/page-title/index.html
 lsi: true # Lexical analysis (true) takes longer for higher quality
 sass:

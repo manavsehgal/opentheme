@@ -27,6 +27,14 @@ The data behind these embed is editable directly as a [GitHub YAML Frontmatter d
 
 {% include embed-cards.html cards=1 %}
 
+This is the code used in post to add the above card.
+
+{% highlight liquid %}
+{% raw  %}
+  {% include embed-cards.html cards=1 %}
+{% endraw %}
+{% endhighlight %}
+
 Adding a new card view with data from more than 10 structured key-value pairs is as easy as editing an outline-like text document.
 
 GitHub Pages (Jekyll pre-processor) along with Semantic UI, take care of the front-end rendering auto-magically!

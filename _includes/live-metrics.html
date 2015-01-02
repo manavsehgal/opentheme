@@ -1,0 +1,36 @@
+{% case include.evaluate %}
+
+{% when 'Reusable Plugins' %}
+  <a class="ui small blue statistic" href="{{ include.source }}">
+    <div class="value">
+      <i class="wizard icon"></i> {{ site.data.embeds | size }}
+    </div>
+    <div class="label">
+      {{ include.evaluate }}
+    </div>
+  </a>
+
+{% when 'Single Page Apps' %}
+  <a class="ui small blue statistic" href="{{ include.source }}">
+    <div class="value">
+      <i class="cube icon"></i> {{ site.categories.app | size  }}
+    </div>
+    <p class="label">
+      {{ include.evaluate }}
+    </p>
+  </a>
+
+{% when 'Templates' %}
+  <a class="ui small purple statistic pagebar" href="{{ include.source }}">
+    <div class="value">
+      <i class="content icon"></i> {{ site.pages | size  }}
+    </div>
+    <div class="label">
+      {{ include.evaluate }}
+    </div>
+  </a>
+
+{% else %}
+
+{% endcase %}
+

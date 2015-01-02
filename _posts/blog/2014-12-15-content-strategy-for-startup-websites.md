@@ -89,9 +89,9 @@ OpenTheme uses one simple YAML data file to describe Embed plugins with 12 disti
 
 Semantic UI Cards are used to represent a compact, snackable view of each embed.
 
-{% include embed-cards.html cards=2 %}
+{% include embed-cards.html cards=1 %}
 
-Here is an example of first two cards displayed using following embed code.
+Here is an example of a card displayed using following embed code.
 
 {% highlight liquid %}
 {% raw  %}
@@ -99,7 +99,7 @@ Here is an example of first two cards displayed using following embed code.
   {% include embed-cards.html %}
 
   # Include cards specifying count of cards
-  {% include embed-cards.html cards=2 %}
+  {% include embed-cards.html cards=1 %}
 {% endraw %}
 {% endhighlight %}
 

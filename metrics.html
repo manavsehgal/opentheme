@@ -1,0 +1,56 @@
+---
+layout: landing
+title: Metrics
+description: Measuring OpenTheme Across Usability, Reusability, Performance.
+---
+
+<div class="ui vertical segment">
+  <div class="ui centered page grid">
+    <div class="row">
+      <div class="column">
+
+        <table class="ui celled striped table">
+          <thead>
+            <tr>
+              <th colspan="3">
+              OpenTheme Metrics
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            {% for metric in site.data.metrics %}
+            <tr>
+              <td>
+                <h4>{{ metric.category }}</h4>
+              </td>
+              <td>
+                {{ metric.title }}
+                {% unless metric.live %}
+                  {% include render-metrics.html current=metric.current evaluate=metric.evaluate type=metric.type %}
+                {% endunless %}
+              </td>
+              <td class="right aligned collapsing">
+                {% if metric.live %}
+                  {% include live-metrics.html evaluate=metric.evaluate source=metric.source %}
+                {% else %}
+                  <a class="ui small teal statistic" href="{{ metric.source }}">
+                    <div class="value">
+                      {{ metric.current }}
+                    </div>
+                    <div class="label">
+                      {{ metric.evaluate }}
+                    </div>
+                  </a>
+                {% endif %}
+              </td>
+            </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+
+      </div>
+
+    </div> <!-- /row -->
+  </div>
+</div>
+

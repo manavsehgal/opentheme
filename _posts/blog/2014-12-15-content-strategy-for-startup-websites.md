@@ -62,11 +62,12 @@ Semantic UI Cards are used to represent a compact, snackable view of each embed.
 
 Here is an example of first card displayed using following embed code.
 
-{% raw %}
-```
-{% include embed-cards.html cards=1 %}
-```
+{% highlight liquid %}
+{% raw  %}
+  {% include embed-cards.html cards=1 %}
 {% endraw %}
+{% endhighlight %}
+
 
 Best part of describing content in YAML? It can be edited using GitHub directly.
 Eases pull requests for content, when you are collaborating with the community.

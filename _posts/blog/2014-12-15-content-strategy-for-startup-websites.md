@@ -56,11 +56,42 @@ You can add following features by adding *name: value* pairs in the front of pos
 ### YAML Data For Embed Plugins
 
 OpenTheme uses one simple YAML data file to describe Embed plugins with 12 distinct structured attributes.
+
+{% highlight yaml %}
+{% raw  %}
+  # Official name of embed
+- name: Embedded Tweets
+  # Description of embed
+  about: An Embedded Tweet...
+  # Social, News, Doc, RSS, Video, Photo...
+  group: Social    
+  # Image used in card view
+  image: /img/embed/twitter-bird.jpg
+  # Icon used in table view.
+  icon: twitter            
+  # Site, Layout, Post configurable.
+  scope: None     
+  # true/false = Is the embed UI responsive
+  responsive: true
+  # Does the embed work well on Github Pages
+  jekyll_friendly: true
+  # Rating based on popularity, features
+  rating: 3                 
+  # Link to to create embed
+  create: https://twitter.com/              
+  # Link to embed docs
+  docs: https://dev.twitter.com/web/               
+  # URL to usecase
+  usecase: /theme/2014/11/29/starter-post/
+{% endraw %}
+{% endhighlight %}
+  
+
 Semantic UI Cards are used to represent a compact, snackable view of each embed.
 
 {% include embed-cards.html cards=2 %}
 
-Here is an example of first card displayed using following embed code.
+Here is an example of first two cards displayed using following embed code.
 
 {% highlight liquid %}
 {% raw  %}

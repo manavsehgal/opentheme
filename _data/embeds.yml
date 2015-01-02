@@ -47,7 +47,7 @@
   rating: 5
   create: https://www.youtube.com/              
   docs: https://support.google.com/youtube/answer/171780?hl=en               
-  usecase: /theme/2014/12/15/starter-post-media-embed/
+  usecase: /theme/2014/11/24/starter-post-media-embed/
 
 - name: Google Map
   about: You can embed Google maps using custom embed created for OpenTheme. Just provide location.

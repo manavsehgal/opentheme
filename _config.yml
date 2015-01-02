@@ -1,14 +1,13 @@
 # Site settings
 
 title: Powerful Theme for GitHub Pages | OpenTheme.co
-tagline: Rapidly Create Awesome Websites and Single Page Apps
+tagline: Awesome Websites and Hybrid Apps. Speedily!
 email: sehgal.manav@gmail.com
 copyright: Manav Sehgal
 keywords: open theme, github pages, semantic ui, single page apps
 
 description: > # this means to ignore newlines until "url:". One indent required.
-  Powerful theme using Semantic UI for rapidly creating awesome
-  websites and single page apps on GitHub Pages.
+  Powerful theme for speedily creating awesome websites and mobile-hybrid apps on GitHub Pages.
 
 # the base hostname & protocol for your site
 url: "http://opentheme.co"

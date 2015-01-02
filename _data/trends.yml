@@ -6,9 +6,9 @@
   demo: "https://developers.google.com/speed/pagespeed/insights/?url=opentheme.co&tab=desktop" # Link at opentheme
   wordpress: true # true/false implements
   octopress: true # true/false implements
-  metric: 
-  value: 
-  value_date: 2015-01-02 00:00:00
+  metric: null
+  value: null
+  value_date: null
 
 - trend: Enable compression
   category: Performance

@@ -24,7 +24,7 @@
   usecase: /theme/2014/11/29/starter-post-twitter-embed/
   
 - name: Disqus Social
-  about: If you’re passionate about writing and sharing, Disqus helps you build a community of active readers and commenters.
+  about: If you’re passionate about writing and sharing, Disqus helps you build an active community.
   group: Social
   image: /img/embed/disqus-splash.png
   icon: share alternate square
@@ -63,7 +63,7 @@
   usecase: /theme/2014/12/05/starter-post-google-map-embed/
 
 - name: Panoramio Maps
-  about: Add geo-tagged photo search to maps, along with autocomplete places search. 
+  about: Add geo-tagged photo search to maps, along with autocomplete places search. Reusable layout.
   group: Map
   image: /img/embed/panoramio.png
   icon: pin

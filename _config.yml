@@ -32,12 +32,9 @@ exclude: [vendor, README.md]
 
 # Lists
 
-tags_limit: 20
-categories_limit: 20
-
-recent_posts_limit: 10
-recent_apps_limit: 10 
-related_posts_limit: 5
+tag_items: 20     # Applies to categories and tags lists
+recent_items: 10  # Applies to recent posts, apps lists
+related_items: 5  # Applies to related posts and apps lists
 
 # Layout
 

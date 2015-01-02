@@ -1,5 +1,5 @@
 <div class="ui inverted animated selection list">
-  {% for post in site.related_posts limit:site.related_posts_limit %}
+  {% for post in site.related_posts limit:site.related_items %}
   {% if page.title != post.title %}
     {% if post.category %}<a class="ui ribbon small label"  href="/category/#{{ post.category }}">{{ post.category }}</a>{% endif %}
     <a class="item" href="{{ post.url }}">

@@ -58,13 +58,17 @@ You can add following features by adding *name: value* pairs in the front of pos
 OpenTheme uses one simple YAML data file to describe Embed plugins with 12 distinct structured attributes.
 Semantic UI Cards are used to represent a compact, snackable view of each embed.
 
-{% include embed-cards.html cards=1 %}
+{% include embed-cards.html cards=2 %}
 
 Here is an example of first card displayed using following embed code.
 
 {% highlight liquid %}
 {% raw  %}
-  {% include embed-cards.html cards=1 %}
+  # Include cards based on site.recent_items default
+  {% include embed-cards.html %}
+
+  # Include cards specifying count of cards
+  {% include embed-cards.html cards=2 %}
 {% endraw %}
 {% endhighlight %}
 

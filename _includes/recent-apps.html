@@ -1,6 +1,6 @@
 <div class="flexslider">
   <ul class="slides">
-  {% for post in site.posts limit:site.recent_apps_limit %}
+  {% for post in site.posts limit:site.recent_items %}
     {% capture first_tag %}{{ post.tags | first }}{% endcapture %}
     {% if first_tag != 'feature' and post.category == 'app' %}
     <li>

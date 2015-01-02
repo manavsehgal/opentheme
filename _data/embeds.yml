@@ -22,6 +22,19 @@
   docs: https://dev.twitter.com/web/embedded-tweets               
   # URL to usecase
   usecase: /theme/2014/11/29/starter-post-twitter-embed/
+
+- name: AddThis Social Buttons
+  about: Social sharing buttons from AddThis service. Fast, configurable, responsive social sharing buttons.
+  group: Social
+  image: /img/embed/addthis.png
+  icon: facebook
+  scope: Site
+  responsive: true
+  jekyll_friendly: true
+  rating: 5
+  create: https://www.addthis.com/dashboard              
+  docs: https://www.addthis.com/blog              
+  usecase: /theme/2014/12/1/starter-post/
   
 - name: Disqus Social
   about: If you’re passionate about writing and sharing, Disqus helps you build an active community.

@@ -70,4 +70,4 @@ facebook_app: "390272554479803" # https://developers.facebook.com/
 mailchimp_u: "cf72d9276397b3175b874eb39" # Mailchimp u=unique identification
 mailchimp_id: "3a51637dcc" # Mailchip id
 
-addthis_pubid: "ra-54a66cfa35915034"
+addthis_pubid: "ra-54a66cfa35915034" # Get your pubid at https://www.addthis.com/dashboard

@@ -1,9 +1,9 @@
 <div class="ui menu">
   <a class="header item" href="/">OpenTheme</a>
+  <a class="item {% if page.title == 'Blog' %}active{% endif %}" href="/blog/" alt="Blog"><i class="icon comments"></i></a>
+  <a class="item {% if page.title == 'Apps' %}active{% endif %}" href="/apps/" alt="Apps"><i class="icon cube"></i></a>
+  <a class="item {% if page.title == 'Embeds' %}active{% endif %}" href="/embeds/" alt="Plugins"><i class="wizard icon"></i></a>
   <div class="right menu">
-    <a class="item {% if page.title == 'Blog' %}active{% endif %}" href="/blog/"><i class="icon comments"></i></a>
-    <a class="item {% if page.title == 'Apps' %}active{% endif %}" href="/apps/"><i class="icon cube"></i></a>
-    <a class="item {% if page.title == 'Embeds' %}active{% endif %}" href="/embeds/"><i class="wizard icon"></i> Plugins</a>
     <div class="item">
       <div class="ui transparent mini icon input">
         <input type="text" placeholder="Search..." class="menu-search">

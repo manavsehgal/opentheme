@@ -13,7 +13,7 @@ description: Measuring OpenTheme Across Usability, Reusability, Performance.
         <div class="ui form">
           <div class="field">
             <div class="ui right action input fluid">
-              <input type="text" placeholder="Start typing to filter metrics" class="search">
+              <input type="text" placeholder="Filter metrics" class="search">
               <div class="ui right teal mini labeled icon button sort" data-sort="category">
                 <i class="sort icon"></i>
                 Sort Category
@@ -29,24 +29,28 @@ description: Measuring OpenTheme Across Usability, Reusability, Performance.
     <div class="row">
       <div class="column">
 
-        <div class="ui fluid five item labeled icon menu">
-          <a class="item active" id="filter-all">
+        <div class="ui fluid six item labeled icon menu">
+          <a class="item active filter-all">
             <i class="tasks icon"></i>
             All Metrics
           </a>
-          <a class="item" id="filter-learnability">
+          <a class="item filter-reusability">
+            <i class="retweet icon"></i>
+            Reusability
+          </a>
+          <a class="item filter-learnability">
             <i class="student icon"></i>
             Learnability
           </a>
-          <a class="item" id="filter-usability">
+          <a class="item filter-usability">
             <i class="lab icon"></i>
             Usability
           </a>
-          <a class="item" id="filter-performance">
+          <a class="item filter-performance">
             <i class="star icon"></i>
             Performance
           </a>
-          <a class="item" id="filter-reliability">
+          <a class="item filter-reliability">
             <i class="life ring icon"></i>
             Reliability
           </a>
@@ -58,7 +62,7 @@ description: Measuring OpenTheme Across Usability, Reusability, Performance.
     <div class="row">
       <div class="column">
 
-        <table class="ui celled striped table">
+        <table class="ui striped table">
           <thead>
             <tr>
               <th colspan="3">
@@ -69,7 +73,7 @@ description: Measuring OpenTheme Across Usability, Reusability, Performance.
           <tbody class="list">
             {% for metric in site.data.metrics %}
             <tr>
-              <td class="category">{{ metric.category }}</td>
+              <td><a class="ui label huge category filter-{{ metric.category | downcase }}">{{ metric.category }}</a></td>
               <td class="title">
                 {{ metric.title }}
                 {% if metric.type == 'Percent' %}

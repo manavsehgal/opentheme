@@ -29,27 +29,29 @@
       
       var metricsList = new List('metrics-list', options);
 
-      $('#filter-all').click(function() {
+      $('.filter-all').click(function() {
           metricsList.filter();
           $('.sort').removeClass( "disabled" );
-          $('#filter-all').addClass( "active" );
-          $('#filter-usability').removeClass( "active" );
-          $('#filter-learnability').removeClass( "active" );
-          $('#filter-performance').removeClass( "active" );
-          $('#filter-reliability').removeClass( "active" );
+          $('.filter-all').addClass( "active" );
+          $('.filter-reusability').removeClass( "active" );
+          $('.filter-usability').removeClass( "active" );
+          $('.filter-learnability').removeClass( "active" );
+          $('.filter-performance').removeClass( "active" );
+          $('.filter-reliability').removeClass( "active" );
           return false;
       });
-      
-      $('#filter-usability').click(function() {
+
+      $('.filter-reusability').click(function() {
           metricsList.filter(function(item) {
               
-              if (item.values().category === "Usability") {
+              if (item.values().category === "Reusability") {
                   $('.sort').addClass( "disabled" );
-                  $('#filter-all').removeClass( "active" );
-                  $('#filter-usability').addClass( "active" );
-                  $('#filter-learnability').removeClass( "active" );
-                  $('#filter-performance').removeClass( "active" );
-                  $('#filter-reliability').removeClass( "active" );
+                  $('.filter-all').removeClass( "active" );
+                  $('.filter-reusability').addClass( "active" );
+                  $('.filter-usability').removeClass( "active" );
+                  $('.filter-learnability').removeClass( "active" );
+                  $('.filter-performance').removeClass( "active" );
+                  $('.filter-reliability').removeClass( "active" );
                   return true;
               } else {
                   return false;
@@ -58,16 +60,37 @@
           return false;
       });
 
-      $('#filter-learnability').click(function() {
+      
+      $('.filter-usability').click(function() {
+          metricsList.filter(function(item) {
+              
+              if (item.values().category === "Usability") {
+                  $('.sort').addClass( "disabled" );
+                  $('.filter-all').removeClass( "active" );
+                  $('.filter-reusability').removeClass( "active" );
+                  $('.filter-usability').addClass( "active" );
+                  $('.filter-learnability').removeClass( "active" );
+                  $('.filter-performance').removeClass( "active" );
+                  $('.filter-reliability').removeClass( "active" );
+                  return true;
+              } else {
+                  return false;
+              }
+          });
+          return false;
+      });
+
+      $('.filter-learnability').click(function() {
           metricsList.filter(function(item) {
               
               if (item.values().category === "Learnability") {
                   $('.sort').addClass( "disabled" );
-                  $('#filter-all').removeClass( "active" );
-                  $('#filter-usability').removeClass( "active" );
-                  $('#filter-learnability').addClass( "active" );
-                  $('#filter-performance').removeClass( "active" );
-                  $('#filter-reliability').removeClass( "active" );
+                  $('.filter-all').removeClass( "active" );
+                  $('.filter-reusability').removeClass( "active" );
+                  $('.filter-usability').removeClass( "active" );
+                  $('.filter-learnability').addClass( "active" );
+                  $('.filter-performance').removeClass( "active" );
+                  $('.filter-reliability').removeClass( "active" );
                   return true;
               } else {
                   return false;
@@ -76,16 +99,17 @@
           return false;
       });
       
-      $('#filter-performance').click(function() {
+      $('.filter-performance').click(function() {
           metricsList.filter(function(item) {
               
               if (item.values().category === "Performance") {
                   $('.sort').addClass( "disabled" );
-                  $('#filter-all').removeClass( "active" );
-                  $('#filter-usability').removeClass( "active" );
-                  $('#filter-learnability').removeClass( "active" );
-                  $('#filter-performance').addClass( "active" );
-                  $('#filter-reliability').removeClass( "active" );
+                  $('.filter-all').removeClass( "active" );
+                  $('.filter-reusability').removeClass( "active" );
+                  $('.filter-usability').removeClass( "active" );
+                  $('.filter-learnability').removeClass( "active" );
+                  $('.filter-performance').addClass( "active" );
+                  $('.filter-reliability').removeClass( "active" );
                   return true;
               } else {
                   return false;
@@ -94,16 +118,17 @@
           return false;
       });
       
-      $('#filter-reliability').click(function() {
+      $('.filter-reliability').click(function() {
           metricsList.filter(function(item) {
               
               if (item.values().category === "Reliability") {
                   $('.sort').addClass( "disabled" );
-                  $('#filter-all').removeClass( "active" );
-                  $('#filter-usability').removeClass( "active" );
-                  $('#filter-learnability').removeClass( "active" );
-                  $('#filter-performance').removeClass( "active" );
-                  $('#filter-reliability').addClass( "active" );
+                  $('.filter-all').removeClass( "active" );
+                  $('.filter-reusability').removeClass( "active" );
+                  $('.filter-usability').removeClass( "active" );
+                  $('.filter-learnability').removeClass( "active" );
+                  $('.filter-performance').removeClass( "active" );
+                  $('.filter-reliability').addClass( "active" );
                   return true;
               } else {
                   return false;

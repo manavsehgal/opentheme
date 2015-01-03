@@ -1,57 +1,59 @@
 - title: PageSpeed Insights - Mobile Speed
   source: "https://developers.google.com/speed/pagespeed/insights/?url=opentheme.co&tab=mobile"
   category: Performance
-  date: 2015-01-02 00:00:00
   current: 59
-  target: 100
-  live: false
-  type: Score
+  type: Percent
   evaluate: "Mobile PageSpeed"
 
 - title: PageSpeed Insights - Desktop Speed
   source: "https://developers.google.com/speed/pagespeed/insights/?url=opentheme.co&tab=desktop"
   category: Performance
-  date: 2015-01-02 00:00:00
   current: 83
-  target: 100
-  live: false
-  type: Score
+  type: Percent
   evaluate: "Desktop PageSpeed"
   
 - title: PageSpeed Insights - Mobile User Experience
   source: "https://developers.google.com/speed/pagespeed/insights/?url=opentheme.co&tab=mobile"
   category: Usability
-  date: 2015-01-02 00:00:00
   current: 95
-  target: 100
-  live: false
-  type: Score
+  type: Percent
   evaluate: "Mobile Experience"
   
 - title: Google Webmaster Tools - Mobile Friendly Website
   source: "https://www.google.com/webmasters/tools/mobile-friendly/?url=opentheme.co"
   category: Usability
-  date: 2015-01-02 00:00:00
   current: "Pass"
   target: Should pass as mobile-friendly page.
-  live: false
   type: Pass/Fail
   evaluate: "Mobile-friendly"
 
 - title: Reusable Embed Plugins
   category: Reusability
   source: "/embeds/"
-  live: true
+  type: Liquid
   evaluate: "Reusable Plugins"
 
 - title: Reusable Page Templates
   category: Reusability
   source: "#"
-  live: true
+  type: Liquid
   evaluate: "Templates"
 
 - title: Reusable Single Page App Demos
   category: Reusability
   source: "/apps/"
-  live: true
+  type: Liquid
   evaluate: "Single Page Apps"
+
+- title: OpenTheme Tutorials and Articles
+  category: Learnability
+  source: "/category/#theme"
+  type: Liquid
+  evaluate: "Theme Tutorials"
+
+- title: Travis Continuous Integration Status
+  category: Reliability
+  source: "https://travis-ci.org/open-start/opentheme"
+  badge: "https://travis-ci.org/open-start/opentheme.svg"
+  type: Badge
+  evaluate: "Travis Build Status"

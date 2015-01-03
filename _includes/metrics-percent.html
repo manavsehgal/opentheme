@@ -1,0 +1,17 @@
+{% if include.source %}
+  
+  <a class="ui small statistic indicating progress"  data-percent="{{ include.current }}" href="{{ include.source }}">
+    <div class="value">
+      {{ include.current }}
+    </div>
+    <div class="label">
+      {{ include.evaluate }}
+    </div>
+  </a>
+
+{% else %}
+
+  <div class="ui tiny indicating progress percent" data-percent="{{ include.current }}">
+    <div class="bar"></div>
+  </div>
+{% endif %}

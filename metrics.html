@@ -25,15 +25,29 @@ description: Measuring OpenTheme Across Usability, Reusability, Performance.
               </td>
               <td>
                 {{ metric.title }}
-                {% unless metric.live %}
-                  {% include render-metrics.html current=metric.current evaluate=metric.evaluate type=metric.type %}
-                {% endunless %}
+                {% if metric.type == 'Percent' %}
+                  {% include metrics-percent.html current=metric.current evaluate=metric.evaluate %}
+                {% endif %}
               </td>
               <td class="right aligned collapsing">
-                {% if metric.live %}
-                  {% include live-metrics.html evaluate=metric.evaluate source=metric.source %}
-                {% else %}
-                  <a class="ui small teal statistic" href="{{ metric.source }}">
+                {% if metric.type == 'Liquid' %}
+                  {% include metrics-liquid.html evaluate=metric.evaluate source=metric.source %}
+                {% endif %}
+                {% if metric.type == 'Percent' %}
+                  {% include metrics-percent.html current=metric.current evaluate=metric.evaluate source=metric.source %}
+                {% endif %}
+                {% if metric.type == 'Badge' %}
+                  <a class="ui small statistic" href="{{ metric.source }}">
+                    <div class="value">
+                      <img src="{{ metric.badge }}">
+                    </div>
+                    <div class="label">
+                      {{ metric.evaluate }}
+                    </div>
+                  </a>
+                {% endif %}
+                {% if metric.type == 'Pass/Fail' %}
+                  <a class="ui small statistic {% if metric.current == 'Pass' %}green{% else %}red{% endif%}" href="{{ metric.source }}">
                     <div class="value">
                       {{ metric.current }}
                     </div>

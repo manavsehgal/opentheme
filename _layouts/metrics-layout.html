@@ -1,0 +1,119 @@
+  {% include head.html %}
+  </head>
+  <body class="global landing metrics">
+    <!--[if lt IE 7]>
+        <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+    {% if site.facebook %}
+      {% include fb-setup.html %}
+    {% endif %}
+
+    {% if site.pagebar %}
+    {% include page-bar.html %}
+    <div class="pusher">
+    {% endif %}
+        {% include landing-header.html %}
+        {{ content }}
+        {% include footer.html %}
+    {% if site.pagebar %}
+    </div>
+    {% endif %}
+
+    {% include js.html %}
+    <script src="//cdnjs.cloudflare.com/ajax/libs/list.js/1.1.1/list.min.js"></script>
+    <script>
+      var options = {
+        valueNames: [ 'category', 'title' ]
+      };
+      
+      var metricsList = new List('metrics-list', options);
+
+      $('#filter-all').click(function() {
+          metricsList.filter();
+          $('.sort').removeClass( "disabled" );
+          $('#filter-all').addClass( "active" );
+          $('#filter-usability').removeClass( "active" );
+          $('#filter-learnability').removeClass( "active" );
+          $('#filter-performance').removeClass( "active" );
+          $('#filter-reliability').removeClass( "active" );
+          return false;
+      });
+      
+      $('#filter-usability').click(function() {
+          metricsList.filter(function(item) {
+              
+              if (item.values().category === "Usability") {
+                  $('.sort').addClass( "disabled" );
+                  $('#filter-all').removeClass( "active" );
+                  $('#filter-usability').addClass( "active" );
+                  $('#filter-learnability').removeClass( "active" );
+                  $('#filter-performance').removeClass( "active" );
+                  $('#filter-reliability').removeClass( "active" );
+                  return true;
+              } else {
+                  return false;
+              }
+          });
+          return false;
+      });
+
+      $('#filter-learnability').click(function() {
+          metricsList.filter(function(item) {
+              
+              if (item.values().category === "Learnability") {
+                  $('.sort').addClass( "disabled" );
+                  $('#filter-all').removeClass( "active" );
+                  $('#filter-usability').removeClass( "active" );
+                  $('#filter-learnability').addClass( "active" );
+                  $('#filter-performance').removeClass( "active" );
+                  $('#filter-reliability').removeClass( "active" );
+                  return true;
+              } else {
+                  return false;
+              }
+          });
+          return false;
+      });
+      
+      $('#filter-performance').click(function() {
+          metricsList.filter(function(item) {
+              
+              if (item.values().category === "Performance") {
+                  $('.sort').addClass( "disabled" );
+                  $('#filter-all').removeClass( "active" );
+                  $('#filter-usability').removeClass( "active" );
+                  $('#filter-learnability').removeClass( "active" );
+                  $('#filter-performance').addClass( "active" );
+                  $('#filter-reliability').removeClass( "active" );
+                  return true;
+              } else {
+                  return false;
+              }
+          });
+          return false;
+      });
+      
+      $('#filter-reliability').click(function() {
+          metricsList.filter(function(item) {
+              
+              if (item.values().category === "Reliability") {
+                  $('.sort').addClass( "disabled" );
+                  $('#filter-all').removeClass( "active" );
+                  $('#filter-usability').removeClass( "active" );
+                  $('#filter-learnability').removeClass( "active" );
+                  $('#filter-performance').removeClass( "active" );
+                  $('#filter-reliability').addClass( "active" );
+                  return true;
+              } else {
+                  return false;
+              }
+          });
+          return false;
+      });
+
+    </script>
+    {% include embed-google-analytics.html %}
+  </body>
+
+</html>

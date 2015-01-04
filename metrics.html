@@ -58,16 +58,15 @@ description: Measuring OpenTheme Across Usability, Reusability, Performance.
 
       </div> <!-- .column -->
     </div> <!-- .row -->
-    
     <div class="row">
       <div class="column">
-
+        <strong>Starred (*) status values indicates Live updates</strong>
         <table class="ui striped table">
           <thead>
             <tr>
-              <th colspan="3">
-              OpenTheme Metrics
-              </th>
+              <th class="four wide">Category</th>
+              <th class="seven wide">Metric Title</th>
+              <th class="five wide">Status</th>
             </tr>
           </thead>
           <tbody class="list">
@@ -80,7 +79,7 @@ description: Measuring OpenTheme Across Usability, Reusability, Performance.
                   {% include metrics-percent.html current=metric.current evaluate=metric.evaluate %}
                 {% endif %}
               </td>
-              <td class="left aligned">
+              <td class="center aligned">
                 {% if metric.type == 'Liquid' %}
                   {% include metrics-liquid.html evaluate=metric.evaluate source=metric.source %}
                 {% endif %}

@@ -1,7 +1,6 @@
 {% if include.source %}
-  
-  <a class="ui small statistic indicating progress"  data-percent="{{ include.current }}" href="{{ include.source }}">
-    <div class="value">
+  <a class="ui small statistic indicating progress {{ include.evaluate | downcase | replace:' ','-' }}"  data-percent="{{ include.current }}" href="{{ include.source }}">
+    <div class="value {{ include.evaluate | downcase | replace:' ','-' }}-value">
       {{ include.current }}
     </div>
     <div class="label">
@@ -11,7 +10,7 @@
 
 {% else %}
 
-  <div class="ui tiny indicating progress percent" data-percent="{{ include.current }}">
+  <div class="ui tiny indicating progress percent {{ include.evaluate | downcase | replace:' ','-' }}" data-percent="{{ include.current }}">
     <div class="bar"></div>
   </div>
 {% endif %}

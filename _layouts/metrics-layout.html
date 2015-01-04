@@ -86,7 +86,7 @@
     callbacks.displayPageSpeedScore = function(result) {
         $( ".desktop-pagespeed" ).attr( "data-percent", result.score.toString() );
         $( ".desktop-pagespeed-value" ).text( "*" + result.score.toString() );
-        $('.percent').progress();
+        $('.desktop-pagespeed').progress();
     };    
 
     // Object that will hold the callbacks that process results from the
@@ -142,7 +142,7 @@
     callbacks_m.displayPageSpeedScore = function(result) {
         $( ".mobile-pagespeed" ).attr( "data-percent", result.score.toString() );
         $( ".mobile-pagespeed-value" ).text( "*" + result.score.toString() );
-        $('.percent').progress();
+        $('.mobile-pagespeed').progress();
     };    
 
 

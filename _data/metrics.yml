@@ -8,7 +8,7 @@
 - title: PageSpeed Insights - Desktop Speed
   source: "https://developers.google.com/speed/pagespeed/insights/?url=opentheme.co&tab=desktop"
   category: Performance
-  current: 80
+  current: 70
   type: Percent
   evaluate: "Desktop PageSpeed"
   

@@ -71,3 +71,5 @@ mailchimp_u: "cf72d9276397b3175b874eb39" # Mailchimp u=unique identification
 mailchimp_id: "3a51637dcc" # Mailchip id
 
 addthis_pubid: "ra-54a66cfa35915034" # Get your pubid at https://www.addthis.com/dashboard
+
+pingdom_rum: "54a97d8aabe53daf361855a6" # https://my.pingdom.com/dashboard

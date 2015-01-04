@@ -2,7 +2,7 @@
 ---
 $('.percent').progress();
 
-// ====== PageSpeed API =====
+// ====== PageSpeed API - Desktop =====
 
 // Specify your actual API key here:
 var API_KEY = '{{ site.google_api_key}}';
@@ -66,6 +66,8 @@ callbacks.displayPageSpeedScore = function(result) {
     $( ".desktop-pagespeed-value" ).text( "*" + result.score.toString() );
     $('.desktop-pagespeed').progress();
 };    
+
+// ====== PageSpeed API - Mobile =====
 
 // Object that will hold the callbacks that process results from the
 // PageSpeed Insights API.

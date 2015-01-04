@@ -1,0 +1,25 @@
+<!-- masthead -->
+<div class="ui masthead segment skulls">
+  <div class="ui page grid">
+    <div class="column">
+        
+        {% include menu.html %}
+
+        <h1 class="ui header-3d">{{ site.tagline }}</h1>
+
+        <div class="ui stackable grid">
+                  
+          <div class="row">
+            <div class="eight wide column">
+              <h2 class="ui header">{{ site.description }}</h2>
+            </div>
+            <div class="eight wide column">
+
+              {% include embed-mailchimp.html tagline="Join The OpenTheme Club" button="Get Free Updates!" %}
+            </div>
+          </div> <!-- .row -->
+        </div> <!-- .grid -->
+    </div>
+  </div>
+</div>
+<!-- /masthead -->

@@ -26,12 +26,12 @@ GEM
     fast-stemmer (1.0.2)
     ffi (1.9.6)
     gemoji (2.1.0)
-    github-pages (30)
+    github-pages (31)
       RedCloth (= 4.2.9)
       github-pages-health-check (~> 0.2)
       jekyll (= 2.4.0)
       jekyll-coffeescript (= 1.0.1)
-      jekyll-mentions (= 0.2.0)
+      jekyll-mentions (= 0.2.1)
       jekyll-redirect-from (= 0.6.2)
       jekyll-sass-converter (= 1.2.0)
       jekyll-sitemap (= 0.6.3)
@@ -78,7 +78,7 @@ GEM
     jekyll-coffeescript (1.0.1)
       coffee-script (~> 2.2)
     jekyll-gist (1.1.0)
-    jekyll-mentions (0.2.0)
+    jekyll-mentions (0.2.1)
       html-pipeline (~> 1.9.0)
       jekyll (~> 2.0)
     jekyll-paginate (1.1.0)
@@ -139,6 +139,6 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  github-pages (= 30)
+  github-pages (= 31)
   html-proofer
   json

@@ -1,14 +1,14 @@
 - title: PageSpeed Insights - Mobile Speed
   source: "https://developers.google.com/speed/pagespeed/insights/?url=opentheme.co&tab=mobile"
   category: Performance
-  current: 59
+  current: 40
   type: Percent
   evaluate: "Mobile PageSpeed"
 
 - title: PageSpeed Insights - Desktop Speed
   source: "https://developers.google.com/speed/pagespeed/insights/?url=opentheme.co&tab=desktop"
   category: Performance
-  current: 83
+  current: 80
   type: Percent
   evaluate: "Desktop PageSpeed"
   

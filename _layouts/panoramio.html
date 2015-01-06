@@ -85,7 +85,19 @@
     <script src="//maps.googleapis.com/maps/api/js?v=3.exp&libraries=panoramio,places"></script>
     <script src="//ssl.panoramio.com/wapi/wapi.js?v=1"></script>
     <script>
+    // Defines the callback function referenced in the jsonp file.
+    function eqfeed_callback(data) {
+      map.data.addGeoJson(data);
+    }
+
     function initialize() {
+      
+      var script = document.createElement('script');
+      script.setAttribute('src',
+        '//earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_month.geojson');
+      document.getElementsByTagName('head')[0].appendChild(script);
+
+
       // The photoDiv defines the DIV within the info window for
       // displaying the Panoramio photo within its PhotoWidget.
       var photoDiv =  document.createElement('div');

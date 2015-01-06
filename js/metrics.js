@@ -65,6 +65,29 @@ callbacks.displayPageSpeedScore = function(result) {
     $( ".desktop-pagespeed" ).attr( "data-percent", result.score.toString() );
     $( ".desktop-pagespeed-value" ).text( "*" + result.score.toString() );
     $('.desktop-pagespeed').progress();
+
+    var results = [];
+    var ruleResults = result.formattedResults.ruleResults;
+    for (var i in ruleResults) {
+      var ruleResult = ruleResults[i];
+      // Don't display lower-impact suggestions.
+      if (ruleResult.ruleImpact < 3.0) continue;
+      results.push({name: ruleResult.localizedRuleName,
+                    impact: ruleResult.ruleImpact});
+    }
+    results.sort(sortByImpact);
+    var r = "";
+    for (var i = 0, len = results.length; i < len; ++i) {
+      r = r + "<li>" + results[i].name + "</li>";
+    }
+    var ul = "<ul>" + r + "</ul>";
+
+    if (ul.length > 9) {
+      $(".desktop-suggestions").html("<h4>Suggestions to Improve</h4>" + ul);
+    } else {
+      $(".desktop-suggestions").text('<h4>No high impact suggestions. Good job!</h4>');
+    }
+
 };    
 
 // ====== PageSpeed API - Mobile =====
@@ -123,7 +146,34 @@ callbacks_m.displayPageSpeedScore = function(result) {
     $( ".mobile-pagespeed" ).attr( "data-percent", result.score.toString() );
     $( ".mobile-pagespeed-value" ).text( "*" + result.score.toString() );
     $('.mobile-pagespeed').progress();
+
+    var results = [];
+    var ruleResults = result.formattedResults.ruleResults;
+    for (var i in ruleResults) {
+      var ruleResult = ruleResults[i];
+      // Don't display lower-impact suggestions.
+      if (ruleResult.ruleImpact < 3.0) continue;
+      results.push({name: ruleResult.localizedRuleName,
+                    impact: ruleResult.ruleImpact});
+    }
+    results.sort(sortByImpact);
+    var r = "";
+    for (var i = 0, len = results.length; i < len; ++i) {
+      r = r + "<li>" + results[i].name + "</li>";
+    }
+    var ul = "<ul>" + r + "</ul>";
+
+    if (ul.length > 9) {
+      $(".mobile-suggestions").html("<h4>Suggestions to Improve</h4>" + ul);
+    } else {
+      $(".mobile-suggestions").text('<h4>No high impact suggestions. Good job!</h4>');
+    }
+
+  
 };    
+
+// Helper function that sorts results in order of impact.
+function sortByImpact(a, b) { return b.impact - a.impact; }
 
 // ====== ListJS ======
 

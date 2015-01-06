@@ -78,6 +78,15 @@ description: Measuring OpenTheme Across Usability, Reusability, Performance.
                 {% if metric.type == 'Percent' %}
                   {% include metrics-percent.html current=metric.current evaluate=metric.evaluate %}
                 {% endif %}
+                
+                {% if metric.evaluate == 'Desktop PageSpeed' %}
+                <div class="desktop-suggestions"></div>
+                {% endif %}
+
+                {% if metric.evaluate == 'Mobile PageSpeed' %}
+                <div class="mobile-suggestions"></div>
+                {% endif %}
+
               </td>
               <td class="center aligned">
                 {% if metric.type == 'Liquid' %}

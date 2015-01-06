@@ -13,10 +13,22 @@
   margin: 1em;
 }
 
+.global .slim-header-light {
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  padding: 0;
+  margin: 0;
+}
+
+/* Source: http://markdotto.com/playground/3d-text/ */
+.global .header-3d-center {
+  text-align: center;
+}
+
 /* Source: http://markdotto.com/playground/3d-text/ */
 .global .header-3d {
   color: #fff;
-  text-align: center;
   text-shadow: 0 1px 0 #ccc,
                0 2px 0 #c9c9c9,
                0 3px 0 #bbb,

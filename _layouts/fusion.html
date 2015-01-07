@@ -1,4 +1,12 @@
   {% include head.html %}
+  <style>
+    #map-canvas {
+      width: 100%;
+      height: 450px;
+      margin: 20px;
+      padding: 0px
+    }
+  </style>  
   </head>
 
   <body class="global landing fusion">
@@ -64,7 +72,7 @@
       var map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
     
       var ctaLayer = new google.maps.KmlLayer({
-        url: 'http://gmaps-samples.googlecode.com/svn/trunk/ggeoxml/cta.kml'
+        url: 'http://www.hpc.ncep.noaa.gov/kml/fop/fopbody.kml'
       });
       ctaLayer.setMap(map);
     }

@@ -18,6 +18,8 @@ kml_source2: "http://opentheme.co/static-data/287257.kml"
 {% include kml-viewer.html %}
 {% include fusion-filter-grid.html %}
 
+<br>
+
 This app was created using "zero coding", from configuration, live open data, and using custom includes created for OpenTheme.
 
 {% highlight liquid linenos %}

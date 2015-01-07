@@ -12,7 +12,7 @@ where: "Location"
 
 # KML Options
 kml_source: "https://kml123.googlecode.com/files/WorldAirports.kml"
-kml_source2: "http://geocommons.com/overlays/287257.kml"
+kml_source2: "/static-data/287257.kml"
 ---
 
 {% include kml-viewer.html %}

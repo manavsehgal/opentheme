@@ -1,0 +1,846 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.0">
+<NetworkLinkControl>
+	<minRefreshPeriod>3600</minRefreshPeriod>
+</NetworkLinkControl>
+<Document>
+	<name>USGS Earthquakes</name>
+	<description>http://earthquake.usgs.gov/</description>
+	<visibility>1</visibility>
+	<open>1</open>
+	<LookAt>
+		<longitude>-104.1025</longitude>
+		<latitude>50.4913</latitude>
+		<altitude>0</altitude>
+		<range>8384245</range>
+		<tilt>0</tilt>
+		<heading>-0.2564</heading>
+	</LookAt>
+
+
+<Style id="inactive-grey">
+	<IconStyle>
+		<Icon><href>http://earthquake.usgs.gov/images/ge/circle-grey.png</href></Icon>
+	</IconStyle>
+	<LabelStyle><scale>0</scale></LabelStyle>
+</Style>
+<Style id="active-grey">
+	<IconStyle>
+		<Icon><href>http://earthquake.usgs.gov/images/ge/circle-grey.png</href></Icon>
+	</IconStyle>
+	<LabelStyle><scale>1</scale></LabelStyle>
+	<BalloonStyle>
+	<text><![CDATA[
+		<html><head>
+			<title>$[name]</title>
+			<style type="text/css"><!-- 
+			body {
+				margin:0;padding:0;
+			}
+			header {
+				display:block;
+				width:400px;
+				margin:0;
+				padding:48px 0 0 0;
+				/* This image is 40px tall. Padding should match + pad. */
+				background-image:url('http://earthquake.usgs.gov/images/ge/banner.jpg');
+				background-position: 0 0;
+				background-repeat: no-repeat;
+				font-weight:bold;
+				font-size:12pt;
+			}
+			section {
+				display:block;
+				margin:0;padding:0;
+			}
+			.box {
+				display:block;
+				float:left;
+				margin-right:8px;
+				margin-bottom:8px;
+				padding:2px 4px;
+				border:1px solid #333333;
+			}
+			.alert-pending { background-color: #FFF; color: #000; }
+			.alert-green { background-color:#00b04f; color: #fff; }
+			.alert-yellow { background-color: #ff0; color: #000; }
+			.alert-orange { background-color: #f90; color: #000; }
+			.alert-red { background-color: #f00; color: #fff; }
+
+			.mmi-1, .mmi-2, .mmi-3, .mmi-4, .mmi-5, .mmi-6, .mmi-7,
+			.mmi-8, .mmi-9, .mmi-10, .mmi-11, .mmi-12, .date {
+				font-family:Georgia, Times, serif;
+			}
+			.mmi-1 .plain, .mmi-2 .plain, .mmi-3 .plain, .mmi-4 .plain,
+			.mmi-5 .plain, .mmi-6 .plain, .mmi-7 .plain, .mmi-8 .plain,
+			.mmi-9 .plain, .mmi-10 .plain, .mmi-11 .plain, .mmi-12 .plain {
+				font-family:Helvetica, 'sans serif';
+				font-size:.95em;
+			}
+			.mmi-1{color:#000; background-color:#FFFFFF;}
+			.mmi-2{color:#000; background-color:#ACD8E9;}
+			.mmi-3{color:#000; background-color:#ACD8E9;}
+			.mmi-4{color:#000; background-color:#83D0DA;}
+			.mmi-5{color:#000; background-color:#7BC87F;}
+			.mmi-6{color:#000; background-color:#F9F518;}
+			.mmi-7{color:#000; background-color:#FAC611;}
+			.mmi-8{color:#000; background-color:#FA8A11;}
+			.mmi-9{color:#FFF; background-color:#F7100C;}
+			.mmi-10{color:#FFF; background-color:#C80F0A;}
+			.mmi-11{color:#FFF; background-color:#C80F0A;}
+			.mmi-12{color:#FFF; background-color:#C80F0A;}
+		
+			footer {
+				display:block;
+				margin:0;padding:0;
+				background-image:url('http://earthquake.usgs.gov/images/ge/anss.gif');
+				background-position:100% 0;
+				background-repeat: no-repeat;
+				height:31px;
+				width:400px;
+			}
+			footer a {
+				display:block;
+				margin:0;padding:0;
+			}
+			--></style>
+		</head><body>
+			<header>$[name]</header>
+			<section>$[description]</section>
+			<footer>$[Snippet]</footer>
+		</body></html>
+	]]></text>
+	</BalloonStyle>
+</Style>
+<StyleMap id="grey">
+	<Pair><key>normal</key><styleUrl>#inactive-grey</styleUrl></Pair>
+	<Pair><key>highlight</key><styleUrl>#active-grey</styleUrl></Pair>
+</StyleMap>
+
+
+<Style id="inactive-red">
+	<IconStyle>
+		<Icon><href>http://earthquake.usgs.gov/images/ge/circle-red.png</href></Icon>
+	</IconStyle>
+	<LabelStyle><scale>0</scale></LabelStyle>
+</Style>
+<Style id="active-red">
+	<IconStyle>
+		<Icon><href>http://earthquake.usgs.gov/images/ge/circle-red.png</href></Icon>
+	</IconStyle>
+	<LabelStyle><scale>1</scale></LabelStyle>
+	<BalloonStyle>
+	<text><![CDATA[
+		<html><head>
+			<title>$[name]</title>
+			<style type="text/css"><!-- 
+			body {
+				margin:0;padding:0;
+			}
+			header {
+				display:block;
+				width:400px;
+				margin:0;
+				padding:48px 0 0 0;
+				/* This image is 40px tall. Padding should match + pad. */
+				background-image:url('http://earthquake.usgs.gov/images/ge/banner.jpg');
+				background-position: 0 0;
+				background-repeat: no-repeat;
+				font-weight:bold;
+				font-size:12pt;
+			}
+			section {
+				display:block;
+				margin:0;padding:0;
+			}
+			.box {
+				display:block;
+				float:left;
+				margin-right:8px;
+				margin-bottom:8px;
+				padding:2px 4px;
+				border:1px solid #333333;
+			}
+			.alert-pending { background-color: #FFF; color: #000; }
+			.alert-green { background-color:#00b04f; color: #fff; }
+			.alert-yellow { background-color: #ff0; color: #000; }
+			.alert-orange { background-color: #f90; color: #000; }
+			.alert-red { background-color: #f00; color: #fff; }
+
+			.mmi-1, .mmi-2, .mmi-3, .mmi-4, .mmi-5, .mmi-6, .mmi-7,
+			.mmi-8, .mmi-9, .mmi-10, .mmi-11, .mmi-12, .date {
+				font-family:Georgia, Times, serif;
+			}
+			.mmi-1 .plain, .mmi-2 .plain, .mmi-3 .plain, .mmi-4 .plain,
+			.mmi-5 .plain, .mmi-6 .plain, .mmi-7 .plain, .mmi-8 .plain,
+			.mmi-9 .plain, .mmi-10 .plain, .mmi-11 .plain, .mmi-12 .plain {
+				font-family:Helvetica, 'sans serif';
+				font-size:.95em;
+			}
+			.mmi-1{color:#000; background-color:#FFFFFF;}
+			.mmi-2{color:#000; background-color:#ACD8E9;}
+			.mmi-3{color:#000; background-color:#ACD8E9;}
+			.mmi-4{color:#000; background-color:#83D0DA;}
+			.mmi-5{color:#000; background-color:#7BC87F;}
+			.mmi-6{color:#000; background-color:#F9F518;}
+			.mmi-7{color:#000; background-color:#FAC611;}
+			.mmi-8{color:#000; background-color:#FA8A11;}
+			.mmi-9{color:#FFF; background-color:#F7100C;}
+			.mmi-10{color:#FFF; background-color:#C80F0A;}
+			.mmi-11{color:#FFF; background-color:#C80F0A;}
+			.mmi-12{color:#FFF; background-color:#C80F0A;}
+		
+			footer {
+				display:block;
+				margin:0;padding:0;
+				background-image:url('http://earthquake.usgs.gov/images/ge/anss.gif');
+				background-position:100% 0;
+				background-repeat: no-repeat;
+				height:31px;
+				width:400px;
+			}
+			footer a {
+				display:block;
+				margin:0;padding:0;
+			}
+			--></style>
+		</head><body>
+			<header>$[name]</header>
+			<section>$[description]</section>
+			<footer>$[Snippet]</footer>
+		</body></html>
+	]]></text>
+	</BalloonStyle>
+</Style>
+<StyleMap id="red">
+	<Pair><key>normal</key><styleUrl>#inactive-red</styleUrl></Pair>
+	<Pair><key>highlight</key><styleUrl>#active-red</styleUrl></Pair>
+</StyleMap>
+
+
+<Style id="inactive-orange">
+	<IconStyle>
+		<Icon><href>http://earthquake.usgs.gov/images/ge/circle-orange.png</href></Icon>
+	</IconStyle>
+	<LabelStyle><scale>0</scale></LabelStyle>
+</Style>
+<Style id="active-orange">
+	<IconStyle>
+		<Icon><href>http://earthquake.usgs.gov/images/ge/circle-orange.png</href></Icon>
+	</IconStyle>
+	<LabelStyle><scale>1</scale></LabelStyle>
+	<BalloonStyle>
+	<text><![CDATA[
+		<html><head>
+			<title>$[name]</title>
+			<style type="text/css"><!-- 
+			body {
+				margin:0;padding:0;
+			}
+			header {
+				display:block;
+				width:400px;
+				margin:0;
+				padding:48px 0 0 0;
+				/* This image is 40px tall. Padding should match + pad. */
+				background-image:url('http://earthquake.usgs.gov/images/ge/banner.jpg');
+				background-position: 0 0;
+				background-repeat: no-repeat;
+				font-weight:bold;
+				font-size:12pt;
+			}
+			section {
+				display:block;
+				margin:0;padding:0;
+			}
+			.box {
+				display:block;
+				float:left;
+				margin-right:8px;
+				margin-bottom:8px;
+				padding:2px 4px;
+				border:1px solid #333333;
+			}
+			.alert-pending { background-color: #FFF; color: #000; }
+			.alert-green { background-color:#00b04f; color: #fff; }
+			.alert-yellow { background-color: #ff0; color: #000; }
+			.alert-orange { background-color: #f90; color: #000; }
+			.alert-red { background-color: #f00; color: #fff; }
+
+			.mmi-1, .mmi-2, .mmi-3, .mmi-4, .mmi-5, .mmi-6, .mmi-7,
+			.mmi-8, .mmi-9, .mmi-10, .mmi-11, .mmi-12, .date {
+				font-family:Georgia, Times, serif;
+			}
+			.mmi-1 .plain, .mmi-2 .plain, .mmi-3 .plain, .mmi-4 .plain,
+			.mmi-5 .plain, .mmi-6 .plain, .mmi-7 .plain, .mmi-8 .plain,
+			.mmi-9 .plain, .mmi-10 .plain, .mmi-11 .plain, .mmi-12 .plain {
+				font-family:Helvetica, 'sans serif';
+				font-size:.95em;
+			}
+			.mmi-1{color:#000; background-color:#FFFFFF;}
+			.mmi-2{color:#000; background-color:#ACD8E9;}
+			.mmi-3{color:#000; background-color:#ACD8E9;}
+			.mmi-4{color:#000; background-color:#83D0DA;}
+			.mmi-5{color:#000; background-color:#7BC87F;}
+			.mmi-6{color:#000; background-color:#F9F518;}
+			.mmi-7{color:#000; background-color:#FAC611;}
+			.mmi-8{color:#000; background-color:#FA8A11;}
+			.mmi-9{color:#FFF; background-color:#F7100C;}
+			.mmi-10{color:#FFF; background-color:#C80F0A;}
+			.mmi-11{color:#FFF; background-color:#C80F0A;}
+			.mmi-12{color:#FFF; background-color:#C80F0A;}
+		
+			footer {
+				display:block;
+				margin:0;padding:0;
+				background-image:url('http://earthquake.usgs.gov/images/ge/anss.gif');
+				background-position:100% 0;
+				background-repeat: no-repeat;
+				height:31px;
+				width:400px;
+			}
+			footer a {
+				display:block;
+				margin:0;padding:0;
+			}
+			--></style>
+		</head><body>
+			<header>$[name]</header>
+			<section>$[description]</section>
+			<footer>$[Snippet]</footer>
+		</body></html>
+	]]></text>
+	</BalloonStyle>
+</Style>
+<StyleMap id="orange">
+	<Pair><key>normal</key><styleUrl>#inactive-orange</styleUrl></Pair>
+	<Pair><key>highlight</key><styleUrl>#active-orange</styleUrl></Pair>
+</StyleMap>
+
+
+<Style id="inactive-yellow">
+	<IconStyle>
+		<Icon><href>http://earthquake.usgs.gov/images/ge/circle-yellow.png</href></Icon>
+	</IconStyle>
+	<LabelStyle><scale>0</scale></LabelStyle>
+</Style>
+<Style id="active-yellow">
+	<IconStyle>
+		<Icon><href>http://earthquake.usgs.gov/images/ge/circle-yellow.png</href></Icon>
+	</IconStyle>
+	<LabelStyle><scale>1</scale></LabelStyle>
+	<BalloonStyle>
+	<text><![CDATA[
+		<html><head>
+			<title>$[name]</title>
+			<style type="text/css"><!-- 
+			body {
+				margin:0;padding:0;
+			}
+			header {
+				display:block;
+				width:400px;
+				margin:0;
+				padding:48px 0 0 0;
+				/* This image is 40px tall. Padding should match + pad. */
+				background-image:url('http://earthquake.usgs.gov/images/ge/banner.jpg');
+				background-position: 0 0;
+				background-repeat: no-repeat;
+				font-weight:bold;
+				font-size:12pt;
+			}
+			section {
+				display:block;
+				margin:0;padding:0;
+			}
+			.box {
+				display:block;
+				float:left;
+				margin-right:8px;
+				margin-bottom:8px;
+				padding:2px 4px;
+				border:1px solid #333333;
+			}
+			.alert-pending { background-color: #FFF; color: #000; }
+			.alert-green { background-color:#00b04f; color: #fff; }
+			.alert-yellow { background-color: #ff0; color: #000; }
+			.alert-orange { background-color: #f90; color: #000; }
+			.alert-red { background-color: #f00; color: #fff; }
+
+			.mmi-1, .mmi-2, .mmi-3, .mmi-4, .mmi-5, .mmi-6, .mmi-7,
+			.mmi-8, .mmi-9, .mmi-10, .mmi-11, .mmi-12, .date {
+				font-family:Georgia, Times, serif;
+			}
+			.mmi-1 .plain, .mmi-2 .plain, .mmi-3 .plain, .mmi-4 .plain,
+			.mmi-5 .plain, .mmi-6 .plain, .mmi-7 .plain, .mmi-8 .plain,
+			.mmi-9 .plain, .mmi-10 .plain, .mmi-11 .plain, .mmi-12 .plain {
+				font-family:Helvetica, 'sans serif';
+				font-size:.95em;
+			}
+			.mmi-1{color:#000; background-color:#FFFFFF;}
+			.mmi-2{color:#000; background-color:#ACD8E9;}
+			.mmi-3{color:#000; background-color:#ACD8E9;}
+			.mmi-4{color:#000; background-color:#83D0DA;}
+			.mmi-5{color:#000; background-color:#7BC87F;}
+			.mmi-6{color:#000; background-color:#F9F518;}
+			.mmi-7{color:#000; background-color:#FAC611;}
+			.mmi-8{color:#000; background-color:#FA8A11;}
+			.mmi-9{color:#FFF; background-color:#F7100C;}
+			.mmi-10{color:#FFF; background-color:#C80F0A;}
+			.mmi-11{color:#FFF; background-color:#C80F0A;}
+			.mmi-12{color:#FFF; background-color:#C80F0A;}
+		
+			footer {
+				display:block;
+				margin:0;padding:0;
+				background-image:url('http://earthquake.usgs.gov/images/ge/anss.gif');
+				background-position:100% 0;
+				background-repeat: no-repeat;
+				height:31px;
+				width:400px;
+			}
+			footer a {
+				display:block;
+				margin:0;padding:0;
+			}
+			--></style>
+		</head><body>
+			<header>$[name]</header>
+			<section>$[description]</section>
+			<footer>$[Snippet]</footer>
+		</body></html>
+	]]></text>
+	</BalloonStyle>
+</Style>
+<StyleMap id="yellow">
+	<Pair><key>normal</key><styleUrl>#inactive-yellow</styleUrl></Pair>
+	<Pair><key>highlight</key><styleUrl>#active-yellow</styleUrl></Pair>
+</StyleMap>
+
+
+<Style id="inactive-green">
+	<IconStyle>
+		<Icon><href>http://earthquake.usgs.gov/images/ge/circle-green.png</href></Icon>
+	</IconStyle>
+	<LabelStyle><scale>0</scale></LabelStyle>
+</Style>
+<Style id="active-green">
+	<IconStyle>
+		<Icon><href>http://earthquake.usgs.gov/images/ge/circle-green.png</href></Icon>
+	</IconStyle>
+	<LabelStyle><scale>1</scale></LabelStyle>
+	<BalloonStyle>
+	<text><![CDATA[
+		<html><head>
+			<title>$[name]</title>
+			<style type="text/css"><!-- 
+			body {
+				margin:0;padding:0;
+			}
+			header {
+				display:block;
+				width:400px;
+				margin:0;
+				padding:48px 0 0 0;
+				/* This image is 40px tall. Padding should match + pad. */
+				background-image:url('http://earthquake.usgs.gov/images/ge/banner.jpg');
+				background-position: 0 0;
+				background-repeat: no-repeat;
+				font-weight:bold;
+				font-size:12pt;
+			}
+			section {
+				display:block;
+				margin:0;padding:0;
+			}
+			.box {
+				display:block;
+				float:left;
+				margin-right:8px;
+				margin-bottom:8px;
+				padding:2px 4px;
+				border:1px solid #333333;
+			}
+			.alert-pending { background-color: #FFF; color: #000; }
+			.alert-green { background-color:#00b04f; color: #fff; }
+			.alert-yellow { background-color: #ff0; color: #000; }
+			.alert-orange { background-color: #f90; color: #000; }
+			.alert-red { background-color: #f00; color: #fff; }
+
+			.mmi-1, .mmi-2, .mmi-3, .mmi-4, .mmi-5, .mmi-6, .mmi-7,
+			.mmi-8, .mmi-9, .mmi-10, .mmi-11, .mmi-12, .date {
+				font-family:Georgia, Times, serif;
+			}
+			.mmi-1 .plain, .mmi-2 .plain, .mmi-3 .plain, .mmi-4 .plain,
+			.mmi-5 .plain, .mmi-6 .plain, .mmi-7 .plain, .mmi-8 .plain,
+			.mmi-9 .plain, .mmi-10 .plain, .mmi-11 .plain, .mmi-12 .plain {
+				font-family:Helvetica, 'sans serif';
+				font-size:.95em;
+			}
+			.mmi-1{color:#000; background-color:#FFFFFF;}
+			.mmi-2{color:#000; background-color:#ACD8E9;}
+			.mmi-3{color:#000; background-color:#ACD8E9;}
+			.mmi-4{color:#000; background-color:#83D0DA;}
+			.mmi-5{color:#000; background-color:#7BC87F;}
+			.mmi-6{color:#000; background-color:#F9F518;}
+			.mmi-7{color:#000; background-color:#FAC611;}
+			.mmi-8{color:#000; background-color:#FA8A11;}
+			.mmi-9{color:#FFF; background-color:#F7100C;}
+			.mmi-10{color:#FFF; background-color:#C80F0A;}
+			.mmi-11{color:#FFF; background-color:#C80F0A;}
+			.mmi-12{color:#FFF; background-color:#C80F0A;}
+		
+			footer {
+				display:block;
+				margin:0;padding:0;
+				background-image:url('http://earthquake.usgs.gov/images/ge/anss.gif');
+				background-position:100% 0;
+				background-repeat: no-repeat;
+				height:31px;
+				width:400px;
+			}
+			footer a {
+				display:block;
+				margin:0;padding:0;
+			}
+			--></style>
+		</head><body>
+			<header>$[name]</header>
+			<section>$[description]</section>
+			<footer>$[Snippet]</footer>
+		</body></html>
+	]]></text>
+	</BalloonStyle>
+</Style>
+<StyleMap id="green">
+	<Pair><key>normal</key><styleUrl>#inactive-green</styleUrl></Pair>
+	<Pair><key>highlight</key><styleUrl>#active-green</styleUrl></Pair>
+</StyleMap>
+
+
+<Style id="inactive-blue">
+	<IconStyle>
+		<Icon><href>http://earthquake.usgs.gov/images/ge/circle-blue.png</href></Icon>
+	</IconStyle>
+	<LabelStyle><scale>0</scale></LabelStyle>
+</Style>
+<Style id="active-blue">
+	<IconStyle>
+		<Icon><href>http://earthquake.usgs.gov/images/ge/circle-blue.png</href></Icon>
+	</IconStyle>
+	<LabelStyle><scale>1</scale></LabelStyle>
+	<BalloonStyle>
+	<text><![CDATA[
+		<html><head>
+			<title>$[name]</title>
+			<style type="text/css"><!-- 
+			body {
+				margin:0;padding:0;
+			}
+			header {
+				display:block;
+				width:400px;
+				margin:0;
+				padding:48px 0 0 0;
+				/* This image is 40px tall. Padding should match + pad. */
+				background-image:url('http://earthquake.usgs.gov/images/ge/banner.jpg');
+				background-position: 0 0;
+				background-repeat: no-repeat;
+				font-weight:bold;
+				font-size:12pt;
+			}
+			section {
+				display:block;
+				margin:0;padding:0;
+			}
+			.box {
+				display:block;
+				float:left;
+				margin-right:8px;
+				margin-bottom:8px;
+				padding:2px 4px;
+				border:1px solid #333333;
+			}
+			.alert-pending { background-color: #FFF; color: #000; }
+			.alert-green { background-color:#00b04f; color: #fff; }
+			.alert-yellow { background-color: #ff0; color: #000; }
+			.alert-orange { background-color: #f90; color: #000; }
+			.alert-red { background-color: #f00; color: #fff; }
+
+			.mmi-1, .mmi-2, .mmi-3, .mmi-4, .mmi-5, .mmi-6, .mmi-7,
+			.mmi-8, .mmi-9, .mmi-10, .mmi-11, .mmi-12, .date {
+				font-family:Georgia, Times, serif;
+			}
+			.mmi-1 .plain, .mmi-2 .plain, .mmi-3 .plain, .mmi-4 .plain,
+			.mmi-5 .plain, .mmi-6 .plain, .mmi-7 .plain, .mmi-8 .plain,
+			.mmi-9 .plain, .mmi-10 .plain, .mmi-11 .plain, .mmi-12 .plain {
+				font-family:Helvetica, 'sans serif';
+				font-size:.95em;
+			}
+			.mmi-1{color:#000; background-color:#FFFFFF;}
+			.mmi-2{color:#000; background-color:#ACD8E9;}
+			.mmi-3{color:#000; background-color:#ACD8E9;}
+			.mmi-4{color:#000; background-color:#83D0DA;}
+			.mmi-5{color:#000; background-color:#7BC87F;}
+			.mmi-6{color:#000; background-color:#F9F518;}
+			.mmi-7{color:#000; background-color:#FAC611;}
+			.mmi-8{color:#000; background-color:#FA8A11;}
+			.mmi-9{color:#FFF; background-color:#F7100C;}
+			.mmi-10{color:#FFF; background-color:#C80F0A;}
+			.mmi-11{color:#FFF; background-color:#C80F0A;}
+			.mmi-12{color:#FFF; background-color:#C80F0A;}
+		
+			footer {
+				display:block;
+				margin:0;padding:0;
+				background-image:url('http://earthquake.usgs.gov/images/ge/anss.gif');
+				background-position:100% 0;
+				background-repeat: no-repeat;
+				height:31px;
+				width:400px;
+			}
+			footer a {
+				display:block;
+				margin:0;padding:0;
+			}
+			--></style>
+		</head><body>
+			<header>$[name]</header>
+			<section>$[description]</section>
+			<footer>$[Snippet]</footer>
+		</body></html>
+	]]></text>
+	</BalloonStyle>
+</Style>
+<StyleMap id="blue">
+	<Pair><key>normal</key><styleUrl>#inactive-blue</styleUrl></Pair>
+	<Pair><key>highlight</key><styleUrl>#active-blue</styleUrl></Pair>
+</StyleMap>
+
+
+<Style id="inactive-purple">
+	<IconStyle>
+		<Icon><href>http://earthquake.usgs.gov/images/ge/circle-purple.png</href></Icon>
+	</IconStyle>
+	<LabelStyle><scale>0</scale></LabelStyle>
+</Style>
+<Style id="active-purple">
+	<IconStyle>
+		<Icon><href>http://earthquake.usgs.gov/images/ge/circle-purple.png</href></Icon>
+	</IconStyle>
+	<LabelStyle><scale>1</scale></LabelStyle>
+	<BalloonStyle>
+	<text><![CDATA[
+		<html><head>
+			<title>$[name]</title>
+			<style type="text/css"><!-- 
+			body {
+				margin:0;padding:0;
+			}
+			header {
+				display:block;
+				width:400px;
+				margin:0;
+				padding:48px 0 0 0;
+				/* This image is 40px tall. Padding should match + pad. */
+				background-image:url('http://earthquake.usgs.gov/images/ge/banner.jpg');
+				background-position: 0 0;
+				background-repeat: no-repeat;
+				font-weight:bold;
+				font-size:12pt;
+			}
+			section {
+				display:block;
+				margin:0;padding:0;
+			}
+			.box {
+				display:block;
+				float:left;
+				margin-right:8px;
+				margin-bottom:8px;
+				padding:2px 4px;
+				border:1px solid #333333;
+			}
+			.alert-pending { background-color: #FFF; color: #000; }
+			.alert-green { background-color:#00b04f; color: #fff; }
+			.alert-yellow { background-color: #ff0; color: #000; }
+			.alert-orange { background-color: #f90; color: #000; }
+			.alert-red { background-color: #f00; color: #fff; }
+
+			.mmi-1, .mmi-2, .mmi-3, .mmi-4, .mmi-5, .mmi-6, .mmi-7,
+			.mmi-8, .mmi-9, .mmi-10, .mmi-11, .mmi-12, .date {
+				font-family:Georgia, Times, serif;
+			}
+			.mmi-1 .plain, .mmi-2 .plain, .mmi-3 .plain, .mmi-4 .plain,
+			.mmi-5 .plain, .mmi-6 .plain, .mmi-7 .plain, .mmi-8 .plain,
+			.mmi-9 .plain, .mmi-10 .plain, .mmi-11 .plain, .mmi-12 .plain {
+				font-family:Helvetica, 'sans serif';
+				font-size:.95em;
+			}
+			.mmi-1{color:#000; background-color:#FFFFFF;}
+			.mmi-2{color:#000; background-color:#ACD8E9;}
+			.mmi-3{color:#000; background-color:#ACD8E9;}
+			.mmi-4{color:#000; background-color:#83D0DA;}
+			.mmi-5{color:#000; background-color:#7BC87F;}
+			.mmi-6{color:#000; background-color:#F9F518;}
+			.mmi-7{color:#000; background-color:#FAC611;}
+			.mmi-8{color:#000; background-color:#FA8A11;}
+			.mmi-9{color:#FFF; background-color:#F7100C;}
+			.mmi-10{color:#FFF; background-color:#C80F0A;}
+			.mmi-11{color:#FFF; background-color:#C80F0A;}
+			.mmi-12{color:#FFF; background-color:#C80F0A;}
+		
+			footer {
+				display:block;
+				margin:0;padding:0;
+				background-image:url('http://earthquake.usgs.gov/images/ge/anss.gif');
+				background-position:100% 0;
+				background-repeat: no-repeat;
+				height:31px;
+				width:400px;
+			}
+			footer a {
+				display:block;
+				margin:0;padding:0;
+			}
+			--></style>
+		</head><body>
+			<header>$[name]</header>
+			<section>$[description]</section>
+			<footer>$[Snippet]</footer>
+		</body></html>
+	]]></text>
+	</BalloonStyle>
+</Style>
+<StyleMap id="purple">
+	<Pair><key>normal</key><styleUrl>#inactive-purple</styleUrl></Pair>
+	<Pair><key>highlight</key><styleUrl>#active-purple</styleUrl></Pair>
+</StyleMap>
+
+
+
+
+	<Folder>
+		<name>Real-time Earthquakes</name>
+		<visibility>1</visibility>
+		<open>1</open>
+		<Style>
+			<ListStyle>
+				<listItemType>radioFolder</listItemType>
+			</ListStyle>
+		</Style>
+
+		<Folder>
+			<name>M1.0+, Past Week</name>
+			<description>Updates every 5 minutes</description>
+			<Snippet maxLines="0"></Snippet>
+			<visibility>1</visibility>
+			<open>1</open>
+			<Style>
+				<ListStyle>
+					<listItemType>radioFolder</listItemType>
+				</ListStyle>
+			</Style>
+
+			<NetworkLink>
+				<name>Colored by Age</name>
+				<open>0</open>
+				<visibility>1</visibility><!-- this is the default feed -->
+				<Url>
+					<href>http://earthquake.usgs.gov/earthquakes/feed/v0.1/kmlage/1.0/week</href>
+					<refreshMode>onInterval</refreshMode>
+					<refreshInterval>300</refreshInterval>
+				</Url>
+			</NetworkLink>
+			<NetworkLink>
+				<name>Colored by Depth</name>
+				<open>0</open>
+				<visibility>0</visibility>
+				<Url>
+					<href>http://earthquake.usgs.gov/earthquakes/feed/v0.1/kmldepth/1.0/week</href>
+					<refreshMode>onInterval</refreshMode>
+					<refreshInterval>300</refreshInterval>
+				</Url>
+			</NetworkLink>
+			<NetworkLink>
+				<name>Animated, Colored by Depth</name>
+				<open>0</open>
+				<visibility>0</visibility>
+				<Url>
+					<href>http://earthquake.usgs.gov/earthquakes/feed/v0.1/kmldepth_animated/1.0/week</href>
+					<refreshMode>onInterval</refreshMode>
+					<refreshInterval>300</refreshInterval>
+				</Url>
+			</NetworkLink>
+		</Folder>
+
+		<Folder>
+			<name>M2.5+, Past Month</name>
+			<description>Updates every 15 minutes</description>
+			<Snippet maxLines="0"></Snippet>
+			<visibility>0</visibility>
+			<open>0</open>
+			<Style>
+				<ListStyle>
+					<listItemType>radioFolder</listItemType>
+				</ListStyle>
+			</Style>
+
+			<NetworkLink>
+				<name>Colored by Age</name>
+				<open>0</open>
+				<visibility>0</visibility>
+				<Url>
+					<href>http://earthquake.usgs.gov/earthquakes/feed/v0.1/kmlage/2.5/month</href>
+					<refreshMode>onInterval</refreshMode>
+					<refreshInterval>900</refreshInterval>
+				</Url>
+			</NetworkLink>
+			<NetworkLink>
+				<name>Colored by Depth</name>
+				<open>0</open>
+				<visibility>0</visibility>
+				<Url>
+					<href>http://earthquake.usgs.gov/earthquakes/feed/v0.1/kmldepth/2.5/month</href>
+					<refreshMode>onInterval</refreshMode>
+					<refreshInterval>900</refreshInterval>
+				</Url>
+			</NetworkLink>
+			<NetworkLink>
+				<name>Animated, Colored by Depth</name>
+				<open>0</open>
+				<visibility>0</visibility>
+				<Url>
+					<href>http://earthquake.usgs.gov/earthquakes/feed/v0.1/kmldepth_animated/2.5/month</href>
+					<refreshMode>onInterval</refreshMode>
+					<refreshInterval>900</refreshInterval>
+				</Url>
+			</NetworkLink>
+		</Folder>
+
+	</Folder>
+
+	<NetworkLink>
+		<name>Historic Earthquakes</name>
+		<open>0</open>
+		<visibility>0</visibility>
+		<Url>
+			<href>http://earthquake.usgs.gov/earthquakes/catalogs/historic/eqs-1970.kmz</href>
+			<refreshMode>onInterval</refreshMode>
+			<refreshInterval>604800</refreshInterval>
+		</Url>
+	</NetworkLink>
+
+	<NetworkLink>
+		<name>Tectonic Plate Boundaries</name>
+		<open>0</open>
+		<visibility>1</visibility>
+		<Url>
+			<href>http://earthquake.usgs.gov/earthquakes/feed/v0.1/plates.kmz</href>
+			<refreshMode>onInterval</refreshMode>
+			<refreshInterval>604800</refreshInterval>
+		</Url>
+	</NetworkLink>
+
+</Document>
+</kml>

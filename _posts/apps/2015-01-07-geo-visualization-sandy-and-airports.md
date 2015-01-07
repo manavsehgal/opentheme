@@ -11,8 +11,8 @@ from: "1hcqyroMjYXZfCqDTUq2nmhgwzG13W-BRzNXyaEk"
 where: "Location"
 
 # KML Options
-kml_source: "https://kml123.googlecode.com/files/WorldAirports.kml"
-kml_source2: "http://opentheme.co/static-data/287257.kml"
+kml_source: "http://opentheme.co/static-data/287257.kml"
+kml_source2: "http://opentheme.co/static-data/WorldAirports.kml"
 ---
 
 {% include kml-viewer.html %}

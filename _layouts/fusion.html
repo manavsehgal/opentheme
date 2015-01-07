@@ -6,6 +6,50 @@
       margin-bottom: 20px;
       padding: 0px
     }
+
+    .controls {
+        margin-top: 16px;
+        border: 1px solid transparent;
+        border-radius: 2px 0 0 2px;
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        height: 32px;
+        outline: none;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+      }
+
+      #pac-input {
+        background-color: #fff;
+        padding: 0 11px 0 13px;
+        width: 400px;
+        font-family: Roboto;
+        font-size: 15px;
+        font-weight: 300;
+        text-overflow: ellipsis;
+      }
+
+      #pac-input:focus {
+        border-color: #4d90fe;
+        margin-left: -1px;
+        padding-left: 14px;  /* Regular padding-left + 1. */
+        width: 401px;
+      }
+
+      .pac-container {
+        font-family: Roboto;
+      }
+
+      #type-selector {
+        color: #fff;
+        background-color: #4d90fe;
+        padding: 5px 11px 0px 11px;
+      }
+
+      #type-selector label {
+        font-family: Roboto;
+        font-size: 13px;
+        font-weight: 300;
+      }
   </style>  
   </head>
 
@@ -64,18 +108,21 @@
     {% if page.kml_source %}    
     
     function initialize() {
-      var chicago = new google.maps.LatLng(41.875696,-87.624207);
-      var mapOptions = {
-        zoom: 11,
-        center: chicago
-      }
+
+      var map = new google.maps.Map(document.getElementById('map-canvas'));
     
-      var map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
-    
-      var ctaLayer = new google.maps.KmlLayer({
+      var kml_layer1 = new google.maps.KmlLayer({
         url: '{{ page.kml_source }}'
       });
-      ctaLayer.setMap(map);
+      kml_layer1.setMap(map);
+      
+      {% if page.kml_source2 %}    
+      var kml_layer2 = new google.maps.KmlLayer({
+        url: '{{ page.kml_source2 }}'
+      });
+      kml_layer2.setMap(map);
+      {% endif %}
+      
     }
     
     google.maps.event.addDomListener(window, 'load', initialize);

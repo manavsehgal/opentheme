@@ -61,6 +61,7 @@
       See the License for the specific language governing permissions and
       limitations under the License.
     */
+    {% if page.kml_source %}    
     
     function initialize() {
       var chicago = new google.maps.LatLng(41.875696,-87.624207);
@@ -72,20 +73,21 @@
       var map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
     
       var ctaLayer = new google.maps.KmlLayer({
-        url: 'http://www.hpc.ncep.noaa.gov/kml/fop/fopbody.kml'
+        url: '{{ page.kml_source }}'
       });
       ctaLayer.setMap(map);
     }
     
     google.maps.event.addDomListener(window, 'load', initialize);
     
+    {% endif %}
+    
     function drawTable() {
       var query_element = document.getElementById("fusion-grid");
-      var select = query_element.getAttribute("data-select");
-      var from = query_element.getAttribute("data-from");
-      var where = query_element.getAttribute("data-where");
-      var chart = query_element.getAttribute("data-chart");
-      
+      var select = "{{ page.select }}";
+      var from = "{{ page.from }}";
+      var where = "{{ page.where }}";
+
       var query = select + ' FROM ' + from;
       var filter = document.getElementById('fusion-grid-filter').value;
       if (filter) {
@@ -106,10 +108,13 @@
         });
       });
       
-      if (chart == 'bar') {
+      {% if page.chart %}
+      var chart = "{{ page.chart }}";  
+      if (chart == "bar") {
         var chart_element = document.getElementById("fusion-bar-chart");
-        var compare = chart_element.getAttribute("data-compare");
-        var chart_height = parseInt(chart_element.getAttribute("data-height"));
+        var compare = "{{ page.compare }}";
+        var chart_height = parseInt("{{ page.chart_height }}");
+        
         var chart_title = compare + ' by ' + where;
         google.visualization.drawChart({
           containerId: 'fusion-bar-chart',
@@ -130,6 +135,8 @@
           }
         });
       }
+      
+      {% endif %}
     
     }
     

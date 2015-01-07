@@ -13,6 +13,8 @@ where: "Country"
 chart: bar
 compare: "Coffee Production"
 chart_height: 1200
+# KML Options
+kml_source: "http://www.hpc.ncep.noaa.gov/kml/fop/fopbody.kml"
 ---
 This is a coffee production sample app created using Fusion Tables. 
 Filter on part or full country name, or common text in multiple countries to update custom dashboard chart.

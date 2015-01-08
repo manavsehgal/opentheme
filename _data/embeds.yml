@@ -62,6 +62,19 @@
   docs: https://support.google.com/youtube/answer/171780?hl=en               
   usecase: /theme/2014/11/24/starter-post-media-embed/
 
+- name: UserVoice
+  about: User feedback, idea voting, customer helpdesk and support widget that can be added to any page.
+  group: Social
+  image: /img/embed/uservoice.png
+  icon: announcement
+  scope: Site
+  responsive: true
+  jekyll_friendly: true
+  rating: 5
+  create: https://www.uservoice.com/              
+  docs: https://developer.uservoice.com/              
+  usecase: /apps/
+
 - name: Google Map
   about: You can embed Google maps using custom embed created for OpenTheme. Just provide location.
   group: Map

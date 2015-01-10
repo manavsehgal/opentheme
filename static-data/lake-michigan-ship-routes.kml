@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+  <Document>
+    <name>Lake Michigan Shipping Routes and Lighthouses</name>
+    <description>In order to determine whether or not the age old story of the lighthouse safely bringing the ship to shore was only an occasional occurrence, I decided to map out the shipping routes of Lake Michigan, and see how closely they came to the lighthouses in the area.</description>
+    <atom:author>
+        <atom:name>xxghost</atom:name>
+    </atom:author>
+    <atom:link href="http://geocommons.com/maps/257754" />   
+     
+              <NetworkLink>
+        <name><![CDATA[North American Lighthouses - ]]></name>
+        <visibility>1</visibility>
+        <Link>
+            <href>http://geocommons.com/maps/257754/layers/0.kmz?timestamp=MjAxMy0wNC0yNiAwMToxNDozNyBVVEM%3D</href>
+        </Link>
+    </NetworkLink>
+                    <NetworkLink>
+        <name><![CDATA[Lake Michigan Shipping Routes - ]]></name>
+        <visibility>1</visibility>
+        <Link>
+            <href>http://geocommons.com/maps/257754/layers/1.kmz?timestamp=MjAxMy0wNC0yNiAwMToxNDozNyBVVEM%3D</href>
+        </Link>
+    </NetworkLink>
+            </Document>
+</kml>

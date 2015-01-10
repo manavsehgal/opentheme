@@ -1,0 +1,3258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+	<name>Volcanos GeoTour.kml</name>
+	<StyleMap id="msn_ylw-pushpin_copy473">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin_copy384</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin_copy448</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_4_copy56">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/4.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/4-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+		<PolyStyle>
+			<color>ff0000ff</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="msn_1_copy89">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_1_copy89</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_1_copy91</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_1_copy91">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/1.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/1-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin_copy431">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+			<text>$[description]</text>
+		</BalloonStyle>
+	</Style>
+	<Style id="sn_5_copy31">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/5.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/5-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin_copy362">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+			<text>$[description]</text>
+		</BalloonStyle>
+	</Style>
+	<Style id="sh_1_copy96">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/1.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/1-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_1_copy91">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_1_copy91</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_1_copy93</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_1_copy98">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/1.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/1-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin_copy415">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+			<text>$[description]</text>
+		</BalloonStyle>
+	</Style>
+	<Style id="sn_5_copy30">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/5.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/5-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_ylw-stars_copy610">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-stars_copy604</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-stars_copy6100</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-stars_copy10200">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-stars_copy1090</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-stars_copy1011</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-stars_copy1310">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-stars.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-stars-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sn_noicon_copy300">
+		<IconStyle>
+			<Icon>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin_copy447">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+			<text>$[description]</text>
+		</BalloonStyle>
+	</Style>
+	<Style id="sn_1_copy93">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/1.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/1-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin700">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin7000</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin7100</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_1_copy94">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_1_copy94</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_1_copy96</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-pushpin_copy384">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+			<text>$[description]</text>
+		</BalloonStyle>
+	</Style>
+	<Style id="sn_noicon_copy320">
+		<IconStyle>
+			<Icon>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sn_ylw-stars_copy5002">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-stars.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-stars-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_7_copy27">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_7_copy27</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_7_copy27</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_1_copy96">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_1_copy96</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_1_copy98</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_6_copy53">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/6.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/6-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin_copy422">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+			<text>$[description]</text>
+		</BalloonStyle>
+	</Style>
+	<Style id="sh_1_copy99">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/1.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/1-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin_copy472">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin_copy383</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin_copy447</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_6_copy54">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_6_copy53</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_6_copy45</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-stars_copy412">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-stars_copy40020</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-stars_copy4200</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_1_copy94">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/1.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/1-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_ylw-stars110">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-stars300</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-stars020</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_noicon_copy310">
+		<IconStyle>
+			<Icon>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sn_ylw-stars_copy893">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-stars.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-stars-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sn_1_copy95">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/1.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/1-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sh_ylw-stars_copy210">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-stars.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-stars-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sh_3_copy76">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/3.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/3-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+		<PolyStyle>
+			<color>ff0000ff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_ylw-stars_copy5210">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-stars.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-stars-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sh_ylw-stars_copy6100">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-stars.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-stars-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sh_6_copy45">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/6.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/6-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sh_ylw-stars_copy4200">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-stars.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-stars-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_ylw-stars_copy910">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-stars_copy912</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-stars_copy91</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_1_copy93">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_1_copy93</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_1_copy95</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-stars_copy812">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-stars_copy893</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-stars_copy810</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-stars_copy00100">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-stars.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-stars-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin_copy373">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+			<text>$[description]</text>
+		</BalloonStyle>
+	</Style>
+	<Style id="sn_noicon_copy180">
+		<IconStyle>
+			<Icon>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_ylw-stars_copy1320">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-stars_copy130</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-stars_copy1310</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin_copy442">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+			<text>$[description]</text>
+		</BalloonStyle>
+	</Style>
+	<Style id="sh_1_copy97">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/1.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/1-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin_copy462">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin_copy374</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin_copy422</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-stars_copy1090">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-stars.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-stars-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sh_ylw-stars_copy040">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-stars.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-stars-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sh_ylw-stars_copy1222">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-stars.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-stars-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_5_copy31">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_5_copy31</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_5_copy33</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_noicon_copy330">
+		<IconStyle>
+			<Icon>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sh_ylw-stars_copy1610">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-stars.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-stars-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin_copy382">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+			<text>$[description]</text>
+		</BalloonStyle>
+	</Style>
+	<Style id="sh_1_copy91">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/1.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/1-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sn_noicon_copy190">
+		<IconStyle>
+			<Icon>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_4_copy58">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_4_copy56</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_4_copy56</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-stars_copy1410">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-stars.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-stars-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sh_ylw-stars_copy1120">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-stars.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-stars-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin_copy383">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+			<text>$[description]</text>
+		</BalloonStyle>
+	</Style>
+	<Style id="sn_7_copy27">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/7.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/7-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_5_copy30">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_5_copy30</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_5_copy32</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin_copy448">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+			<text>$[description]</text>
+		</BalloonStyle>
+	</Style>
+	<Style id="sh_ylw-stars_copy91">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-stars.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-stars-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sh_ylw-stars_copy1011">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-stars.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-stars-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sn_ylw-stars_copy130">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-stars.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-stars-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin_copy369">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+			<text>$[description]</text>
+		</BalloonStyle>
+	</Style>
+	<Style id="sn_ylw-stars_copy14100">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-stars.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-stars-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_ylw-stars_copy12200">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-stars_copy1210</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-stars_copy1222</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_5_copy32">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/5.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/5-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_3_copy76">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_3_copy72</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_3_copy76</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-stars_copy1100">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-stars.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-stars-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_ylw-stars_copy712">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-stars_copy722</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-stars_copy720</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin_copy396">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+			<text>$[description]</text>
+		</BalloonStyle>
+	</Style>
+	<Style id="sn_ylw-stars_copy2711">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-stars.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-stars-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sn_ylw-stars_copy722">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-stars.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-stars-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sh_5_copy33">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/5.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/5-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_ylw-stars_copy112">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-stars_copy191</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-stars_copy1120</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_1_copy97">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_1_copy97</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_1_copy99</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-stars_copy332">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-stars_copy3010</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-stars_copy3101</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-stars_copy912">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-stars.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-stars-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sn_ylw-stars_copy160">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-stars.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-stars-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sh_8_copy9">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/8.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/8-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sn_1_copy97">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/1.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/1-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sn_3_copy72">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/3.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/3-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+		<PolyStyle>
+			<color>ff0000ff</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="msn_ylw-stars_copy11002">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-stars_copy1100</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-stars_copy1100</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_1_copy89">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/1.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/1-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_ylw-stars_copy2520">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-stars_copy2711</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-stars_copy210</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-stars_copy191">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-stars.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-stars-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sn_8_copy9">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/8.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/8-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin_copy453">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin_copy373</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin_copy415</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin_copy391">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+			<text>$[description]</text>
+		</BalloonStyle>
+	</Style>
+	<Style id="sn_ylw-stars_copy1210">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-stars.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-stars-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_ylw-stars_copy0010">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-stars_copy00100</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-stars_copy040</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-stars_copy1610">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-stars_copy160</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-stars_copy1610</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-pushpin_copy377">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+			<text>$[description]</text>
+		</BalloonStyle>
+	</Style>
+	<Style id="sn_1_copy96">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/1.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/1-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_1_copy95">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_1_copy95</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_1_copy97</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-pushpin7000">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff000000</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff336699</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_noicon_copy170">
+		<IconStyle>
+			<Icon>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin_copy374">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+			<text>$[description]</text>
+		</BalloonStyle>
+	</Style>
+	<Style id="sn_ylw-stars_copy40020">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-stars.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-stars-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sh_ylw-stars_copy810">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-stars.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-stars-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_ylw-stars_copy1400">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-stars_copy14100</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-stars_copy1410</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-stars_copy720">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-stars.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-stars-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin_copy442">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin_copy369</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin_copy396</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-stars_copy3101">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-stars.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-stars-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sh_1_copy95">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/1.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/1-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_8_copy9">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_8_copy9</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_8_copy9</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-stars020">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-stars.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-stars-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sh_ylw-stars_copy1100">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-stars.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-stars-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sn_ylw-stars300">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-stars.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-stars-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sn_ylw-stars_copy3010">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-stars.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-stars-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin7100">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff000000</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff336699</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_7_copy27">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/7.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/7-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin_copy464">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin_copy377</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin_copy431</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_4_copy56">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/4.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/4-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+		<PolyStyle>
+			<color>ff0000ff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_1_copy93">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/1.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/1-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sn_ylw-stars_copy604">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-stars.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-stars-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin_copy465">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin_copy382</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin_copy442</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-stars_copy5200">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-stars_copy5002</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-stars_copy5210</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin_copy419">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin_copy362</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin_copy391</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Folder>
+		<name>Volcanos GeoTour</name>
+		<open>1</open>
+		<Style>
+			<ListStyle>
+				<listItemType>check</listItemType>
+				<bgColor>00ffffff</bgColor>
+			</ListStyle>
+		</Style>
+		<Folder>
+			<name>Yellowstone Falls, WY</name>
+			<open>1</open>
+			<LookAt>
+				<longitude>-110.4960764534244</longitude>
+				<latitude>44.71797568520025</latitude>
+				<altitude>0</altitude>
+				<range>2999.983873302765</range>
+				<tilt>29.55923308445417</tilt>
+				<heading>53.77851538379255</heading>
+			</LookAt>
+			<Folder>
+				<name>Images</name>
+				<LookAt>
+					<longitude>-110.4960764534244</longitude>
+					<latitude>44.71797568520025</latitude>
+					<altitude>0</altitude>
+					<range>2999.983873302765</range>
+					<tilt>29.55923308445417</tilt>
+					<heading>53.77851538379255</heading>
+				</LookAt>
+				<Placemark>
+					<name>Image G9.1</name>
+					<Snippet maxLines="2"></Snippet>
+					<description><![CDATA[<!--
+******************************************
+Table with two cells, each 200 pixels wide.
+The first cell contains the logo centered, 
+whereas the second cell has the title & 
+subtitle centered.
+******************************************
+ -->
+<table border="0">
+<tr>
+<td width="200" valign="middle" align="center">
+<a href="http://www.wwnorton.com/studyspace/disciplines/geology.asp">
+<img src="http://www2.wwnorton.com/college/geo/geotours/Earth_3E.png" width="100" height="125">
+</a> 
+</td>
+<td width="200" valign="middle" align="center">
+<font size="+2"><b>Yellowstone Falls, WY</b></font> 
+<br> 
+<font size="+1"><b>Volcanic Features</b></font> 
+</td>
+</tr>
+</table>
+<!--
+******************************************
+End 2-cell table.
+******************************************
+ -->
+<!--
+******************************************
+<hr> is a horizontal rule.
+******************************************
+ -->
+<hr>
+
+<!-- 
+******************************************
+BalloonStyle background color:
+ffffffff
+******************************************
+ -->
+<!--
+******************************************
+Table 400 pixels wide.
+******************************************
+ -->
+
+<table width="400" border="0" cellspacing="0" cellpadding="5">
+
+<!--
+******************************************
+Image
+******************************************
+ -->
+  <tr>
+    <td colspan="2" align="center">
+      <img src="http://www2.wwnorton.com/college/geo/geotours/GeoTour09/G9_1.png">
+<br>
+<font size="2"><i>G9.1</i></font>
+    </td>
+  </tr>
+ <!--
+******************************************
+Text
+******************************************
+ --> 
+  <tr>
+    <td colspan="2">
+      <p>
+You are looking downstream at the Grand Canyon of the Yellowstone from an elevation of 3 km (Image G9.1). The canyon walls expose bright yellow altered tuffs deposited during cataclysmic eruptions that occurred during the past 2 million years. 
+</p>
+</td>
+</tr>
+<!--
+******************************************
+Copyright
+******************************************
+ -->
+  <tr>
+    <td colspan="2" align="center">
+      <font color="#999999" size="2"><a href="http://www.wwnorton.com/studyspace/disciplines/geology.asp"> &copy; 2008 W.W. Norton Company</a> </font>
+    </td>
+  </tr>
+<!--
+******************************************
+End table 400 pixels wide.
+******************************************
+ -->
+</table>]]></description>
+					<LookAt>
+						<longitude>-110.4960763713487</longitude>
+						<latitude>44.71797572794738</latitude>
+						<altitude>0</altitude>
+						<range>3000</range>
+						<tilt>29.55923315594557</tilt>
+						<heading>53.7600898749171</heading>
+						<altitudeMode>relativeToGround</altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_ylw-pushpin_copy453</styleUrl>
+					<Point>
+						<coordinates>-110.4959555555556,44.71804444444444,0</coordinates>
+					</Point>
+				</Placemark>
+			</Folder>
+		</Folder>
+		<Folder>
+			<name>Mt. Saint Helens, WA - &lt;a&gt;&lt;font size=2&gt;&lt;font color=&quot;red&quot;&gt;&lt;b&gt;WAGS&lt;/b&gt;&lt;/a&gt;</name>
+			<Folder>
+				<name>Images</name>
+				<open>1</open>
+				<Placemark>
+					<name>Images G9.2-G9.3</name>
+					<Snippet maxLines="2"></Snippet>
+					<description><![CDATA[<!--
+******************************************
+Table with two cells, each 200 pixels wide.
+The first cell contains the logo centered, 
+whereas the second cell has the title & 
+subtitle centered.
+******************************************
+ -->
+<table border="0">
+<tr>
+<td width="200" valign="middle" align="center">
+<a href="http://www.wwnorton.com/studyspace/disciplines/geology.asp">
+<img src="http://www2.wwnorton.com/college/geo/geotours/Earth_3E.png" width="100" height="125">
+</a> 
+</td>
+<td width="200" valign="middle" align="center">
+<font size="+2"><b>Mt. Saint Helens, WA</b></font> 
+<br> 
+<font size="+1"><b>Volcanic Features</b></font> 
+</td>
+</tr>
+</table>
+<!--
+******************************************
+End 2-cell table.
+******************************************
+ -->
+<!--
+******************************************
+<hr> is a horizontal rule.
+******************************************
+ -->
+<hr>
+
+<!-- 
+******************************************
+BalloonStyle background color:
+ffffffff
+******************************************
+ -->
+<!--
+******************************************
+Table 400 pixels wide.
+******************************************
+ -->
+
+<table width="400" border="0" cellspacing="0" cellpadding="5">
+
+<!--
+******************************************
+Image
+******************************************
+ -->
+  <tr>
+    <td colspan="1" align="center">
+      <img src="http://www2.wwnorton.com/college/geo/geotours/GeoTour09/G9_2.png">
+<br>
+<font size="2"><i>G9.2</i></font>
+    </td>
+<td colspan="2" align="center">
+      <img src="http://www2.wwnorton.com/college/geo/geotours/GeoTour09/G9_3.png">
+<br>
+<font size="2"><i>G9.3</i></font>
+    </td>
+  </tr>
+ <!--
+******************************************
+Text
+******************************************
+ --> 
+  <tr>
+    <td colspan="3">
+      <p>
+Box 9.1 discusses the explosion of Mt. Saint Helens. From this perspective (30 km or 18.5 miles), you can see the damage for yourself. The breached crater, the blowdown zone, the slumps, and the lahars are all visible (Image G9.2). To get a better sense of the devastation, descend to 13 km, tilt your image, and fly around the mountain (Image G9.3).
+</p>
+</td>
+</tr>
+<!--
+******************************************
+Copyright
+******************************************
+ -->
+  <tr>
+    <td colspan="3" align="center">
+      <font color="#999999" size="2"><a href="http://www.wwnorton.com/studyspace/disciplines/geology.asp"> &copy; 2008 W.W. Norton Company</a> </font>
+    </td>
+  </tr>
+<!--
+******************************************
+End table 400 pixels wide.
+******************************************
+ -->
+</table>]]></description>
+					<LookAt>
+						<longitude>-122.1890916666667</longitude>
+						<latitude>46.20034444444445</latitude>
+						<altitude>0</altitude>
+						<range>30000</range>
+						<tilt>0</tilt>
+						<heading>0</heading>
+						<altitudeMode>relativeToGround</altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_ylw-pushpin_copy442</styleUrl>
+					<Point>
+						<coordinates>-122.1890916666667,46.20034444444445,0</coordinates>
+					</Point>
+				</Placemark>
+			</Folder>
+			<Folder>
+				<name>What a Geologist Sees</name>
+				<open>1</open>
+				<Placemark>
+					<name>Log Mat</name>
+					<LookAt>
+						<longitude>-122.1450601217419</longitude>
+						<latitude>46.27332911723723</latitude>
+						<altitude>0</altitude>
+						<range>9688.476000552037</range>
+						<tilt>2.065650401994625</tilt>
+						<heading>0.02721686694199373</heading>
+					</LookAt>
+					<styleUrl>#msn_ylw-stars_copy2520</styleUrl>
+					<Point>
+						<coordinates>-122.1545363584302,46.26154250407289,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Resurgent Dome</name>
+					<LookAt>
+						<longitude>-122.1859636717</longitude>
+						<latitude>46.19762372803663</latitude>
+						<altitude>0</altitude>
+						<range>4442.333352308772</range>
+						<tilt>2.065366143556051</tilt>
+						<heading>-0.002357841444457286</heading>
+					</LookAt>
+					<styleUrl>#msn_ylw-stars110</styleUrl>
+					<Point>
+						<coordinates>-122.1883725048044,46.19955428779471,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Lahar</name>
+					<LookAt>
+						<longitude>-122.1903029753675</longitude>
+						<latitude>46.17027093492331</latitude>
+						<altitude>0</altitude>
+						<range>4689.001370526234</range>
+						<tilt>51.95900154878969</tilt>
+						<heading>-0.005493438504032185</heading>
+					</LookAt>
+					<styleUrl>#msn_ylw-stars_copy112</styleUrl>
+					<Point>
+						<coordinates>-122.1952878949539,46.16092443005491,0</coordinates>
+					</Point>
+				</Placemark>
+				<GroundOverlay>
+					<name>Volcanic Features Map</name>
+					<visibility>0</visibility>
+					<Snippet maxLines="2"></Snippet>
+					<description>Figure 9.15c on p. 282. A map illustrating the dimensions of the region destroyed by the 1980 eruption of Mt. St. Helens. The arrows indicate the blast direction.</description>
+					<Icon>
+						<href>http://www2.wwnorton.com/college/geo/geotours/GeoTour09/09_14c.jpg</href>
+						<viewBoundScale>0.75</viewBoundScale>
+					</Icon>
+					<LatLonBox>
+						<north>46.39664717355252</north>
+						<south>46.13353773994887</south>
+						<east>-121.9961647485028</east>
+						<west>-122.5056054906863</west>
+					</LatLonBox>
+				</GroundOverlay>
+			</Folder>
+			<Folder>
+				<name>Mt. St. Helens Tour</name>
+				<Placemark>
+					<open>1</open>
+					<LookAt>
+						<longitude>-122.3827792146772</longitude>
+						<latitude>46.28274667372569</latitude>
+						<altitude>0</altitude>
+						<range>10311.50258323327</range>
+						<tilt>73.79780716379133</tilt>
+						<heading>120.9632392612233</heading>
+					</LookAt>
+					<styleUrl>#sn_noicon_copy170</styleUrl>
+					<Point>
+						<coordinates>-122.4208311170154,46.30467840048457,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<open>1</open>
+					<LookAt>
+						<longitude>-122.2692799213032</longitude>
+						<latitude>46.27085577481279</latitude>
+						<altitude>0</altitude>
+						<range>4284.326315334707</range>
+						<tilt>73.79133340649304</tilt>
+						<heading>131.0912720173844</heading>
+					</LookAt>
+					<styleUrl>#sn_noicon_copy180</styleUrl>
+					<Point>
+						<coordinates>-122.2907099416578,46.28430930106897,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<open>1</open>
+					<LookAt>
+						<longitude>-122.2065381495365</longitude>
+						<latitude>46.26057410360162</latitude>
+						<altitude>0</altitude>
+						<range>3104.744794064032</range>
+						<tilt>73.78402830412675</tilt>
+						<heading>158.4601747040131</heading>
+					</LookAt>
+					<styleUrl>#sn_noicon_copy190</styleUrl>
+					<Point>
+						<coordinates>-122.2164309302456,46.2768891442768,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<open>1</open>
+					<LookAt>
+						<longitude>-122.1506440787241</longitude>
+						<latitude>46.25301585630326</latitude>
+						<altitude>0</altitude>
+						<range>4476.127332563482</range>
+						<tilt>73.78266164533689</tilt>
+						<heading>-164.8288400360554</heading>
+					</LookAt>
+					<styleUrl>#sn_noicon_copy300</styleUrl>
+					<Point>
+						<coordinates>-122.1537082199361,46.25452938075097,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<LookAt>
+						<longitude>-122.1244420767606</longitude>
+						<latitude>46.20517778693176</latitude>
+						<altitude>0</altitude>
+						<range>10967.15295065875</range>
+						<tilt>58.6549355657155</tilt>
+						<heading>-95.73046683258536</heading>
+					</LookAt>
+					<styleUrl>#sn_noicon_copy310</styleUrl>
+					<Point>
+						<coordinates>-122.0839917204481,46.20393359838599,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<open>1</open>
+					<LookAt>
+						<longitude>-122.1548016683477</longitude>
+						<latitude>46.19215926523798</latitude>
+						<altitude>0</altitude>
+						<range>15087.67432278952</range>
+						<tilt>55.43644167768224</tilt>
+						<heading>-5.04115295958238</heading>
+					</LookAt>
+					<styleUrl>#sn_noicon_copy320</styleUrl>
+					<Point>
+						<coordinates>-122.1843835186989,46.16144391196428,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<open>1</open>
+					<LookAt>
+						<longitude>-122.2011300332341</longitude>
+						<latitude>46.23522984318439</latitude>
+						<altitude>0</altitude>
+						<range>23751.20684194029</range>
+						<tilt>55.4406647069097</tilt>
+						<heading>91.57990076364354</heading>
+					</LookAt>
+					<styleUrl>#sn_noicon_copy330</styleUrl>
+					<Point>
+						<coordinates>-122.280240023896,46.23428767445025,0</coordinates>
+					</Point>
+				</Placemark>
+			</Folder>
+		</Folder>
+		<Folder>
+			<name>Smoking Volcano, Ecuador</name>
+			<open>1</open>
+			<LookAt>
+				<longitude>-78.44951478057885</longitude>
+				<latitude>-1.466377826770511</latitude>
+				<altitude>0</altitude>
+				<range>75000.19387963568</range>
+				<tilt>0</tilt>
+				<heading>-9.173009001863437e-16</heading>
+			</LookAt>
+			<Folder>
+				<name>Images</name>
+				<LookAt>
+					<longitude>-78.44951478057885</longitude>
+					<latitude>-1.466377826770511</latitude>
+					<altitude>0</altitude>
+					<range>75000.19022396645</range>
+					<tilt>0</tilt>
+					<heading>-4.586504500931719e-16</heading>
+				</LookAt>
+				<Placemark>
+					<name>Image G9.4</name>
+					<Snippet maxLines="2"></Snippet>
+					<description><![CDATA[<!--
+******************************************
+Table with two cells, each 200 pixels wide.
+The first cell contains the logo centered, 
+whereas the second cell has the title & 
+subtitle centered.
+******************************************
+ -->
+<table border="0">
+<tr>
+<td width="200" valign="middle" align="center">
+<a href="http://www.wwnorton.com/studyspace/disciplines/geology.asp">
+<img src="http://www2.wwnorton.com/college/geo/geotours/Earth_3E.png" width="100" height="125">
+</a> 
+</td>
+<td width="200" valign="middle" align="center">
+<font size="+2"><b>Smoking Volcano, Ecuador</b></font> 
+<br> 
+<font size="+1"><b>Volcanic Features</b></font> 
+</td>
+</tr>
+</table>
+<!--
+******************************************
+End 2-cell table.
+******************************************
+ -->
+<!--
+******************************************
+<hr> is a horizontal rule.
+******************************************
+ -->
+<hr>
+
+<!-- 
+******************************************
+BalloonStyle background color:
+ffffffff
+******************************************
+ -->
+<!--
+******************************************
+Table 400 pixels wide.
+******************************************
+ -->
+
+<table width="400" border="0" cellspacing="0" cellpadding="5">
+
+<!--
+******************************************
+Image
+******************************************
+ -->
+  <tr>
+    <td colspan="2" align="center">
+      <img src="http://www2.wwnorton.com/college/geo/geotours/GeoTour09/G9_4.png">
+<br>
+<font size="2"><i>G9.4</i></font>
+    </td>
+  </tr>
+ <!--
+******************************************
+Text
+******************************************
+ --> 
+  <tr>
+    <td colspan="2">
+      <p>
+From an elevation of 75 km, you can look down at the Andean Volcanic Arc in Ecuador, a consequence of subduction of Pacific Ocean floor beneath South America. Here, you see four volcanoes (Image G9.4). When this image was taken, Tungurahua was erupting, producing a plume of ash that winds blow to the southwest. The largest volcano in view is Chimborazo, the snow-covered peak at the western edge of the image.
+</p>
+</td>
+</tr>
+<!--
+******************************************
+Copyright
+******************************************
+ -->
+  <tr>
+    <td colspan="2" align="center">
+      <font color="#999999" size="2"><a href="http://www.wwnorton.com/studyspace/disciplines/geology.asp"> &copy; 2008 W.W. Norton Company</a> </font>
+    </td>
+  </tr>
+<!--
+******************************************
+End table 400 pixels wide.
+******************************************
+ -->
+</table>]]></description>
+					<LookAt>
+						<longitude>-78.44951111111112</longitude>
+						<latitude>-1.466377777777778</latitude>
+						<altitude>0</altitude>
+						<range>75000</range>
+						<tilt>0</tilt>
+						<heading>0</heading>
+						<altitudeMode>relativeToGround</altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_ylw-pushpin_copy419</styleUrl>
+					<Point>
+						<coordinates>-78.44951111111112,-1.466377777777778,0</coordinates>
+					</Point>
+				</Placemark>
+			</Folder>
+		</Folder>
+		<Folder>
+			<name>Mt. Etna, Sicily</name>
+			<visibility>0</visibility>
+			<open>1</open>
+			<LookAt>
+				<longitude>14.99643381255237</longitude>
+				<latitude>37.75338678263008</latitude>
+				<altitude>0</altitude>
+				<range>49999.88921742084</range>
+				<tilt>0</tilt>
+				<heading>1.187247451152935e-14</heading>
+			</LookAt>
+			<Folder>
+				<name>Images</name>
+				<visibility>0</visibility>
+				<LookAt>
+					<longitude>14.99643381255237</longitude>
+					<latitude>37.75338678263008</latitude>
+					<altitude>0</altitude>
+					<range>49999.88921742084</range>
+					<tilt>0</tilt>
+					<heading>1.187247451152935e-14</heading>
+				</LookAt>
+				<Placemark>
+					<name>Images G9.5-G9.6</name>
+					<visibility>0</visibility>
+					<Snippet maxLines="2"></Snippet>
+					<description><![CDATA[<!--
+******************************************
+Table with two cells, each 200 pixels wide.
+The first cell contains the logo centered, 
+whereas the second cell has the title & 
+subtitle centered.
+******************************************
+ -->
+<table border="0">
+<tr>
+<td width="200" valign="middle" align="center">
+<a href="http://www.wwnorton.com/studyspace/disciplines/geology.asp">
+<img src="http://www2.wwnorton.com/college/geo/geotours/Earth_3E.png" width="100" height="125">
+</a> 
+</td>
+<td width="200" valign="middle" align="center">
+<font size="+2"><b>Mt. Etna, Sicily</b></font> 
+<br> 
+<font size="+1"><b>Volcanic Features</b></font> 
+</td>
+</tr>
+</table>
+<!--
+******************************************
+End 2-cell table.
+******************************************
+ -->
+<!--
+******************************************
+<hr> is a horizontal rule.
+******************************************
+ -->
+<hr>
+
+<!-- 
+******************************************
+BalloonStyle background color:
+ffffffff
+******************************************
+ -->
+<!--
+******************************************
+Table 400 pixels wide.
+******************************************
+ -->
+
+<table width="400" border="0" cellspacing="0" cellpadding="5">
+
+<!--
+******************************************
+Image
+******************************************
+ -->
+  <tr>
+    <td colspan="1" align="center">
+      <img src="http://www2.wwnorton.com/college/geo/geotours/GeoTour09/G9_5.png">
+<br>
+<font size="2"><i>G9.5</i></font>
+    </td>
+<td colspan="2" align="center">
+      <img src="http://www2.wwnorton.com/college/geo/geotours/GeoTour09/G9_6.png">
+<br>
+<font size="2"><i>G9.6</i></font>
+    </td>
+  </tr>
+ <!--
+******************************************
+Text
+******************************************
+ --> 
+  <tr>
+    <td colspan="3">
+      <p>
+Here, from an elevation of 50 km, you can see Mt. Etna, which dominates the landscape of eastern Sicily (Image G9.5). This volcano, erupts fairly frequently—in this image small clouds of volcanic smoke rise from the 3200 m-high summit. Note the numerous lava flows on its flanks. Zoom to 5 km, rotate the image, and tilt it so you are looking south. You can see calderas on the summit (Image G9.6).
+</p>
+</td>
+</tr>
+<!--
+******************************************
+Copyright
+******************************************
+ -->
+  <tr>
+    <td colspan="3" align="center">
+      <font color="#999999" size="2"><a href="http://www.wwnorton.com/studyspace/disciplines/geology.asp"> &copy; 2008 W.W. Norton Company</a> </font>
+    </td>
+  </tr>
+<!--
+******************************************
+End table 400 pixels wide.
+******************************************
+ -->
+</table>]]></description>
+					<LookAt>
+						<longitude>14.99643333333333</longitude>
+						<latitude>37.75338611111111</latitude>
+						<altitude>0</altitude>
+						<range>50000</range>
+						<tilt>0</tilt>
+						<heading>0</heading>
+					</LookAt>
+					<styleUrl>#msn_ylw-pushpin_copy462</styleUrl>
+					<Point>
+						<coordinates>14.99643333333333,37.75338611111111,0</coordinates>
+					</Point>
+				</Placemark>
+			</Folder>
+		</Folder>
+		<Folder>
+			<name>Mt. Vesuvius, Italy</name>
+			<open>1</open>
+			<LookAt>
+				<longitude>14.40170119683047</longitude>
+				<latitude>40.81498188252502</latitude>
+				<altitude>0</altitude>
+				<range>15000.02605351243</range>
+				<tilt>54.00386540262135</tilt>
+				<heading>67.60033118178929</heading>
+			</LookAt>
+			<Folder>
+				<name>Images</name>
+				<LookAt>
+					<longitude>14.40170119683047</longitude>
+					<latitude>40.81498188252502</latitude>
+					<altitude>0</altitude>
+					<range>15000.02605351243</range>
+					<tilt>54.00386540262135</tilt>
+					<heading>67.60033118178929</heading>
+				</LookAt>
+				<Placemark>
+					<name>Image G9.7</name>
+					<Snippet maxLines="2"></Snippet>
+					<description><![CDATA[<!--
+******************************************
+Table with two cells, each 200 pixels wide.
+The first cell contains the logo centered, 
+whereas the second cell has the title & 
+subtitle centered.
+******************************************
+ -->
+<table border="0">
+<tr>
+<td width="200" valign="middle" align="center">
+<a href="http://www.wwnorton.com/studyspace/disciplines/geology.asp">
+<img src="http://www2.wwnorton.com/college/geo/geotours/Earth_3E.png" width="100" height="125">
+</a> 
+</td>
+<td width="200" valign="middle" align="center">
+<font size="+2"><b>Mt. Vesuvius, Italy</b></font> 
+<br> 
+<font size="+1"><b>Volcanic Features</b></font> 
+</td>
+</tr>
+</table>
+<!--
+******************************************
+End 2-cell table.
+******************************************
+ -->
+<!--
+******************************************
+<hr> is a horizontal rule.
+******************************************
+ -->
+<hr>
+
+<!-- 
+******************************************
+BalloonStyle background color:
+ffffffff
+******************************************
+ -->
+<!--
+******************************************
+Table 400 pixels wide.
+******************************************
+ -->
+
+<table width="400" border="0" cellspacing="0" cellpadding="5">
+
+<!--
+******************************************
+Image
+******************************************
+ -->
+  <tr>
+    <td colspan="2" align="center">
+      <img src="http://www2.wwnorton.com/college/geo/geotours/GeoTour09/G9_7.png">
+<br>
+<font size="2"><i>G9.7</i></font>
+    </td>
+  </tr>
+ <!--
+******************************************
+Text
+******************************************
+ --> 
+  <tr>
+    <td colspan="2">
+      <p>
+Eruption of Mt. Vesuvius in 79 C.E. destroyed Herculaneum and Pompeii. As you fly towards the volcano’s crater to an elevation of 15 km (Image G9.7), you can see the entire Bay of Naples—several volcanic calderas lie on the west side of Naples. In fact, the entire bay is a caldera. As you fly around Vesuvius, you’ll note that the central peak of the volcano lies within a larger caldera (Somma) that formed 17,000 years ago. 
+</p>
+</td>
+</tr>
+<!--
+******************************************
+Copyright
+******************************************
+ -->
+  <tr>
+    <td colspan="2" align="center">
+      <font color="#999999" size="2"><a href="http://www.wwnorton.com/studyspace/disciplines/geology.asp"> &copy; 2008 W.W. Norton Company</a> </font>
+    </td>
+  </tr>
+<!--
+******************************************
+End table 400 pixels wide.
+******************************************
+ -->
+</table>]]></description>
+					<LookAt>
+						<longitude>14.40170119683047</longitude>
+						<latitude>40.81498188252502</latitude>
+						<altitude>0</altitude>
+						<range>15000.02605351243</range>
+						<tilt>54.00386540262135</tilt>
+						<heading>67.60033118178929</heading>
+					</LookAt>
+					<styleUrl>#msn_ylw-pushpin_copy464</styleUrl>
+					<Point>
+						<coordinates>14.42556666666667,40.82173333333333,0</coordinates>
+					</Point>
+				</Placemark>
+			</Folder>
+		</Folder>
+		<Folder>
+			<name>Hawaiian Volcanoes - &lt;a&gt;&lt;font size=2&gt;&lt;font color=&quot;red&quot;&gt;&lt;b&gt;WAGS&lt;/b&gt;&lt;/a&gt;</name>
+			<open>1</open>
+			<LookAt>
+				<longitude>-155.5924495467047</longitude>
+				<latitude>19.47235237533059</latitude>
+				<altitude>0</altitude>
+				<range>25000.00877313541</range>
+				<tilt>0</tilt>
+				<heading>4.96171070347983e-15</heading>
+			</LookAt>
+			<Folder>
+				<name>Images</name>
+				<LookAt>
+					<longitude>-155.5924495467047</longitude>
+					<latitude>19.47235237533059</latitude>
+					<altitude>0</altitude>
+					<range>25000.00877313541</range>
+					<tilt>0</tilt>
+					<heading>4.96171070347983e-15</heading>
+				</LookAt>
+				<Placemark>
+					<name>Images G9.8-G9.9</name>
+					<Snippet maxLines="2"></Snippet>
+					<description><![CDATA[<!--
+******************************************
+Table with two cells, each 200 pixels wide.
+The first cell contains the logo centered, 
+whereas the second cell has the title & 
+subtitle centered.
+******************************************
+ -->
+<table border="0">
+<tr>
+<td width="200" valign="middle" align="center">
+<a href="http://www.wwnorton.com/studyspace/disciplines/geology.asp">
+<img src="http://www2.wwnorton.com/college/geo/geotours/Earth_3E.png" width="100" height="125">
+</a> 
+</td>
+<td width="200" valign="middle" align="center">
+<font size="+2"><b>Hawaiian Volcanoes</b></font> 
+<br> 
+<font size="+1"><b>Volcanic Features</b></font> 
+</td>
+</tr>
+</table>
+<!--
+******************************************
+End 2-cell table.
+******************************************
+ -->
+<!--
+******************************************
+<hr> is a horizontal rule.
+******************************************
+ -->
+<hr>
+
+<!-- 
+******************************************
+BalloonStyle background color:
+ffffffff
+******************************************
+ -->
+<!--
+******************************************
+Table 400 pixels wide.
+******************************************
+ -->
+
+<table width="400" border="0" cellspacing="0" cellpadding="5">
+
+<!--
+******************************************
+Image
+******************************************
+ -->
+  <tr>
+    <td colspan="1" align="center">
+      <img src="http://www2.wwnorton.com/college/geo/geotours/GeoTour09/G9_8.png">
+<br>
+<font size="2"><i>G9.8</i></font>
+    </td>
+<td colspan="2" align="center">
+      <img src="http://www2.wwnorton.com/college/geo/geotours/GeoTour09/G9_9.png">
+<br>
+<font size="2"><i>G9.9</i></font>
+    </td>
+  </tr>
+ <!--
+******************************************
+Text
+******************************************
+ --> 
+  <tr>
+    <td colspan="3">
+      <p>
+Here, you’ll be above the caldera of Mauna Loa, one of the shield volcanoes on Hawaii. From 25 km, you can see that the caldera is elliptical, and that other, smaller calderas occur to the SW. Tilt the image, and you can see a large fissure cutting the frozen lava lake in the caldera. Distinctive lava flows spilled out of the ends of the caldera (Image G9.8). Fly about 33 km ESE to find the caldera of Kilauea (Image G9.9). From here, fly 41 km to the NNE to cross Mauna Kea, home to several observatories (white buildings).
+</p>
+</td>
+</tr>
+<!--
+******************************************
+Copyright
+******************************************
+ -->
+  <tr>
+    <td colspan="3" align="center">
+      <font color="#999999" size="2"><a href="http://www.wwnorton.com/studyspace/disciplines/geology.asp"> &copy; 2008 W.W. Norton Company</a> </font>
+    </td>
+  </tr>
+<!--
+******************************************
+End table 400 pixels wide.
+******************************************
+ -->
+</table>]]></description>
+					<LookAt>
+						<longitude>-155.59245</longitude>
+						<latitude>19.47235277777778</latitude>
+						<altitude>0</altitude>
+						<range>25000</range>
+						<tilt>0</tilt>
+						<heading>0</heading>
+					</LookAt>
+					<styleUrl>#msn_ylw-pushpin_copy465</styleUrl>
+					<Point>
+						<coordinates>-155.59245,19.47235277777778,0</coordinates>
+					</Point>
+				</Placemark>
+			</Folder>
+			<Folder>
+				<name>What a Geologist Sees</name>
+				<open>1</open>
+				<Folder>
+					<name>Mauna Loa</name>
+					<Placemark>
+						<name>Pit Crater</name>
+						<open>1</open>
+						<LookAt>
+							<longitude>-155.5993748787782</longitude>
+							<latitude>19.4574585822153</latitude>
+							<altitude>0</altitude>
+							<range>9002.916524381882</range>
+							<tilt>0</tilt>
+							<heading>-0.002297001512184426</heading>
+						</LookAt>
+						<styleUrl>#msn_ylw-stars_copy0010</styleUrl>
+						<Point>
+							<coordinates>-155.605941077303,19.43796934188972,0</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<name>Pit Crater</name>
+						<open>1</open>
+						<LookAt>
+							<longitude>-155.5993748787782</longitude>
+							<latitude>19.4574585822153</latitude>
+							<altitude>0</altitude>
+							<range>9002.916524381882</range>
+							<tilt>0</tilt>
+							<heading>-0.002297001512184426</heading>
+						</LookAt>
+						<styleUrl>#msn_ylw-stars_copy412</styleUrl>
+						<Point>
+							<coordinates>-155.5960267360336,19.4602442039014,0</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<name>Spatter Cone</name>
+						<open>1</open>
+						<LookAt>
+							<longitude>-155.6007660998428</longitude>
+							<latitude>19.4616228829036</latitude>
+							<altitude>0</altitude>
+							<range>519.9872577023941</range>
+							<tilt>8.878808700689415e-13</tilt>
+							<heading>-0.002763661943878492</heading>
+						</LookAt>
+						<styleUrl>#msn_ylw-stars_copy5200</styleUrl>
+						<Point>
+							<coordinates>-155.6007269783713,19.46194973859181,0</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<name>Recent Lava Flow</name>
+						<open>1</open>
+						<LookAt>
+							<longitude>-155.6246716692891</longitude>
+							<latitude>19.4075595932305</latitude>
+							<altitude>0</altitude>
+							<range>1052.837037367517</range>
+							<tilt>0</tilt>
+							<heading>-0.01077378592397279</heading>
+						</LookAt>
+						<styleUrl>#msn_ylw-stars_copy812</styleUrl>
+						<Point>
+							<coordinates>-155.6254090563011,19.4087362755731,0</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<name>Flank Eruption</name>
+						<open>1</open>
+						<LookAt>
+							<longitude>-155.6229289522321</longitude>
+							<latitude>19.40841379406384</latitude>
+							<altitude>0</altitude>
+							<range>1146.359764169874</range>
+							<tilt>0</tilt>
+							<heading>-0.01016955307931298</heading>
+						</LookAt>
+						<styleUrl>#msn_ylw-stars_copy712</styleUrl>
+						<Point>
+							<coordinates>-155.6229289522321,19.40841379406384,0</coordinates>
+						</Point>
+					</Placemark>
+				</Folder>
+				<Folder>
+					<name>Kilauea</name>
+					<Placemark>
+						<name>Kilauea Iki Lava Lake</name>
+						<open>1</open>
+						<LookAt>
+							<longitude>-155.2463558436979</longitude>
+							<latitude>19.41427952390186</latitude>
+							<altitude>0</altitude>
+							<range>608.4556546655715</range>
+							<tilt>0</tilt>
+							<heading>0.1149460514488943</heading>
+							<altitudeMode>relativeToGround</altitudeMode>
+						</LookAt>
+						<styleUrl>#msn_ylw-stars_copy910</styleUrl>
+						<Point>
+							<coordinates>-155.2474811083401,19.41450871572649,0</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<name>Kilauea Iki Fountain</name>
+						<open>1</open>
+						<LookAt>
+							<longitude>-155.2515831146629</longitude>
+							<latitude>19.41189157393504</latitude>
+							<altitude>0</altitude>
+							<range>1034.226950319706</range>
+							<tilt>1.12865692008489e-12</tilt>
+							<heading>0.1132085615040806</heading>
+						</LookAt>
+						<styleUrl>#msn_ylw-stars_copy10200</styleUrl>
+						<Point>
+							<coordinates>-155.2523514660899,19.41343472896396,0</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<name>Pumice Field</name>
+						<open>1</open>
+						<LookAt>
+							<longitude>-155.2515831146629</longitude>
+							<latitude>19.41189157393504</latitude>
+							<altitude>0</altitude>
+							<range>1034.226950319706</range>
+							<tilt>1.12865692008489e-12</tilt>
+							<heading>0.1132085615040806</heading>
+						</LookAt>
+						<styleUrl>#msn_ylw-stars_copy332</styleUrl>
+						<Point>
+							<coordinates>-155.2535973828581,19.40995580157727,0</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<name>Series of Spatter Cones</name>
+						<open>1</open>
+						<LookAt>
+							<longitude>-155.2750754108807</longitude>
+							<latitude>19.40985097789194</latitude>
+							<altitude>0</altitude>
+							<range>447.5237569052621</range>
+							<tilt>0</tilt>
+							<heading>0.1054006724930419</heading>
+						</LookAt>
+						<styleUrl>#msn_ylw-stars_copy610</styleUrl>
+						<Point>
+							<coordinates>-155.2750754108807,19.40985097789194,0</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<name>Halemaumau Caldera</name>
+						<open>1</open>
+						<LookAt>
+							<longitude>-155.2813060533705</longitude>
+							<latitude>19.40566894123069</latitude>
+							<altitude>0</altitude>
+							<range>1540.421161926973</range>
+							<tilt>0</tilt>
+							<heading>0.1033301401921019</heading>
+						</LookAt>
+						<styleUrl>#msn_ylw-stars_copy11002</styleUrl>
+						<Point>
+							<coordinates>-155.2828054230358,19.40674045228991,0</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<name>Pali Scarp</name>
+						<open>1</open>
+						<LookAt>
+							<longitude>-155.190943788268</longitude>
+							<latitude>19.28740571495468</latitude>
+							<altitude>0</altitude>
+							<range>7676.454320085712</range>
+							<tilt>64.76172031455903</tilt>
+							<heading>29.13078617535309</heading>
+						</LookAt>
+						<styleUrl>#msn_ylw-stars_copy1610</styleUrl>
+						<Point>
+							<coordinates>-155.1886501070286,19.29765612915268,0</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<name>Kipuka of Former Chain of Craters Road</name>
+						<open>1</open>
+						<LookAt>
+							<longitude>-155.1523308446082</longitude>
+							<latitude>19.30311975343879</latitude>
+							<altitude>0</altitude>
+							<range>577.9231169840924</range>
+							<tilt>8.840339850423326e-11</tilt>
+							<heading>0.4581497766644</heading>
+						</LookAt>
+						<styleUrl>#msn_ylw-stars_copy12200</styleUrl>
+						<Point>
+							<coordinates>-155.1523308446082,19.30311975343879,0</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<name>East Rift Zone (active area)</name>
+						<LookAt>
+							<longitude>-155.1426437488228</longitude>
+							<latitude>19.35881635448944</latitude>
+							<altitude>0</altitude>
+							<range>28200.17771192555</range>
+							<tilt>0</tilt>
+							<heading>0.2143932783074839</heading>
+						</LookAt>
+						<styleUrl>#msn_ylw-stars_copy1320</styleUrl>
+						<Point>
+							<coordinates>-155.1165269193705,19.39661375238421,0</coordinates>
+						</Point>
+					</Placemark>
+					<Placemark>
+						<name>Lava Entering Ocean</name>
+						<open>1</open>
+						<LookAt>
+							<longitude>-155.0460658384631</longitude>
+							<latitude>19.31625330059166</latitude>
+							<altitude>0</altitude>
+							<range>1179.839583215981</range>
+							<tilt>0</tilt>
+							<heading>0.5978098252402555</heading>
+						</LookAt>
+						<styleUrl>#msn_ylw-stars_copy1400</styleUrl>
+						<Point>
+							<coordinates>-155.0463373200385,19.31539712305029,0</coordinates>
+						</Point>
+					</Placemark>
+				</Folder>
+			</Folder>
+		</Folder>
+		<Folder>
+			<name>Mt. Shishildan, AK</name>
+			<open>1</open>
+			<LookAt>
+				<longitude>-163.974625750241</longitude>
+				<latitude>54.76016171878191</latitude>
+				<altitude>0</altitude>
+				<range>34999.78673059098</range>
+				<tilt>2.030430396691027e-12</tilt>
+				<heading>1.848559008603067e-14</heading>
+			</LookAt>
+			<Folder>
+				<name>Images</name>
+				<LookAt>
+					<longitude>-163.974625750241</longitude>
+					<latitude>54.76016171878191</latitude>
+					<altitude>0</altitude>
+					<range>34999.78673059098</range>
+					<tilt>2.030430396691027e-12</tilt>
+					<heading>1.848559008603067e-14</heading>
+				</LookAt>
+				<Placemark>
+					<name>Image G9.10</name>
+					<Snippet maxLines="2"></Snippet>
+					<description><![CDATA[<!--
+******************************************
+Table with two cells, each 200 pixels wide.
+The first cell contains the logo centered, 
+whereas the second cell has the title & 
+subtitle centered.
+******************************************
+ -->
+<table border="0">
+<tr>
+<td width="200" valign="middle" align="center">
+<a href="http://www.wwnorton.com/studyspace/disciplines/geology.asp">
+<img src="http://www2.wwnorton.com/college/geo/geotours/Earth_3E.png" width="100" height="125">
+</a> 
+</td>
+<td width="200" valign="middle" align="center">
+<font size="+2"><b>Mt. Shishildan, AK</b></font> 
+<br> 
+<font size="+1"><b>Volcanic Features</b></font> 
+</td>
+</tr>
+</table>
+<!--
+******************************************
+End 2-cell table.
+******************************************
+ -->
+<!--
+******************************************
+<hr> is a horizontal rule.
+******************************************
+ -->
+<hr>
+
+<!-- 
+******************************************
+BalloonStyle background color:
+ffffffff
+******************************************
+ -->
+<!--
+******************************************
+Table 400 pixels wide.
+******************************************
+ -->
+
+<table width="400" border="0" cellspacing="0" cellpadding="5">
+
+<!--
+******************************************
+Image
+******************************************
+ -->
+  <tr>
+    <td colspan="2" align="center">
+      <img src="http://www2.wwnorton.com/college/geo/geotours/GeoTour09/G9_10.png">
+<br>
+<font size="2"><i>G9.10</i></font>
+    </td>
+  </tr>
+ <!--
+******************************************
+Text
+******************************************
+ --> 
+  <tr>
+    <td colspan="2">
+      <p>
+Unimak Island, in the Aleutian chain, hosts a large stratovolcano, Mt. Shishildan. From an elevation of 35 km (22 miles), you’ll note that the snowline starts halfway up the mountain, but that the peak itself is black (Image G9.10). That’s because the volcano is active, and recent eruptions have buried and melted snow at the peak. From an elevation of 10 km (6 miles), you can see a red glow at the peak. Note that another, smaller volcano lies to the east.
+</p>
+</td>
+</tr>
+<!--
+******************************************
+Copyright
+******************************************
+ -->
+  <tr>
+    <td colspan="2" align="center">
+      <font color="#999999" size="2"><a href="http://www.wwnorton.com/studyspace/disciplines/geology.asp"> &copy; 2008 W.W. Norton Company</a> </font>
+    </td>
+  </tr>
+<!--
+******************************************
+End table 400 pixels wide.
+******************************************
+ -->
+</table>]]></description>
+					<LookAt>
+						<longitude>-163.974625</longitude>
+						<latitude>54.76016388888889</latitude>
+						<altitude>0</altitude>
+						<range>35000</range>
+						<tilt>0</tilt>
+						<heading>0</heading>
+					</LookAt>
+					<styleUrl>#msn_ylw-pushpin_copy472</styleUrl>
+					<Point>
+						<coordinates>-163.974625,54.76016388888889,0</coordinates>
+					</Point>
+				</Placemark>
+			</Folder>
+		</Folder>
+		<Folder>
+			<name>East African Rift</name>
+			<visibility>0</visibility>
+			<LookAt>
+				<longitude>37.35861649966482</longitude>
+				<latitude>-3.064898327296576</latitude>
+				<altitude>0</altitude>
+				<range>9999.989844242315</range>
+				<tilt>42.44994315529936</tilt>
+				<heading>11.99947500083966</heading>
+			</LookAt>
+			<Folder>
+				<name>Images</name>
+				<visibility>0</visibility>
+				<open>1</open>
+				<LookAt>
+					<longitude>37.35861649966482</longitude>
+					<latitude>-3.064898327296576</latitude>
+					<altitude>0</altitude>
+					<range>9999.989844242315</range>
+					<tilt>42.44994315529936</tilt>
+					<heading>11.99947500083966</heading>
+				</LookAt>
+				<Placemark>
+					<name>Images G9.11-G9.13</name>
+					<visibility>0</visibility>
+					<Snippet maxLines="2"></Snippet>
+					<description><![CDATA[<!--
+******************************************
+Table with two cells, each 200 pixels wide.
+The first cell contains the logo centered, 
+whereas the second cell has the title & 
+subtitle centered.
+******************************************
+ -->
+<table border="0">
+<tr>
+<td width="200" valign="middle" align="center">
+<a href="http://www.wwnorton.com/studyspace/disciplines/geology.asp">
+<img src="http://www2.wwnorton.com/college/geo/geotours/Earth_3E.png" width="100" height="125">
+</a> 
+</td>
+<td width="200" valign="middle" align="center">
+<font size="+2"><b>East African Rift</b></font> 
+<br> 
+<font size="+1"><b>Volcanic Features</b></font> 
+</td>
+</tr>
+</table>
+<!--
+******************************************
+End 2-cell table.
+******************************************
+ -->
+<!--
+******************************************
+<hr> is a horizontal rule.
+******************************************
+ -->
+<hr>
+
+<!-- 
+******************************************
+BalloonStyle background color:
+ffffffff
+******************************************
+ -->
+<!--
+******************************************
+Table 400 pixels wide.
+******************************************
+ -->
+
+<table width="400" border="0" cellspacing="0" cellpadding="5">
+
+<!--
+******************************************
+Image
+******************************************
+ -->
+  <tr>
+    <td colspan="1" align="center">
+      <img src="http://www2.wwnorton.com/college/geo/geotours/GeoTour09/G9_11.png">
+<br>
+<font size="2"><i>G9.11</i></font>
+    </td>
+<td colspan="2" align="center">
+      <img src="http://www2.wwnorton.com/college/geo/geotours/GeoTour09/G9_12.png">
+<br>
+<font size="2"><i>G9.12</i></font>
+    </td>
+<td colspan="3" align="center">
+      <img src="http://www2.wwnorton.com/college/geo/geotours/GeoTour09/G9_13.png">
+<br>
+<font size="2"><i>G9.13</i></font>
+    </td>
+  </tr>
+ <!--
+******************************************
+Text
+******************************************
+ --> 
+  <tr>
+    <td colspan="5">
+      <p>
+To understand volcanism in the East African rift, it is necessary to visit several locations. Here we provide two: (1) Mt. Kilimanjaro (Lat 3°3'53.63"S, Long 37°21'31.02"E): From a height of 10 km, you can see the caldera at the top of Africa’s highest volcano (Image G9.11). The glaciers on the summit have been shrinking rapidly and may be gone in 20 years. Slumping has produced steep cliffs. Fly 45 km NE to find a long chain of cinder cones marking eruptions along a fault in the rift. (2) Goma region (Lat 1°39'27.40"S Long 29°14'15.27"E): At these coordinates, zoom to 80 km, and tilt your view to look north (Image G9.12). The chain of lakes marks the western arm of the East African Rift. Active volcanoes lie just north of the city of Goma. Zoom to 3 km and tilt the image to look north—note the lava flow covering a portion of the airport runway and the city (Image G9.13).
+</p>
+</td>
+</tr>
+<!--
+******************************************
+Copyright
+******************************************
+ -->
+  <tr>
+    <td colspan="5" align="center">
+      <font color="#999999" size="2"><a href="http://www.wwnorton.com/studyspace/disciplines/geology.asp"> &copy; 2008 W.W. Norton Company</a> </font>
+    </td>
+  </tr>
+<!--
+******************************************
+End table 400 pixels wide.
+******************************************
+ -->
+</table>]]></description>
+					<LookAt>
+						<longitude>37.35861666666667</longitude>
+						<latitude>-3.064898089548683</latitude>
+						<altitude>0</altitude>
+						<range>10000</range>
+						<tilt>42.44994321688831</tilt>
+						<heading>12</heading>
+					</LookAt>
+					<styleUrl>#msn_ylw-pushpin_copy473</styleUrl>
+					<Point>
+						<coordinates>37.35861666666667,-3.064897222222222,0</coordinates>
+					</Point>
+				</Placemark>
+			</Folder>
+		</Folder>
+		<Folder>
+			<name>Worksheet 9</name>
+			<visibility>0</visibility>
+			<Folder>
+				<name>Problem 1</name>
+				<visibility>0</visibility>
+				<Snippet maxLines="2"></Snippet>
+				<description>Data from Figure 9.18a on p. 285. Volcanic rocks from hot spots produced the huge flows of the Columbia River Plateau about 17 Ma. Subsequently, either a new hot spot or a different part of the same hot spot formed in northern Nevada. The track of this hot spot lies in the Snake River Plain, where broad areas flooded with basalt, and where several calderas formed in succession, beginning 16 Ma.</description>
+				<Placemark>
+					<name>0.6 ma</name>
+					<visibility>0</visibility>
+					<LookAt>
+						<longitude>-116.5822040857117</longitude>
+						<latitude>43.5606821300635</latitude>
+						<altitude>0</altitude>
+						<range>1352053.809541337</range>
+						<tilt>0</tilt>
+						<heading>-2.144732648046792</heading>
+						<altitudeMode>relativeToGround</altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_1_copy91</styleUrl>
+					<Point>
+						<coordinates>-110.8621148315153,44.9503638486873,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>1.2 ma</name>
+					<visibility>0</visibility>
+					<LookAt>
+						<longitude>-116.5822040857117</longitude>
+						<latitude>43.5606821300635</latitude>
+						<altitude>0</altitude>
+						<range>1352053.809541337</range>
+						<tilt>0</tilt>
+						<heading>-2.144732648046792</heading>
+						<altitudeMode>relativeToGround</altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_1_copy89</styleUrl>
+					<Point>
+						<coordinates>-111.4000496302037,44.60696570967949,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>4 ma</name>
+					<visibility>0</visibility>
+					<LookAt>
+						<longitude>-116.5822040857117</longitude>
+						<latitude>43.5606821300635</latitude>
+						<altitude>0</altitude>
+						<range>1352053.809541337</range>
+						<tilt>0</tilt>
+						<heading>-2.144732648046792</heading>
+						<altitudeMode>relativeToGround</altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_1_copy93</styleUrl>
+					<Point>
+						<coordinates>-112.1603445050162,44.04839193850977,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>6 ma</name>
+					<visibility>0</visibility>
+					<LookAt>
+						<longitude>-116.5822040857117</longitude>
+						<latitude>43.5606821300635</latitude>
+						<altitude>0</altitude>
+						<range>1352053.809541337</range>
+						<tilt>0</tilt>
+						<heading>-2.144732648046792</heading>
+						<altitudeMode>relativeToGround</altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_1_copy94</styleUrl>
+					<Point>
+						<coordinates>-112.5943172679514,43.56182525042519,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>10 ma</name>
+					<visibility>0</visibility>
+					<LookAt>
+						<longitude>-116.5822040857117</longitude>
+						<latitude>43.5606821300635</latitude>
+						<altitude>0</altitude>
+						<range>1352053.809541337</range>
+						<tilt>0</tilt>
+						<heading>-2.144732648046792</heading>
+						<altitudeMode>relativeToGround</altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_1_copy95</styleUrl>
+					<Point>
+						<coordinates>-113.2521947201869,43.0287705251831,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>11 ma</name>
+					<visibility>0</visibility>
+					<LookAt>
+						<longitude>-116.5822040857117</longitude>
+						<latitude>43.5606821300635</latitude>
+						<altitude>0</altitude>
+						<range>1352053.809541337</range>
+						<tilt>0</tilt>
+						<heading>-2.144732648046792</heading>
+						<altitudeMode>relativeToGround</altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_1_copy96</styleUrl>
+					<Point>
+						<coordinates>-114.3836695299462,42.64141569484085,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>12 ma</name>
+					<visibility>0</visibility>
+					<LookAt>
+						<longitude>-116.5822040857117</longitude>
+						<latitude>43.5606821300635</latitude>
+						<altitude>0</altitude>
+						<range>1352053.809541337</range>
+						<tilt>0</tilt>
+						<heading>-2.144732648046792</heading>
+						<altitudeMode>relativeToGround</altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_1_copy97</styleUrl>
+					<Point>
+						<coordinates>-115.4102847481171,41.99930672256295,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Snake River Plain</name>
+					<visibility>0</visibility>
+					<styleUrl>#msn_ylw-pushpin700</styleUrl>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+-114.9183941646872,42.53318832398777,0 -115.0839557934515,42.52175062358877,0 -115.2526022624482,42.61337234350943,0 -115.4726643842226,42.70379774276223,0 -115.598268738179,42.64524768820995,0 -115.6313219582186,42.50372677041442,0 -115.612719044968,42.34424316139101,0 -115.60578317867,42.15615306570563,0 -115.5756332653136,42.02480363612145,0 -115.4157320351943,41.79165008301984,0 -115.1893029230713,41.81387249770022,0 -115.0414491068373,41.93847569594821,0 -114.9046171761234,42.02493948096666,0 -114.6517312555716,42.05564837499641,0 -114.4881160082775,42.12288670108094,0 -114.376476201802,42.26496889281518,0 -114.2257432581885,42.39762386087748,0 -114.0467130167557,42.39827996387627,0 -113.828936419389,42.38922867114377,0 -113.7272456658742,42.47406389922531,0 -113.58714142542,42.63411319547322,0 -113.4327976112826,42.69975847871677,0 -113.4580494760537,42.58676866921947,0 -113.4188835593104,42.48297017313372,0 -113.3540115888208,42.36954380630245,0 -113.1995199058735,42.31214345928072,0 -113.0838868781791,42.46248331289486,0 -112.9416438751974,42.60304027358129,0 -112.8503441600936,42.76270687436864,0 -112.849383077254,42.94184029888986,0 -112.7181969484812,43.05392976803299,0 -112.4693904889151,43.08933171944475,0 -112.2568300218246,43.2567981081958,0 -112.0415959779156,43.46178797813838,0 -111.9814018004536,43.75371926884323,0 -111.8119045894663,44.0728078581245,0 -111.6268794563835,44.36366942134165,0 -111.5746057898017,44.65666533621135,0 -111.8026159030216,44.72558952053419,0 -112.0476077877678,44.6900250362241,0 -112.2652118704219,44.6349649905609,0 -112.3484964646917,44.54101866352679,0 -112.3511581848978,44.43712305815462,0 -112.3278886148265,44.29531053360186,0 -112.3314911307546,44.14431733175438,0 -112.4813483262304,43.98511992380787,0 -112.7221494763033,43.854758656036,0 -113.1717803084623,43.71537180880164,0 -113.3950712002897,43.67806499505298,0 -113.5913972420285,43.57461479072272,0 -113.6953604661163,43.44291962732436,0 -113.8906255638421,43.43304380987177,0 -113.9938731508577,43.34813269177416,0 -114.1091303293271,43.2161368869531,0 -114.3169005752861,43.26186717283086,0 -114.5119602588628,43.31666831329201,0 -114.6693013561124,43.41838823807819,0 -114.7849899468899,43.37962781734695,0 -114.7428795510081,43.22999176404931,0 -114.6255312014238,43.17487406159644,0 -114.5591652360204,43.08162232488822,0 -114.6730977070073,42.98669414299693,0 -114.9037802161339,42.95605176611225,0 -115.2143455638325,43.03637735312057,0 -115.4884002652917,43.16328146715717,0 -115.7622440296185,43.26131255836251,0 -115.9504637170352,43.45424490357032,0 -116.2015048478199,43.57975240289433,0 -116.4599539992595,43.57330705446808,0 -116.6656621472412,43.54901336504844,0 -116.6983841113047,43.43561197335099,0 -116.6142183090907,43.30672010975693,0 -116.515211172673,43.13127114085984,0 -116.3855711655339,43.10652956704943,0 -116.3042277023649,43.01480116896018,0 -116.0548001870107,42.88000347682348,0 -115.7574111658021,42.80183394438698,0 -115.5024373761066,42.82532640780133,0 -115.3224266354883,42.80013091731551,0 -115.037708674868,42.69149308618497,0 -114.9183941646872,42.53318832398777,0 </coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+			</Folder>
+			<Placemark>
+				<name>Problem 3</name>
+				<visibility>0</visibility>
+				<LookAt>
+					<longitude>14.82671197527998</longitude>
+					<latitude>37.7876129879771</latitude>
+					<altitude>0</altitude>
+					<range>4885.919516933361</range>
+					<tilt>70.29428626334231</tilt>
+					<heading>116.173724991396</heading>
+					<altitudeMode>relativeToGround</altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_3_copy76</styleUrl>
+				<Point>
+					<coordinates>14.83294760530612,37.78715092817515,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Problem 4</name>
+				<visibility>0</visibility>
+				<LookAt>
+					<longitude>14.32819269337126</longitude>
+					<latitude>40.72875511379813</latitude>
+					<altitude>0</altitude>
+					<range>47995.15088602388</range>
+					<tilt>19.6095701477898</tilt>
+					<heading>-0.06794824299688905</heading>
+				</LookAt>
+				<styleUrl>#msn_4_copy58</styleUrl>
+				<Point>
+					<coordinates>14.48461383805466,40.74930340058373,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Problem 5a</name>
+				<visibility>0</visibility>
+				<LookAt>
+					<longitude>-155.2814096156216</longitude>
+					<latitude>19.40601731468275</latitude>
+					<altitude>0</altitude>
+					<range>1698.74425753212</range>
+					<tilt>0.3293494173100129</tilt>
+					<heading>0.06565837984827726</heading>
+				</LookAt>
+				<styleUrl>#msn_5_copy30</styleUrl>
+				<Point>
+					<coordinates>-155.2812430754462,19.40708384966638,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Problem 5b</name>
+				<visibility>0</visibility>
+				<LookAt>
+					<longitude>-155.2781609028698</longitude>
+					<latitude>19.39590800546906</latitude>
+					<altitude>0</altitude>
+					<range>916.1546153220793</range>
+					<tilt>12.62625202462179</tilt>
+					<heading>-0.00981036604108765</heading>
+				</LookAt>
+				<styleUrl>#msn_5_copy31</styleUrl>
+				<Point>
+					<coordinates>-155.2765534986078,19.39602462022141,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Problem 6</name>
+				<visibility>0</visibility>
+				<LookAt>
+					<longitude>-155.2682268752188</longitude>
+					<latitude>19.41212632683072</latitude>
+					<altitude>0</altitude>
+					<range>3601.240662873388</range>
+					<tilt>0.3293504393741545</tilt>
+					<heading>0.07003899162921552</heading>
+				</LookAt>
+				<styleUrl>#msn_6_copy54</styleUrl>
+				<Point>
+					<coordinates>-155.2639811057509,19.41211835599577,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Problem 7</name>
+				<visibility>0</visibility>
+				<LookAt>
+					<longitude>-155.324973760794</longitude>
+					<latitude>19.27728237337636</latitude>
+					<altitude>0</altitude>
+					<range>3636.141050084706</range>
+					<tilt>66.81738326072029</tilt>
+					<heading>-121.9265891874626</heading>
+				</LookAt>
+				<styleUrl>#msn_7_copy27</styleUrl>
+				<Point>
+					<coordinates>-155.3205150082009,19.28292098652802,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Problem 8</name>
+				<visibility>0</visibility>
+				<LookAt>
+					<longitude>-155.4505281643237</longitude>
+					<latitude>19.79334850837504</latitude>
+					<altitude>0</altitude>
+					<range>8157.03795612963</range>
+					<tilt>0.3292192202597608</tilt>
+					<heading>0.009354343586333778</heading>
+				</LookAt>
+				<styleUrl>#msn_8_copy9</styleUrl>
+				<Point>
+					<coordinates>-155.4400082170949,19.78721882039947,0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+	</Folder>
+</Document>
+</kml>

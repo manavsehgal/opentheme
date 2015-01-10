@@ -105,23 +105,21 @@
       See the License for the specific language governing permissions and
       limitations under the License.
     */
-    {% if page.kml_source %}    
+    {% if page.layers %}    
     
     function initialize() {
 
       var map = new google.maps.Map(document.getElementById('map-canvas'));
     
-      var kml_layer1 = new google.maps.KmlLayer({
-        url: '{{ page.kml_source }}'
+      var kml_layer = "";
+      {% for layer in page.layers %}
+
+      kml_layer = new google.maps.KmlLayer({
+        url: '{{ layer.kml }}'
       });
-      kml_layer1.setMap(map);
-      
-      {% if page.kml_source2 %}    
-      var kml_layer2 = new google.maps.KmlLayer({
-        url: '{{ page.kml_source2 }}'
-      });
-      kml_layer2.setMap(map);
-      {% endif %}
+      kml_layer.setMap(map);
+
+      {% endfor %}
       
     }
     
@@ -129,16 +127,18 @@
     
     {% endif %}
     
+    {% if page.select %}
+    
     function drawTable() {
       var query_element = document.getElementById("fusion-grid");
-      var select = "{{ page.select }}";
+      var select = "select " + "{{ page.select }}";
       var from = "{{ page.from }}";
-      var where = "{{ page.where }}";
+      var filter = "{{ page.filter }}";
 
       var query = select + ' FROM ' + from;
-      var filter = document.getElementById('fusion-grid-filter').value;
-      if (filter) {
-        query += " WHERE '" + where + "' + CONTAINS IGNORING CASE + '" + filter + "'";
+      var filter_value = document.getElementById('fusion-grid-filter').value;
+      if (filter_value) {
+        query += " WHERE '" + filter + "' + CONTAINS IGNORING CASE + '" + filter_value + "'";
       }
       var queryText = encodeURIComponent(query);
       var gvizQuery = new google.visualization.Query(
@@ -162,7 +162,7 @@
         var compare = "{{ page.compare }}";
         var chart_height = parseInt("{{ page.chart_height }}");
         
-        var chart_title = compare + ' by ' + where;
+        var chart_title = compare + ' by ' + filter;
         google.visualization.drawChart({
           containerId: 'fusion-bar-chart',
           dataSourceUrl: '//www.google.com/fusiontables/gvizdata?tq=',
@@ -173,7 +173,7 @@
             height: chart_height,
             chartArea: {height: '80%'},
             vAxis: {
-              title: where,
+              title: filter,
               viewWindowMode: 'pretty'
             },
             hAxis: {
@@ -189,6 +189,7 @@
     
     google.setOnLoadCallback(drawTable);
 
+    {% endif %}
     </script>
     
     {% include embed-google-analytics.html %}

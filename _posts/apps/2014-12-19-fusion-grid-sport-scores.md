@@ -3,15 +3,12 @@
 layout: fusion
 title: Fusion Grid - Sport Scores
 description: Data Grid displaying data from Google Fusion Tables
-author: Manav Sehgal
 category: app
 image: /img/app/fusion-grid.png
 # Grid Options
-select: "SELECT 'Scoring Team' as Scoring, 'Minute of goal' as Minute, 'Receiving Team' as Receiving"
+select: "'Scoring Team' as Scoring, 'Minute of goal' as Minute, 'Receiving Team' as Receiving"
 from: "1VlPiBCkYt_Vio-JT3UwM-U__APurJvPb6ZEJPg"
-where: "Scoring Team"
-# Chart Options
-chart: null
+filter: "Scoring Team"
 ---
 This is a sport scores sample app created using Fusion Tables.
 

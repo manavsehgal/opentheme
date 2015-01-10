@@ -7,13 +7,14 @@ category: app
 image: /img/app/kml-sandy.png
 
 # Grid Options
-select: "SELECT col1, col2 as Location, col4"
+select: "col1, col2 as Location, col4"
 from: "1hcqyroMjYXZfCqDTUq2nmhgwzG13W-BRzNXyaEk"
-where: "Location"
+filter: "Location"
 
 # KML Options
-kml_source: "http://opentheme.co/static-data/WorldAirports.kml"
-kml_source2: "http://opentheme.co/static-data/287257.kml"
+layers:
+  - kml: "http://opentheme.co/static-data/WorldAirports.kml"
+  - kml: "http://opentheme.co/static-data/287257.kml"
 ---
 
 {% include kml-viewer.html %}
@@ -21,7 +22,7 @@ kml_source2: "http://opentheme.co/static-data/287257.kml"
 
 <br>
 
-This app was created using "zero coding", from configuration, live open data, and using custom includes created for OpenTheme.
+This app was created in "zero coding", from configuration, using live open data sources, and reusing plugins created for OpenTheme.
 
 {% highlight liquid linenos %}
 {% raw  %}

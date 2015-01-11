@@ -1,5 +1,10 @@
+---
+---
 # www.robotstxt.org/
 
 # Allow crawling of all content
 User-agent: *
 Disallow:
+
+# Announce sitemap - https://support.google.com/webmasters/answer/183668
+Sitemap: {{site.url}}/sitemap.xml

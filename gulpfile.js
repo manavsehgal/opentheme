@@ -10,6 +10,8 @@ var cp          = require('child_process');
 var minifyCSS   = require('gulp-minify-css');
 var rename      = require('gulp-rename');
 var uglify      = require('gulp-uglify');
+var imagemin    = require('gulp-imagemin');
+var pngquant    = require('imagemin-pngquant');
 
 // Test
 var csslint     = require('gulp-csslint');
@@ -49,10 +51,10 @@ gulp.task('browser-sync', ['sass', 'jekyll-build', 'coffee'], function() {
 });
 
 /**
- * Wait for jekyll-build, then coffee
+ * Wait for jekyll-build to process liquid markup in JS, then coffee
  */
 gulp.task('coffee', ['jekyll-build'], function() {
-  gulp.src('_site/coffee/*.js')
+  return gulp.src('_site/coffee/*.js')
     .pipe(jshint('.jshintrc'))
     .pipe(jshint.reporter('jshint-stylish'))
     .pipe(gulp.dest('js'))
@@ -88,6 +90,16 @@ gulp.task('sass', function () {
         .pipe(gulp.dest('css'));
 });
 
+gulp.task('images', function () {
+    return gulp.src(['_images/*', '_images/*/*'])
+        .pipe(imagemin({
+            progressive: true,
+            svgoPlugins: [{removeViewBox: false}],
+            use: [pngquant({ quality: '65-80', speed: 4 })]
+        }))
+        .pipe(gulp.dest('img'));
+});
+
 /**
  * Watch scss files for changes & recompile
  * Watch html/md files, run jekyll & reload BrowserSync
@@ -103,3 +115,4 @@ gulp.task('watch', function () {
  * compile the jekyll site, launch BrowserSync & watch files.
  */
 gulp.task('default', ['browser-sync', 'watch']);
+gulp.task('img', ['images']);

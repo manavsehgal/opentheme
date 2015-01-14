@@ -15,7 +15,7 @@
   
   .global .menu .right.menu > .mobile.item .menu {
     left: auto;
-    right: 0em;
+    right: 0;
   }
 
   .global .selection.list .right.floated {
@@ -35,7 +35,7 @@
   }
 
   .global .overview .divided.grid .header + p {
-    min-height: 0px;
+    min-height: 0;
   }
 
   .global .masthead.segment .button {

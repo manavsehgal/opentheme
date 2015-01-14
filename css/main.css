@@ -75,8 +75,8 @@ h1, h2, h3, h4, h5 {
     Header
 ---------------*/
 .global .masthead {
-  margin: 0em;
-  padding: 1rem 0rem; }
+  margin: 0;
+  padding: 1rem 0; }
 
 .global .masthead .column {
   position: relative; }
@@ -114,17 +114,17 @@ h1, h2, h3, h4, h5 {
   margin-bottom: 1em; }
 
 .global .vertical.segment {
-  padding: 3rem 0rem; }
+  padding: 3rem 0; }
 
 .global .feature.segment {
-  margin: 0em;
-  padding: 3rem 0rem; }
+  margin: 0;
+  padding: 3rem 0; }
 
 .global .feature.segment p {
   min-height: 50px; }
 
 .global .selection.list {
-  margin: 0em -0.5em; }
+  margin: 0 -0.5em; }
 
 /*--------------
     Tags
@@ -150,10 +150,10 @@ h1, h2, h3, h4, h5 {
 ---------------*/
 .global .footer.segment {
   background-color: #000000;
-  padding: 3rem 0rem; }
+  padding: 3rem 0; }
 
 .global .copyright.segment {
-  margin: 0em; }
+  margin: 0; }
 
 /*--------------
     Newsletter
@@ -415,22 +415,6 @@ h1, h2, h3, h4, h5 {
   color: #009999; }
 
 /* Literal.Number.Integer.Long */
-/* Make line numbers unselectable: excludes line numbers from copy-paste user ops */
-.highlight .lineno {
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -o-user-select: none; }
-
-.lineno::-moz-selection {
-  background-color: transparent; }
-
-/* Mozilla specific */
-.lineno::-moz-selection {
-  background-color: transparent; }
-.lineno::selection {
-  background-color: transparent; }
-
-/* Other major browsers */
 /*******************************
           Responsive
 *******************************/
@@ -442,7 +426,7 @@ h1, h2, h3, h4, h5 {
     display: block; }
   .global .menu .right.menu > .mobile.item .menu {
     left: auto;
-    right: 0em; }
+    right: 0; }
   .global .selection.list .right.floated {
     display: none; }
   .global h1 {
@@ -452,7 +436,7 @@ h1, h2, h3, h4, h5 {
   .global .overview .divided.grid .header .icon {
     font-size: 1.5em; }
   .global .overview .divided.grid .header + p {
-    min-height: 0px; }
+    min-height: 0; }
   .global .masthead.segment .button {
     font-size: 1rem; }
   .global .masthead.segment .column {

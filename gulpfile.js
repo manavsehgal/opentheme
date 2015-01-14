@@ -1,8 +1,14 @@
+// Adapted from https://github.com/shakyShane/jekyll-gulp-sass-browser-sync
+
 var gulp        = require('gulp');
 var browserSync = require('browser-sync');
 var sass        = require('gulp-sass');
 var prefix      = require('gulp-autoprefixer');
 var cp          = require('child_process');
+
+// For minify CSS
+var minifyCSS   = require('gulp-minify-css');
+var rename      = require('gulp-rename');
 
 var messages = {
     jekyllBuild: '<span style="color: grey">Running:</span> $ jekyll build'
@@ -29,8 +35,8 @@ gulp.task('jekyll-rebuild', ['jekyll-build'], function () {
  */
 gulp.task('browser-sync', ['sass', 'jekyll-build'], function() {
     browserSync({
-        host: '0.0.0.0',
-        port: '8080',
+        host: '0.0.0.0',    // For Cloud9 IDE Previews. Remove for localhost
+        port: '8080',       // For Cloud9 IDE Previews. Remove for browserSync default
         server: {
             baseDir: '_site'
         }
@@ -47,6 +53,10 @@ gulp.task('sass', function () {
             onError: browserSync.notify
         }))
         .pipe(prefix(['last 15 versions', '> 1%', 'ie 8', 'ie 7'], { cascade: true }))
+        .pipe(gulp.dest('_site/css'))
+        .pipe(gulp.dest('css'))
+        .pipe(minifyCSS())
+        .pipe(rename({suffix: '.min'}))
         .pipe(gulp.dest('_site/css'))
         .pipe(browserSync.reload({stream:true}))
         .pipe(gulp.dest('css'));

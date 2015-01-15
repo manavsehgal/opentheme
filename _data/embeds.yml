@@ -15,7 +15,7 @@
   # Does the embed work well on Jekyll and Github Pages
   jekyll_friendly: true
   # Rating based on popularity, features
-  rating: 3                 
+  rating: 5                 
   # Link to to create embed
   create: https://twitter.com/              
   # Link to embed docs

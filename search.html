@@ -8,6 +8,7 @@ description: Search OpenTheme content using Google Custom Search Engine.
   <div class="ui very relaxed stackable page grid">
     <div class="row">
       <div class="column">
+        {% if site.google_cse_id %}
         <script>
           (function() {
             var cx = '{{ site.google_cse_id }}';
@@ -20,7 +21,8 @@ description: Search OpenTheme content using Google Custom Search Engine.
             s.parentNode.insertBefore(gcse, s);
           })();
         </script>
-        <gcse:searchresults-only></gcse:searchresults-only>              
+        <gcse:searchresults-only></gcse:searchresults-only>
+        {% endif %}
       </div>
     </div> <!-- /row -->
   </div>

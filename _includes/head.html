@@ -57,6 +57,7 @@
   <link rel="stylesheet" type="text/css" href="/css/main.min.css">
   <link href='//fonts.googleapis.com/css?family=Open+Sans:300,400,700' rel='stylesheet' type='text/css'>
   
+  {% if site.pingdom_rum %}
   <script>
   var _prum = [['id', '{{ site.pingdom_rum }}'],
                ['mark', 'firstbyte', (new Date()).getTime()]];
@@ -68,3 +69,4 @@
       s.parentNode.insertBefore(p, s);
   })();
   </script>
+  {% endif %}

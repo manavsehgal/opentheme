@@ -1,3 +1,4 @@
+{% if site.mailchimp_id and site.mailchimp_u %}
 <!-- Begin MailChimp Signup Form -->
 <div id="mc_embed_signup" class="ui form segment">
   <form action="//opentheme.us9.list-manage.com/subscribe/post?u={{ site.mailchimp_u }}&amp;id={{ site.mailchimp_id }}" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
@@ -19,3 +20,4 @@
 </div>
 
 <!--End mc_embed_signup-->
+{% endif %}

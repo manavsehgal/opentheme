@@ -47,7 +47,7 @@
                 {% if site.comments == 'disqus' %}
                   <div class="ui divider"></div>
                   {% include disqus.html %}
-                {% elsif site.facebook && site.comments == 'facebook' %}
+                {% elsif site.facebook and site.comments == 'facebook' %}
                   <div class="ui divider"></div>
                   {% include fb-comments.html %}
                 {% endif %}

@@ -1,20 +1,33 @@
 # OpenTheme
 
-Powerful Theme for Websites and Single Page Apps on GitHub Pages.
+Powerful new theme featuring Semantic UI for speedily creating amazing websites and mobile-hybrid apps on GitHub Pages.
 
 View live demo and docs at http://opentheme.co 
-
-Collaborate on OpenTheme features and content design workflow at https://trello.com/b/Jm8UFV7p
 
 <a href="https://travis-ci.org/open-start/opentheme"><img src="https://travis-ci.org/open-start/opentheme.svg" alt="Travis Build Status"></a>
 <!-- <a href="https://codeclimate.com/github/open-start/opentheme"><img src="https://codeclimate.com/github/open-start/opentheme/badges/gpa.svg" /></a> -->
 
-## Design Goals
+## Getting Started
 
-- Follow Jekyll and GitHub Pages best practices
-- Showcase relevant Semantic UI capabilities
-- Feature coverage for marketing, blogging, projects/portfolio scenarios
-- Easy to fork and reuse for creating GitHub Pages
+### Fork and Publish Direct from GitHub
+
+1. Fork OpenTheme as your own repo
+2. IMPORTANT: Edit _config.yml -> "API Keys" section to replace OpenTheme keys with your own
+3. Edit and publish _posts, or _data, or pages directly from GitHub
+
+### Local Setup
+
+```
+bundle install # Install Jekyll, Github Pages gems
+npm install # Install Gulp and dependences
+gulp # Build, test, serve and watch your local setup
+```
+
+IMPORTANT: Edit **_config.yml** -> "API Keys" section to replace OpenTheme keys with your own
+
+Optionally edit **gulpfile.js** -> BrowserSync host, port to your local setup
+
+Optionally, helper bash scripts available in **/scripts** folder. Use **shove.sh** to push changes to your repo. Use **clone.sh** to copy changes to GitHub Pages.
 
 ## File Structure
 

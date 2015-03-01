@@ -1,19 +1,19 @@
 # Site settings
 
-title: Powerful New Theme for GitHub Pages | OpenTheme.co
-tagline: Amazing Websites and Hybrid Apps. Speedily!
-email: sehgal.manav@gmail.com
-copyright: Manav Sehgal
-keywords: open theme, github pages, semantic ui, single page apps
+title: Volim Kafu, a ti? 
+tagline: Pridruži se ;)
+email: volimkafu@outlook.com  
+copyright: Volim Kafu
+keywords: volimo, kafu, volim, kafici, kofetin
 
 description: > # this means to ignore newlines until "url:". One indent required.
-  Powerful new theme featuring Semantic UI for speedily creating amazing websites and mobile-hybrid apps on GitHub Pages.
-
+  Volimo kafu, svaki dan uživamo u jednoj šolji (ili više) i uvek istražujemo nove ukuse... Da li si i ti jedan od nas?
 # the base hostname & protocol for your site
-url: "http://opentheme.co"
+url: "http://volimkafu.club"
 
-twitter_username: manavsehgal
-github_username:  manavsehgal
+twitter_username: volimkafu
+github_username:  volimkafu
+facebook_username: /pages/Volim-KAFU/702446356539165?ref=hl
 
 default_image: /img/opentheme-workflow.png
 
@@ -33,8 +33,8 @@ exclude: ["vendor", "README.md", "node_modules", "gulpfile.js", "package.json"]
 
 # Lists
 
-tag_items: 20     # Applies to categories and tags lists
-recent_items: 10  # Applies to recent posts, apps lists
+tag_items: 5     # Applies to categories and tags lists
+recent_items: 5  # Applies to recent posts, apps lists
 related_items: 5  # Applies to related posts and apps lists
 
 # Layout
@@ -45,12 +45,12 @@ postbar: true # Show (true) post sidebar or hide (false)
 # Features
 
 reading_time: true    # Show est. reading time for posts
-facebook: false        # Use facebook features
+facebook: true        # Use facebook features
 comments: disqus      # Switch disqus | facebook | none - comments. facebook = true required for facebook comments
 
 # Embeds
 
-disqus_name: opentheme            # Your site name at Disqus
+disqus_name: volimkafu            # Your site name at Disqus
 
 youtube_controls: 0               # Turn on=1/off=0 Youtube player features when embedding videos
 
@@ -60,19 +60,19 @@ google_map_height: 450            # Default map height. Width adjusts to contain
 
 # API Keys. PLEASE DO NOT USE THESE KEYS. Get your own at links in comments.
 
-google_api_key: "AIzaSyDmt_iRsE8kQ1glUPC2GZpNLBsw1Laj9_0" # https://code.google.com/apis/console/
-google_analytics_ua: "UA-57703915-1" # Google Analytics site specific id
-google_cse_id: "012558675018178618302:kw1_r8qgyqc" # Google Custom Search Engine unique id
+# google_api_key: "AIzaSyDmt_iRsE8kQ1glUPC2GZpNLBsw1Laj9_0" # https://code.google.com/apis/console/
+# google_analytics_ua: "UA-57703915-1" # Google Analytics site specific id
+# google_cse_id: "012558675018178618302:kw1_r8qgyqc" # Google Custom Search Engine unique id
 
-mapbox: "pk.eyJ1Ijoib3BlbnRoZW1lIiwiYSI6ImNIWC1LTUUifQ.vq4k3nfTeTtDAk7eLCrVAw"
+# mapbox: "pk.eyJ1Ijoib3BlbnRoZW1lIiwiYSI6ImNIWC1LTUUifQ.vq4k3nfTeTtDAk7eLCrVAw"
 
-facebook_app: "390272554479803" # https://developers.facebook.com/
+#facebook_app: "390272554479803" # https://developers.facebook.com/
 
-mailchimp_u: "cf72d9276397b3175b874eb39" # Mailchimp u=unique identification
-mailchimp_id: "3a51637dcc" # Mailchip id
+mailchimp_u: "62a03f69deb1da9096a11045a" # Mailchimp u=unique identification
+mailchimp_id: "7332929351" # Mailchip id
 
-addthis_pubid: "ra-54a66cfa35915034" # Get your pubid at https://www.addthis.com/dashboard
+#addthis_pubid: "ra-54a66cfa35915034" # Get your pubid at https://www.addthis.com/dashboard
 
-pingdom_rum: "54a97d8aabe53daf361855a6" # https://my.pingdom.com/dashboard. Real User experience (speed) monitoring.
+#pingdom_rum: "54a97d8aabe53daf361855a6" # https://my.pingdom.com/dashboard. Real User experience (speed) monitoring.
 
-uservoice: "nvdgD40UtxnMoshpVHYxg"
+#uservoice: "nvdgD40UtxnMoshpVHYxg"

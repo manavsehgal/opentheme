@@ -8,20 +8,13 @@
     {% if site.facebook %}
       {% include fb-setup.html %}
     {% endif %}
-
-    {% if site.pagebar %}
-    {% include page-bar.html %}
-    <div class="pusher">
-    {% endif %}
-        {%if page.title == 'Home' %}
-          {% include home-header.html %}
-        {% else %}
-          {% include landing-header.html %}
-        {% endif %}
+        <div class= "ui segments">
+          {% include header-section.html %}
+          {% include projects-section.html %}
+        </div>
         {{ content }}
         {% include footer.html %}
     {% if site.pagebar %}
-    </div>
     {% endif %}
 
     {% include js.html %}

@@ -9,16 +9,7 @@
       {% include fb-setup.html %}
     {% endif %}
 
-    {% if site.pagebar %}
-    {% include page-bar.html %}
-    <div class="pusher">
-    {% endif %}
-        {% include landing-header.html %}
-        {{ content }}
-        {% include footer.html %}
-    {% if site.pagebar %}
-    </div>
-    {% endif %}
+    
 
     {% include js.html %}
     <script src="//cdnjs.cloudflare.com/ajax/libs/list.js/1.1.1/list.min.js"></script>

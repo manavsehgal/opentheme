@@ -60,21 +60,6 @@
     {% if site.facebook %}
       {% include fb-setup.html %}
     {% endif %}
-
-    {% if site.pagebar %}
-    {% include page-bar.html %}
-    <div class="pusher">
-    {% endif %}
-    {% include landing-header.html %}
-    <div class="ui vertical segment">
-      <div class="ui very relaxed stackable page grid">
-        <div class="row">
-          <div class="column">
-            {{ content }}
-          </div>
-        </div>
-      </div>
-    </div>
         {% include footer.html %}
     {% if site.pagebar %}
     </div>

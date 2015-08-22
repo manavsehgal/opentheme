@@ -1,9 +1,9 @@
 # Site settings
 
-title: Powerful New Theme for GitHub Pages | OpenTheme.co
-tagline: Amazing Websites and Hybrid Apps. Speedily!
-email: sehgal.manav@gmail.com
-copyright: Manav Sehgal
+title: Derek Gerson
+tagline: 
+email: hi@derekgerson.com
+copyright: Derek Gerson
 keywords: open theme, github pages, semantic ui, single page apps
 
 description: > # this means to ignore newlines until "url:". One indent required.
@@ -39,7 +39,7 @@ related_items: 5  # Applies to related posts and apps lists
 
 # Layout
 
-pagebar: true # Show (true) page sidebar menu or hide (false) 
+pagebar: false # Show (true) page sidebar menu or hide (false) 
 postbar: true # Show (true) post sidebar or hide (false) 
 
 # Features

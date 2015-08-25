@@ -6,15 +6,36 @@ html {
 
 body {
   font-family: 'Roboto', sans-serif;
-  font-weight: 300; }
+  font-weight: 400; }
 
 h1, h2, h3, h4, h5 {
   font-family: 'Roboto', sans-serif;
-  font-weight: 300; }
+  font-weight: 500; }
 
 .ui.header {
   font-family: 'Text Me One', sans-serif;
   font-weight: 400; }
+
+.ui.inverted.attached.segment, .ui.inverted.block.segment {
+  border: none;
+  background-color: none; }
+
+#tagline {
+  line-height: 2em; }
+
+.ui.button {
+  color: black;
+  background: none;
+  background-color: #c0392b; }
+
+.ui.inverted.button:hover {
+  background-color: rgba(0, 0, 0, 0.5); }
+
+#first-segment {
+  background-color: #c0392b; }
+
+#projects-segment {
+  background-color: #2A4759; }
 
 /*--------------
     Subtle Patterns

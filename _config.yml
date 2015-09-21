@@ -1,19 +1,19 @@
 # Site settings
 
-title: Powerful New Theme for GitHub Pages | OpenTheme.co
-tagline: Amazing Websites and Hybrid Apps. Speedily!
-email: sehgal.manav@gmail.com
+title: Computer Science
+# tagline: Amazing Websites and Hybrid Apps. Speedily!
+email: creationhubbw@gmail.com
 copyright: Manav Sehgal
-keywords: open theme, github pages, semantic ui, single page apps
+keywords: computer science, ub, cs, ubcs
 
 description: > # this means to ignore newlines until "url:". One indent required.
   Powerful new theme featuring Semantic UI for speedily creating amazing websites and mobile-hybrid apps on GitHub Pages.
 
 # the base hostname & protocol for your site
-url: "http://opentheme.co"
+url: "http://http://creationhub.github.io/"
 
 twitter_username: manavsehgal
-github_username:  manavsehgal
+github_username: CreationHub
 
 default_image: /img/opentheme-workflow.png
 
@@ -50,7 +50,7 @@ comments: disqus      # Switch disqus | facebook | none - comments. facebook = t
 
 # Embeds
 
-disqus_name: opentheme            # Your site name at Disqus
+disqus_name: Computer Science            # Your site name at Disqus
 
 youtube_controls: 0               # Turn on=1/off=0 Youtube player features when embedding videos
 

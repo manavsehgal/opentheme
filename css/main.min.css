@@ -1,4 +1,6 @@
-html{font-size:15px}
+html{font-size:16px
+  font-family:'Times New Roman', Times, serif;
+}
 body{
   font-family:'Open Sans',sans-serif;
 font-weight:400

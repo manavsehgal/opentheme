@@ -8,10 +8,6 @@ keywords: computer science, ub, cs, ubcs
 
 locations:
  - University of Botswana
- 
-eventPlaceCoordinates : "12.8998,77.495928"
-mapCenterCoordinates : "12.9006794,77.4966755"
-mapMobileCenterCoordinates : "12.9006794,77.4966755"
 
 description: > # this means to ignore newlines until "url:". One indent required.
   Powerful new theme featuring Semantic UI for speedily creating amazing websites and mobile-hybrid apps on GitHub Pages.

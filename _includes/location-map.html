@@ -1,0 +1,41 @@
+<!--Begin Location Section -->
+<section>
+    <div>
+        <div>
+            <div class="location-description text-left" data-animation="fadeInLeft" data-delay="0">
+                <div class="pull-right" id="location_devfest">
+                    <h3>Location</h3>
+                    <ul>
+                        <li itemprop="name">{{site.eventLocationPlaceCoordinates}}</li>
+                        <li itemprop="address">{{site.mapCenterCoordinates}}</li>
+                        <p>&nbsp;</p>
+                    </ul>
+                </div>
+
+                <div id="googlemaps_codepursuit">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31108.624197799018!2d77.60369898509639!3d12.934820742086378!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae15ade4ffe8af%3A0xe1f7620fe73e700e!2sIBC+Knowledge+Park!5e0!3m2!1sen!2sin!4v1426266126404" width="300" height="200" frameborder="0" style="border:0"></iframe>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- End Location Section -->
+
+
+    <style type="text/css">
+    #googlemaps_devfest { 
+      position:center; 
+      top: 0; 
+      left: 0; 
+      z-index: 0;
+  }
+  #location_devfest { 
+      position: relative; 
+      z-index: 1; 
+      width: 250px;
+      background: white;
+      height: auto;
+      opacity: .95; /* Set the opacity for a slightly transparent Google Maps*/ 
+      color: black;
+  }
+  </style>

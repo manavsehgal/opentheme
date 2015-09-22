@@ -16,8 +16,9 @@ h1, h2, h3, h4, h5 {
   font-family: 'Open Sans', sans-serif;
   font-weight: 600; }
 
-.p {
+p {
   font-family: 'Open Sans', sans-serif;
+  letter-spacing: 1px;
   font-size: 12px;
   font-weight: 100; }
 /*--------------

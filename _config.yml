@@ -7,7 +7,7 @@ copyright: Manav Sehgal
 keywords: computer science, ub, cs, ubcs
 
 locations:
- - University of Botswana
+ - center="40.714728,-73.998672"
 
 description: > # this means to ignore newlines until "url:". One indent required.
   Powerful new theme featuring Semantic UI for speedily creating amazing websites and mobile-hybrid apps on GitHub Pages.

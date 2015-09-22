@@ -4,9 +4,23 @@
     <!--First Patner 1 Start-->
     <div class="ui inverted aligned segment">
     <!--First Patner 1 Start-->
-    <div class="item inverted ">
+    <div class="item ">
       <h5>Find us here</h5>
-        {% include embed-google-map.html location="-24.662554, 25.931762" height=312 width=312 %}
+      <div class="row">
+        <div class="column">
+           <div class="ui tiny image">
+            <div class="item">
+              <a href="http://www.ub.bw/"><img style="margin:50px 0px" alt="University of Botswana" src="http://www.ub.bw/images/UB-logo.png"></a>
+            </div>
+            </div>
+          </div>
+            <div class="column">
+              {% include embed-google-map.html location="-24.662554, 25.931762" height=312 width=312 %}
+            </div>
+        </div>
+        </div>
+      </div>
+        
     <!--  <div class="content">-->
         <!--<div class="description">-->
         <!--  A description which may flow for several lines and give context to the content.-->
@@ -74,7 +88,4 @@
 
 <div class="ui center aligned segment copyright">
   <i class="world icon"></i> Copyright &copy; {{ site.time | date: "%Y" }}, {{ site.copyright }}.
-</div>
-    <div class="tiny item">
-        <a href="http://www.ub.bw/"><img style="margin:50px 0px" alt="University of Botswana" src="http://www.ub.bw/images/UB-logo.png"></a>
-    </div>
+

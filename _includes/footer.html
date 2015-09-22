@@ -20,16 +20,18 @@
     <div class="item inverted ">
       <h5>Location</h5>
         <div class="item" data-value="bw"><i class="bw flag"></i>Botswana</div>
-          <div class="ui blue basic button">Blue</div>
-      <div class="content">
+                  {% if page.locations %} 
+        <img src="http://maps.googleapis.com/maps/api/staticmap?{% for location in page.locations %}{% if forloop.first %}center={{location}}&markers=color:blue%7C{{location}}{% else %}&markers=color:blue%7C{{location}}{% endif %}{% endfor %}&zoom={% if page.zoom %}{{page.zoom}}{% else %}13{% endif %}&size=300x200&scale=2&sensor=false&visual_refresh=true" alt="">
+    {% endif %}
+    <!--  <div class="content">-->
         <!--<div class="description">-->
         <!--  A description which may flow for several lines and give context to the content.-->
         <!--</div>-->
         <!--<div class="extra">-->
         <!--  16 <div class="ui heart rating" data-rating="0" data-max-rating="1"></div>-->
         <!--</div>-->
-      </div>
-    </div>    
+    <!--  </div>-->
+    <!--</div>    -->
         
 
     <!--End of Patner 2 Start-->

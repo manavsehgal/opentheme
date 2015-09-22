@@ -8,10 +8,10 @@
       
       <div class="row">
         <div class="six wide column">
-          
+          {% if page.title == 'Home' %}
               <h5>Find us here</h5>
-                {% include embed-google-map.html marginLeft="20px" location="University+of+Botswana" height="428"  %}
-           
+                {% include embed-google-map.html marginLeft="20px" location="University+of+Botswana" height="128"  %}
+          {% end if %}
             </div>
         <div class="six wide column">
            <div class="ui tiny image">

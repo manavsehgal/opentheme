@@ -62,7 +62,7 @@ font-weight:400
 	right: 0;
 	bottom: 0;
 	left: 0;
-	background: rgba(0,0,0,0);
+	background: rgba(0,0,0,0.8);
 	z-index: 99999;
 	opacity:0;
 	-webkit-transition: opacity 400ms ease-in;
@@ -84,9 +84,9 @@ font-weight:400
 	padding: 5px 20px 13px 20px;
 	border-radius: 10px;
 	background: #414141;
-	background: -moz-linear-gradient(#fff, #999);
-	background: -webkit-linear-gradient(#fff, #999);
-	background: -o-linear-gradient(#fff, #999);
+	background: -moz-linear-gradient(#999, #000);
+	background: -webkit-linear-gradient(#999, #000);
+	background: -o-linear-gradient(#999, #000);
 }
 
 

@@ -57,13 +57,14 @@ font-weight:400
 
 .modalDialog {
 	position: fixed;
+	visibility: hidden;
 	font-family: Arial, Helvetica, sans-serif;
 	top: 0;
 	right: 0;
 	bottom: 0;
 	left: 0;
 	background: rgba(0,0,0,0.8);
-	z-index: 99999;
+	z-index: 1000;
 	opacity:0;
 	-webkit-transition: opacity 400ms ease-in;
 	-moz-transition: opacity 400ms ease-in;
@@ -78,15 +79,16 @@ font-weight:400
 }
 
 .modalDialog > div {
-	width: 1000px;
+	width: 500px;
 	position: relative;
 	margin: 10% auto;
 	padding: 5px 20px 13px 20px;
 	border-radius: 10px;
-	background: #414141;
-	background: -moz-linear-gradient(#696969, #000);
-	background: -webkit-linear-gradient(#696969, #000);
-	background: -o-linear-gradient(#696969, #000);
+	background-color: #fff;
+	/*background: #414141;*/
+	/*background: -moz-linear-gradient(#696969, #000);*/
+	/*background: -webkit-linear-gradient(#696969, #000);*/
+	/*background: -o-linear-gradient(#696969, #000);*/
 }
 
 

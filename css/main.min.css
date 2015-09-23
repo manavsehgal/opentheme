@@ -33,7 +33,7 @@ font-weight:400
   .global .label.categories,.global .tag{margin-right:5px;margin-bottom:5px}
   .global .recent-posts-title{margin-top:5px;margin-bottom:5px}
   .global .thumb-img{margin-top:15px;margin-bottom:15px}
-  .global .footer.segment{background-color:#000;padding:3rem 0}
+  .global .footer.segment{background-color:#000;padding:1rem 0}
   .global .copyright.segment{margin:0}
   .global .newsletter.button{margin-top:10px}
   .highlight{background:#fff}

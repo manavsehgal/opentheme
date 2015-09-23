@@ -62,8 +62,7 @@ font-weight:400
 	right: 0;
 	bottom: 0;
 	left: 0;
-	background: #464643; /* Had To Change The Background Colour Of Modal Dialogs*/
-	/*background: rgba(0,0,0,0.8);*/
+	background: rgba(0,0,0,0);
 	z-index: 99999;
 	opacity:0;
 	-webkit-transition: opacity 400ms ease-in;

@@ -1,4 +1,5 @@
-# - title: PageSpeed Insights - Mobile Speed
+ - title: People
+ - url: /people/
 #   source: "https://developers.google.com/speed/pagespeed/insights/?url=opentheme.co&tab=mobile"
 #   category: Performance
 #   current: 40

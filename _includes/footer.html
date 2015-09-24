@@ -8,26 +8,27 @@
       
       <div class="row">
         <div class="six wide column">
+          <!--SHOW MAP ON THE HOMEPAGE-->
           {% if page.title == 'Home' %}
               <h5>In UB?<br/> Find us here</h5>
-<title>Department of Computer Science</title>
-<div id="ubMap" style="height:250px"></div>
-<script src="http://www.openlayers.org/api/OpenLayers.js"></script>
-<script>
-    map = new OpenLayers.Map("ubMap");
-    map.addLayer(new OpenLayers.Layer.OSM());
-    map.zoomToMaxExtent();
-       var lonLat = new OpenLayers.LonLat( 25.93165 ,-24.66250 )
-          .transform(
-            new OpenLayers.Projection("EPSG:4326"), // transform from WGS 1984
-            map.getProjectionObject() // to Spherical Mercator Projection
+            <title>Department of Computer Science</title>
+            <div id="ubMap" style="height:250px"></div>
+            <script src="http://www.openlayers.org/api/OpenLayers.js"></script>
+            <script>
+            map = new OpenLayers.Map("ubMap");
+            map.addLayer(new OpenLayers.Layer.OSM());
+            map.zoomToMaxExtent();
+          var lonLat = new OpenLayers.LonLat( 25.93165 ,-24.66250 )
+              .transform(
+              new OpenLayers.Projection("EPSG:4326"), // transform from WGS 1984
+                map.getProjectionObject() // to Spherical Mercator Projection
           );
-          var zoom=15;
+          var zoom=30;
           var markers = new OpenLayers.Layer.Markers( "Markers" );
-    map.addLayer(markers);
-    markers.addMarker(new OpenLayers.Marker(lonLat));
-    map.setCenter (lonLat, zoom);
-</script>
+          map.addLayer(markers);
+          markers.addMarker(new OpenLayers.Marker(lonLat));
+          map.setCenter (lonLat, zoom);
+          </script>
   
           {% endif %}
             </div>

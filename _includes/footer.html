@@ -9,7 +9,7 @@
       <div class="row">
         <div class="six wide column">
           {% if page.title == 'Home' %}
-              <h5>In UB? Find us here</h5>
+              <h5>In UB?<br/> Find us here</h5>
 <title>Department of Computer Science</title>
 <div id="ubMap" style="height:250px"></div>
 <script src="http://www.openlayers.org/api/OpenLayers.js"></script>
@@ -17,7 +17,7 @@
     map = new OpenLayers.Map("ubMap");
     map.addLayer(new OpenLayers.Layer.OSM());
     map.zoomToMaxExtent();
-       var lonLat = new OpenLayers.LonLat( -24.66306 ,25.93147 )
+       var lonLat = new OpenLayers.LonLat( 25.93099 ,-24.66125 )
           .transform(
             new OpenLayers.Projection("EPSG:4326"), // transform from WGS 1984
             map.getProjectionObject() // to Spherical Mercator Projection

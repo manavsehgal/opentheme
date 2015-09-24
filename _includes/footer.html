@@ -5,14 +5,13 @@
     <div class="ui inverted aligned segment">
     <!--First Patner 1 Start-->
     <div class="item ">
-      
       <div class="row">
         <div class="six wide column">
           <!--SHOW MAP ON THE HOMEPAGE-->
           {% if page.title == 'Home' %}
               <h5>In UB?<br/> Find us here</h5>
             <title>Department of Computer Science</title>
-            <div id="ubMap" style="height:400px;"></div>
+            <div id="ubMap" style="height:350px;"></div>
             <script src="http://www.openlayers.org/api/OpenLayers.js"></script>
             <script>
             map = new OpenLayers.Map("ubMap");
@@ -23,7 +22,6 @@
               new OpenLayers.Projection("EPSG:4326"), // transform from WGS 1984
                 map.getProjectionObject() // to Spherical Mercator Projection
           );
-        
           var zoom=18;
           var markers = new OpenLayers.Layer.Markers( "Markers" );
           map.addLayer(markers);

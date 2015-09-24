@@ -23,8 +23,8 @@
               new OpenLayers.Projection("EPSG:4326"), // transform from WGS 1984
                 map.getProjectionObject() // to Spherical Mercator Projection
           );
-          // Why would you put 50?
-          var zoom=1;
+        
+          var zoom=13;
           var markers = new OpenLayers.Layer.Markers( "Markers" );
           map.addLayer(markers);
           markers.addMarker(new OpenLayers.Marker(lonLat));

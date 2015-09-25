@@ -9,6 +9,9 @@
   font-family: "Roboto Slab";
   font-style: normal;
   font-weight: 400;
+  text-color: #2B2A29;
+  -webkit-backface-visibility:hidden;
+	backface-visibility:hidden;
   src: local("Roboto Slab Regular"), local("RobotoSlab-Regular"), url("http://fonts.gstatic.com/s/robotoslab/v6/y7lebkjgREBJK96VQi37Zo4P5ICox8Kq3LLUNMylGO4.woff2") format("woff2");
 }
 
@@ -19,18 +22,21 @@
   src: local("Grand Hotel"), local("GrandHotel-Regular"), url("http://fonts.gstatic.com/s/grandhotel/v4/NrGQkrs9rbHm5EYx0Eil0o4P5ICox8Kq3LLUNMylGO4.woff2") format("woff2");
 }
 
-html{font-size:16px
+html{font-size:18px
   font-family:'Roboto Slab', Times, serif;
 }
 
 body{
+	font-size:18px
   font-family:'Roboto Slab',serif;
 font-weight:500
   
 }
 
 .good-font {
-    text-rendering: optimizelegibility;
+	text-rendering:optimizeLegibility;
+	-moz-osx-font-smoothing:grayscale;
+	-webkit-font-smoothing:antialiased
 }
 .ui.header,h1,h2,h3,h4,h5{font-family:'Roboto Slab',sans-serif;font-weight:600}
 .global .blue-round-gradient{background-color:#7e8bbc;

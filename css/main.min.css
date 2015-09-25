@@ -19,12 +19,12 @@
   src: local("Grand Hotel"), local("GrandHotel-Regular"), url("http://fonts.gstatic.com/s/grandhotel/v4/NrGQkrs9rbHm5EYx0Eil0o4P5ICox8Kq3LLUNMylGO4.woff2") format("woff2");
 }
 
-html{font-size:18px
+html{font-size:16px
   font-family:'Roboto Slab', serif;
 }
 
 body{
-	font-size:18px
+	font-size:16px
   font-family:'Roboto Slab',serif;
 font-weight:500
   

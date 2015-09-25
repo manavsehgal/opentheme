@@ -8,7 +8,7 @@ $('.percent').progress();
 var API_KEY = '{{ site.google_api_key}}';
 
 // Specify the URL you want PageSpeed results for here:
-var URL_TO_GET_RESULTS_FOR = 'http://opentheme.co/';
+var URL_TO_GET_RESULTS_FOR = 'http://creationhub.github.io/';
 
 var API_URL = 'https://www.googleapis.com/pagespeedonline/v1/runPagespeed?';
 

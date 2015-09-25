@@ -1,16 +1,22 @@
 @font-face {
-  font-family:'Roboto Slab';
+  font-family:'Roboto Slab Light';
   font-style:normal;
   font-weight:300;
   src:local('Roboto Slab Light'), local('RobotoSlab-Light'), url('http://fonts.gstatic.com/s/robotoslab/v6/dazS1PrQQuCxC3iOAJFEJUo2lTMeWA_kmIyWrkNCwPc.woff2') format('woff2');
 }
+@font-face {
+  font-family: "Roboto Slab";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Roboto Slab Regular"), local("RobotoSlab-Regular"), url("http://fonts.gstatic.com/s/robotoslab/v6/y7lebkjgREBJK96VQi37Zo4P5ICox8Kq3LLUNMylGO4.woff2") format("woff2");
+}
 
 html{font-size:16px
-  font-family:'Roboto Slab', Times, serif;
+  font-family:'Roboto Slab Light', Times, serif;
 }
 
 body{
-  font-family:'Roboto Slab',serif;
+  font-family:'Roboto Slab Light',serif;
 font-weight:400
   
 }

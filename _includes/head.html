@@ -14,12 +14,13 @@
   
   <!-- Site Properities -->
   {% if page.title == "Home" %}
-    {% capture title_tag %}{{ site.tagline }}{% endcapture %}
+  <!--site.tagline -->
+    {% capture title_tag %}{{ page.title }}{% endcapture %}
   {% else %}
     {% capture title_tag %}{{ page.title }}{% endcapture %}
   {% endif %}
-  
-  <title>{{ title_tag }} &middot; {{ site.title }}</title>
+  <!--&middot;-->
+  <title>{{ title_tag }} | {{ site.title }}</title>
   <link rel="canonical" href="{{ page.url | prepend: site.url }}">
   
   <!-- Open Graph. Refer https://developers.facebook.com/docs/web/tutorials/scrumptious/open-graph-object -->

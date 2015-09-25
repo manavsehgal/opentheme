@@ -10,8 +10,6 @@
   font-style: normal;
   font-weight: 400;
   text-color: #2B2A29;
-  -webkit-backface-visibility:hidden;
-	backface-visibility:hidden;
   src: local("Roboto Slab Regular"), local("RobotoSlab-Regular"), url("http://fonts.gstatic.com/s/robotoslab/v6/y7lebkjgREBJK96VQi37Zo4P5ICox8Kq3LLUNMylGO4.woff2") format("woff2");
 }
 
@@ -23,7 +21,7 @@
 }
 
 html{font-size:18px
-  font-family:'Roboto Slab', Times, serif;
+  font-family:'Roboto Slab', serif;
 }
 
 body{

@@ -6,15 +6,8 @@ var sass        = require('gulp-sass');
 var prefix      = require('gulp-autoprefixer');
 var cp          = require('child_process');
 
-<<<<<<< HEAD
-
-watch = require('./semantic/tasks/watch'),
-build = require('./semantic/tasks/build')
-;
-=======
 var watch = require('./semantic/tasks/watch');
 var build = require('./semantic/tasks/build');
->>>>>>> origin/master
 // import task with a custom task name
 gulp.task('watch ui', watch);
 gulp.task('build ui', build);

@@ -1,7 +1,7 @@
 {
-  "name": "opentheme",
-  "version": "0.0.0",
-  "description": "Powerful New Theme for GitHub Pages",
+  "name": "UBCS",
+  "version": "0.0.1",
+  "description": "University of Botswana Computer Science Department",
   "main": "gulpfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

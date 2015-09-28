@@ -6,6 +6,13 @@ var sass        = require('gulp-sass');
 var prefix      = require('gulp-autoprefixer');
 var cp          = require('child_process');
 
+watch = require('./semantic/tasks/watch'),
+build = require('./semantic/tasks/build')
+;
+// import task with a custom task name
+gulp.task('watch ui', watch);
+gulp.task('build ui', build);
+
 // Optimize
 var minifyCSS   = require('gulp-minify-css');
 var rename      = require('gulp-rename');

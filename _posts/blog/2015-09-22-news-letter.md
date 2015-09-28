@@ -1,8 +1,8 @@
 ---
 layout: post
-author: Manav Sehgal
-category: theme
-title:  "Data Driven Web Apps Using GitHub"      
-tags: data analytics
+author: Daniel Dube
+category: blot 
+title:  "My first blog post"      
+tags: random
 ---
 News Letter

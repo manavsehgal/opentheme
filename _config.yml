@@ -14,7 +14,7 @@ description: > # this means to ignore newlines until "url:". One indent required
 # the base hostname & protocol for your site
 url: "http://http://creationhub.github.io/"
 
-twitter_username: manavsehgal
+twitter_username: CreationHub
 github_username: CreationHub
 
 default_image: /img/opentheme-workflow.png

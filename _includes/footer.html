@@ -88,12 +88,12 @@
   <!--  <div class="six wide column">-->
   <!--    <div class="ui two column stackable grid">-->
   <!--      <div class="column">-->
-  <!--        <h5 class="ui inverted header">Social</h5>-->
-  <!--        <div class="ui inverted link list">-->
-  <!--          <a class="item" href="https://twitter.com/{{ site.twitter_username }}"><i class="twitter icon"></i> Twitter</a>-->
-  <!--          <a class="item" href="https://github.com/{{ site.github_username }}"><i class="github icon"></i> GitHub</a>-->
-  <!--          <a class="item" href="{{ site.url }}/feed.xml"><i class="rss icon"></i> Feed</a>-->
-  <!--        </div>-->
+          <h5 class="ui inverted header">Social</h5>
+          <div class="ui inverted link list">
+            <a class="item" href="https://twitter.com/{{ site.twitter_username }}"><i class="twitter icon"></i> Twitter</a>
+            <a class="item" href="https://github.com/{{ site.github_username }}"><i class="github icon"></i> GitHub</a>
+            <a class="item" href="{{ site.url }}/feed.xml"><i class="rss icon"></i> Feed</a>
+          </div>
   <!--      </div>-->
   <!--      <div class="column">-->
   <!--        <h5 class="ui inverted header">Contact Us</h5>-->
@@ -109,5 +109,9 @@
 </div>
 
 <div class="ui left aligned segment copyright">
-  <i class="world icon"></i> Copyright &copy; {{ site.time | date: "%Y" }}, {{ site.copyright }}.
-
+  <i class="world icon"></i> Copyright &copy; {{ site.time | date: "%Y%M%D" }}, {{ site.copyright }}.
+<div class="ui celled horizontal list">
+  <div class="item"><a>About Us</a></div>
+  <div class="item"><a>Contact</a>Contact</div>
+  <div class="item"><a>Support</a></div>
+</div>

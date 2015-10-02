@@ -6,8 +6,9 @@ css: accordion
 <!--<link rel="stylesheet/less" type="text/css" href="/semantic/src/definitions/modules/accordion.less" />-->
 <!--<script src="/semantic/dist/components/accordion.js"></script>-->
 <script src="/js/jquery.min.js"></script>
-<script src="/js/accordion.js"></script>
-<!--<script src="/semantic/dist/components/accordion.min.js"></script> -->
+<!--<script src="/js/accordion.js"></script>-->
+<script src="/semantic/dist/components/accordion.min.js"></script>
+
 
   <!--Row-->
 <div class="ui vertical segment">
@@ -170,38 +171,3 @@ css: accordion
   </div>
 </div>
 <!--End of right column-->
-<script type="text/javascript">
-semantic.accordion = {};
-
-// ready event
-semantic.accordion.ready = function() {
-
-  // selector cache
-  var
-    $accordion     = $('.ui.accordion'),
-    $menuAccordion = $('.ui.menu.accordion'),
-    $checkbox      = $('.ui.checkbox'),
-    // alias
-    handler
-  ;
-  $accordion
-    .accordion()
-  ;
-  $menuAccordion
-    .accordion({
-     exclusive: true
-    })
-  ;
-  $checkbox
-    .checkbox()
-  ;
-
-};
-
-
-// attach ready event
-$(document)
-  .ready(semantic.accordion.ready)
-;
-
-</script>

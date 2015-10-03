@@ -8,13 +8,13 @@ description: Catering For The Undergraduate Community Of Computer Scientists
 <!--<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js"></script>-->
 
 <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<!--<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>-->
 
 <!--<link rel="stylesheet" href="/css/bootstrap.min.css">-->
 <script src="/js/jquery.min.js"></script>
 <script src="/js/accordion.js"></script>
 <script src="/js/tab.js"></script>
-<!--<script src="/js/bootstrap.min.js"></script>-->
+<script src="/js/bootstrap.min.js"></script>
 
 
 <div class="ui vertical segment">
@@ -58,19 +58,7 @@ description: Catering For The Undergraduate Community Of Computer Scientists
           <div class="sub header">Discover all available programmes in the CS department</div></h3>
           <div class="ui accordion" style="text-size: 12em;">
 
-            <div class="title">
-              <i class="dropdown icon"></i>
-                Computer Science
-            </div>
-            <div class="content"> <!--style="text-indent: 2em;">-->
-                <!--<div class="ui top attached tabular menu">-->
-                <!--    <a class="item active" data-tab="year1">Year I</a>-->
-                <!--    <a class="item" data-tab="year2">Year II</a>-->
-                <!--    <a class="item" data-tab="year3">Year III</a>-->
-                <!--    <a class="item" data-tab="year4">Year IV</a>-->
-                <!--    <a class="item" data-tab="minor">B.Sc. CS Minor</a>-->
-                <!--</div>-->
-                
+                            
                 <div class="container">
   <ul class="nav nav-tabs">
     <li class="active"><a data-toggle="tab" href="#home">Home</a></li>
@@ -98,6 +86,20 @@ description: Catering For The Undergraduate Community Of Computer Scientists
     </div>
   </div>
 </div>
+
+            <div class="title">
+              <i class="dropdown icon"></i>
+                Computer Science
+            </div>
+            <div class="content"> <!--style="text-indent: 2em;">-->
+                <!--<div class="ui top attached tabular menu">-->
+                <!--    <a class="item active" data-tab="year1">Year I</a>-->
+                <!--    <a class="item" data-tab="year2">Year II</a>-->
+                <!--    <a class="item" data-tab="year3">Year III</a>-->
+                <!--    <a class="item" data-tab="year4">Year IV</a>-->
+                <!--    <a class="item" data-tab="minor">B.Sc. CS Minor</a>-->
+                <!--</div>-->
+
                 <div class="container">
                 <ul class="nav nav-tabs">
                     <li class="active"><a data-toggle="tab" href="#year1">Year I</a></li>
@@ -432,6 +434,13 @@ description: Catering For The Undergraduate Community Of Computer Scientists
 
             </div>
             </div>
+<script>
+$(document).ready(function(){
+    $(".nav-tabs a").click(function(){
+        $(this).tab('show');
+    });
+});
+</script>
                 
 
             <div class="title">

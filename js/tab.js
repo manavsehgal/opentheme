@@ -831,6 +831,11 @@ $.tab = function() {
   $(window).tab.apply(this, arguments);
 };
 
+// Necessary for multiple tabs
+$('.menu .item')
+  .tab()
+;
+
 $.fn.tab.settings = {
 
   name            : 'Tab',

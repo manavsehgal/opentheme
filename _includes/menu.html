@@ -11,14 +11,11 @@
 <div class="ui menu">
   <a class="header item" href="/">Computer Science</a>
   <div class="right menu">
-    <a class="item menu-details {% if page.title == 'People' %}active{% endif %}" href="/people/" data-position="bottom left" data-content="People"><i class="icon users"></i></a>
-
-    <div class="ui simple dropdown item">
-        <i class="fa fa-users"></i> Members <i class="fa fa-caret-down"></i>
-        <div class="menu">
+    <div class="ui simple dropdown item"><a class="item menu-details {% if page.title == 'People' %}active{% endif %}" href="/people/" data-position="bottom left" data-content="People"><i class="fa fa-users"></i><i class="icon users"></i><i class="fa fa-caret-down"></i><div class="menu">
             <a class="item"><i class="fa fa-users"></i> Players</a>
             <a class="item"><i class="fa fa-user-md"></i> Staff</a>
         </div>
+        </a>
     </div>
     
     <a class="item menu-details {% if page.title == 'Undergraduate Center' %}active{% endif %}" href="/undergradcenter/" data-position="bottom left" data-content="Undergraduate Center"><i class="icon book"></i></a>

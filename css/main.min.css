@@ -150,6 +150,10 @@ font-weight:500
 
 .close:hover { background: #00d9ff; }
 
+.image_float{
+	float:right;
+}
+
 
 /*!
  * # Semantic UI 2.1.4 - Tab

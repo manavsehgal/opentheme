@@ -152,6 +152,7 @@ font-weight:500
 
 .image_float{
 	float:right;
+	margin: 20% auto;
 }
 
 

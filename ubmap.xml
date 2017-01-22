@@ -1,0 +1,10 @@
+---
+layout: null
+---
+
+<osm version="0.6" generator="CGImap 0.4.0 (2390 thorn-03.openstreetmap.org)" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+<node id="916173828" visible="true" version="3" changeset="11940971" timestamp="2012-06-18T19:38:49Z" user="miraculixOSM" uid="235372" lat="-24.6603597" lon="25.9356624">
+<tag k="amenity" v="university"/>
+<tag k="name" v="University of Botswana"/>
+</node>
+</osm>

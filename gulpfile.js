@@ -6,6 +6,12 @@ var sass        = require('gulp-sass');
 var prefix      = require('gulp-autoprefixer');
 var cp          = require('child_process');
 
+var watch = require('./semantic/tasks/watch');
+var build = require('./semantic/tasks/build');
+// import task with a custom task name
+gulp.task('watch ui', watch);
+gulp.task('build ui', build);
+
 // Optimize
 var minifyCSS   = require('gulp-minify-css');
 var rename      = require('gulp-rename');
@@ -109,7 +115,7 @@ gulp.task('watch', function () {
     gulp.watch('_sass/*.scss', ['sass']);
     gulp.watch(['index.html', '_layouts/*.html', '_includes/*.html', '_posts/*', '_posts/*/*', '_data/*'], ['jekyll-rebuild']);
 });
-
+gulp.task('build', 'Builds all files from source', build);
 /**
  * Default task, running just `gulp` will compile the sass,
  * compile the jekyll site, launch BrowserSync & watch files.

@@ -1,56 +1,116 @@
 <div class="ui inverted footer vertical segment">
-  <div class="ui stackable page grid">
-    <div class="ten wide column">
-      <div class="ui three column stackable grid">
-        <div class="column">
-          <h5 class="ui inverted header">Theme</h5>
-          <div class="ui inverted link list">
-            <a class="item" href="/blog/">Blog</a>
-            <a class="item" href="/category/#theme">Theme Features</a>
-            <a class="item" href="/tag/#embeds">Embed Plugins</a>
+  <!--UB CS patners-->
+  <div class="ui inverted aligned segment">
+    <!--First Patner 1 Start-->
+    <div class="ui inverted aligned segment">
+    <!--First Patner 1 Start-->
+    <div class="item ">
+      <div class="row">
+        <div class="eight wide column">
+          <!--SHOW MAP ON THE HOMEPAGE-->
+          {% if page.title == 'Home' %}
+              <h4>In UB?<br/> Find us here</h4>
+            <title>Department of Computer Science</title>
+            <div id="ubMap" style="height:350px;"></div>
+            <script src="http://www.openlayers.org/api/OpenLayers.js"></script>
+            <script>
+            map = new OpenLayers.Map("ubMap");
+            map.addLayer(new OpenLayers.Layer.OSM());
+            map.zoomToMaxExtent();
+          var lonLat = new OpenLayers.LonLat( 25.93165 ,-24.66250 )
+              .transform(
+              new OpenLayers.Projection("EPSG:4326"), // transform from WGS 1984
+                map.getProjectionObject() // to Spherical Mercator Projection
+          );
+          var zoom=18;
+          var markers = new OpenLayers.Layer.Markers( "Markers" );
+          map.addLayer(markers);
+          markers.addMarker(new OpenLayers.Marker(lonLat));
+          map.setCenter (lonLat, zoom);
+          </script>
+  
+          {% endif %}
+            </div>
+        <div class="six wide column">
+           <div class="ui tiny image">
+            <div class="item">
+              <a href="http://www.ub.bw/"><img style="margin:20px 0px" alt="University of Botswana" src="http://www.ub.bw/images/UB-logo.png"></a>
+            </div>
+            </div>
           </div>
+            
         </div>
-        <div class="column">
-          <h5 class="ui inverted header">Design</h5>
-          <div class="ui inverted link list">
-            <a class="item" href="{% post_url /blog/2014-12-15-content-strategy-for-startup-websites %}">Content Strategy</a>
-            <a class="item" href="/kitchensink/">Semantic UI Examples</a>
-            <a class="item" href="http://semantic-ui.com/">Semantic UI Site</a>
-          </div>
-        </div>
-        <div class="column">
-          <h5 class="ui inverted header">GitHub</h5>
-          <div class="ui inverted link list">
-            <a class="item" href="https://github.com/open-start/opentheme">Get OpenTheme</a>
-            <a class="item" href="{% post_url /blog/2014-11-26-open-cloud-based-workflow-for-designing-your-website %}">Cloud Workflow</a>
-            <a class="item" href="{% post_url /blog/2014-12-2-data-driven-web-apps-using-github %}">Data Apps</a>
-          </div>
         </div>
       </div>
-    </div>
-    <div class="six wide column">
-      <div class="ui two column stackable grid">
-        <div class="column">
-          <h5 class="ui inverted header">Social</h5>
-          <div class="ui inverted link list">
-            <a class="item" href="https://twitter.com/{{ site.twitter_username }}"><i class="twitter icon"></i> Twitter</a>
-            <a class="item" href="https://github.com/{{ site.github_username }}"><i class="github icon"></i> GitHub</a>
-            <a class="item" href="{{ site.url }}/feed.xml"><i class="rss icon"></i> Feed</a>
-          </div>
-        </div>
-        <div class="column">
-          <h5 class="ui inverted header">Contact Us</h5>
-          <addr>
-            123 Your Address Here <br>
-            State, City <br>
-          </addr>
-          <p>(000) 123-4567</p>
-        </div>
-      </div>
-    </div>
+        
+    <!--  <div class="content">-->
+        <!--<div class="description">-->
+        <!--  A description which may flow for several lines and give context to the content.-->
+        <!--</div>-->
+        <!--<div class="extra">-->
+        <!--  16 <div class="ui heart rating" data-rating="0" data-max-rating="1"></div>-->
+        <!--</div>-->
+    <!--  </div>-->
+    <!--</div>    -->
+        
+
+    <!--End of Patner 2 Start-->
   </div>
+  <!--<div class="ui stackable page grid"> -->
+  <!--  <div class="ten wide column">-->
+  <!--    <div class="ui three column stackable grid">-->
+  <!--      <div class="column">-->
+  <!--        <h5 class="ui inverted header">Theme</h5>-->
+  <!--        <div class="ui inverted link list">-->
+  <!--          <a class="item" href="/blog/">Blog</a>-->
+  <!--          <a class="item" href="/category/#theme">Theme Features</a>-->
+  <!--          <a class="item" href="/tag/#embeds">Embed Plugins</a>-->
+  <!--        </div>-->
+  <!--      </div>-->
+  <!--      <div class="column">-->
+  <!--        <h5 class="ui inverted header">Design</h5>-->
+  <!--        <div class="ui inverted link list">-->
+  <!--          <a class="item" href="{% post_url /blog/2014-12-15-content-strategy-for-startup-websites %}">Content Strategy</a>-->
+  <!--          <a class="item" href="/kitchensink/">Semantic UI Examples</a>-->
+  <!--          <a class="item" href="http://semantic-ui.com/">Semantic UI Site</a>-->
+  <!--        </div>-->
+  <!--      </div>-->
+  <!--      <div class="column">-->
+  <!--        <h5 class="ui inverted header">GitHub</h5>-->
+  <!--        <div class="ui inverted link list">-->
+  <!--          <a class="item" href="https://github.com/open-start/opentheme">Get OpenTheme</a>-->
+  <!--          <a class="item" href="{% post_url /blog/2014-11-26-open-cloud-based-workflow-for-designing-your-website %}">Cloud Workflow</a>-->
+  <!--          <a class="item" href="{% post_url /blog/2014-12-2-data-driven-web-apps-using-github %}">Data Apps</a>-->
+  <!--        </div>-->
+  <!--      </div>-->
+  <!--    </div>-->
+  <!--  </div>-->
+  <!--  <div class="six wide column">-->
+  <!--    <div class="ui two column stackable grid">-->
+  <!--      <div class="column">-->
+
+  <!--      </div>-->
+  <!--      <div class="column">-->
+  <!--        <h5 class="ui inverted header">Contact Us</h5>-->
+  <!--        <addr>-->
+  <!--          123 Your Address Here <br>-->
+  <!--          State, City <br>-->
+  <!--        </addr>-->
+  <!--        <p>(000) 123-4567</p>-->
+  <!--      </div>-->
+  <!--    </div>-->
+  <!--  </div>-->
+  <!--</div>-->
 </div>
 
-<div class="ui center aligned segment copyright">
-  <i class="world icon"></i> Copyright &copy; {{ site.time | date: "%Y" }}, {{ site.copyright }}.
+<div class="ui left aligned copyright">
+  <i class="world icon"></i> Copyright &copy; {{ site.time | date: " %Y" }}, {{ site.copyright }}.
+               <div class="ui right aligned">
+<div class="ui celled horizontal list">
+  <div class="item"><a>About Us</a></div>
+  <div class="item"><a>Contact</a></div>
+  <div class="item"><a>Support</a></div>
 </div>
+</div>
+
+

@@ -2,180 +2,100 @@
 layout: landing
 title: Home
 ---
+    <link rel="stylesheet" type="text/css" class="ui" href="http://semantic-ui.com/build/packaged/css/semantic.min.css">
+    <link rel="stylesheet" type="text/css" href="http://semantic-ui.com/stylesheets/semantic.css">  
+    <!--<script src="/js/jquery.min.js"></script>-->
+    <script src="/js/accordion.js"></script>
+    <script src="http://semantic-ui.com/javascript/library/jquery.min.js"></script>
+    <!--<script src="http://semantic-ui.com/javascript/library/history.js"></script>-->
 
-<div class="ui feature vertical segment">
-  <div class="ui centered page grid">
-    <div class="fourteen wide column">
-      <div class="ui three column center aligned stackable divided grid">
-        <div class="column">
-          <div class="ui icon header">
-            <i class="purple github icon"></i>
-            Free GitHub Hosting
-          </div>
-          <p>Free world-class hosting for your website on world's largest open source repository.</p>
-        </div>
-        <div class="column">
-          <div class="ui icon header">
-            <i class="purple code icon"></i>
-            Semantic UI Goodness
-          </div>
-          <p>Create rich, modern user experience with tags as easy as describing design in English.</p>
-        </div>
-        <div class="column">
-          <div class="ui icon header">
-            <i class="purple thumbs up icon"></i>
-            Jekyll Pre-processing 
-          </div>
-          <p>No server or database to maintain. No plugin hassels. Just focus on your content.</p>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="ui vertical segment black-shine-gradient">
-  <div class="ui stackable page grid">
-    <div class="row">
-      <div class="eight wide column">
-        <h3 class="ui inverted header">OpenTheme Helps Re-Imagine Web Design</h3> 
-        <h4 class="ui inverted header">
-        Design a website that <a href="/metrics/">self monitors</a> as it changes!
-        </h4>
-        <h4 class="slim-header-light">
-        Create <a href="/apps/">mobile hybrid apps</a> in just 3 lines of code!
-        </h4>
-        <h4 class="ui inverted header">
-        Author real-time content using <a href="/embeds/">plugin embeds</a>.
-        </h4>
-        <h4 class="slim-header-light">
-        Manage content <a href="{% post_url /blog/2014-11-26-open-cloud-based-workflow-for-designing-your-website %}">100% on Cloud, in Browser</a>.
-        </h4>
-        <h4 class="ui inverted header">
-        Publish <a href="{% post_url /blog/2014-12-2-data-driven-web-apps-using-github %}">data driven docs</a>, without a database.
-        </h4>
-      </div>
-      <div class="eight wide column">
-        {% include feature-post.html %}        
-      </div>
-    </div>
-  </div>
-</div>
-
-
-<div class="ui feature vertical segment">
-  <div class="ui centered page grid">
-    <div class="fourteen wide column">
-      <div class="ui three column center aligned stackable divided grid">
-        <div class="column">
-          <div class="ui icon header">
-            <i class="purple mobile icon"></i>
-            Hybrid Apps
-          </div>
-          <p>Responsive theme supporting multiple devices with one code base. Design once, publish anywhere.</p>
-        </div>
-        <div class="column">
-          <div class="ui icon header">
-            <i class="purple bug icon"></i>
-            Live Tests
-          </div>
-          <p>Travis CI integrated. BrowserSync ready. Lint JS, CSS on build. HTML proofing planned.</p>
-        </div>
-        <div class="column">
-          <div class="ui icon header">
-            <i class="purple rocket icon"></i>
-            Speed Optimized
-          </div>
-          <p>PageSpeed Insights built-in. Images optimized in build. CSS, JS minified. Selective JS includes.</p>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="ui inverted vertical segment">
-  <div class="ui centered page grid">
-    <div class="fourteen wide column">
-      <div class="ui five column center aligned stackable inverted divided grid">
-        <div class="column">
-          <a class="ui small blue inverted statistic" href="/apps/">
-            <div class="value">
-              <i class="cube icon"></i> {{ site.categories.app | size  }}
-            </div>
-            <p class="label">
-              Single Page Apps
-            </p>
-          </a>
-        </div>
-        <div class="column">
-          <a class="ui small purple inverted statistic pagebar" href="#">
-            <div class="value">
-              <i class="content icon"></i> {{ site.pages | size  }}
-            </div>
-            <div class="label">
-              Templates
-            </div>
-          </a>
-        </div>
-        <div class="column">
-          <a class="ui small blue inverted statistic" href="/embeds/">
-            <div class=" value">
-              <i class="wizard icon"></i> {{ site.data.embeds | size }}
-            </div>
-            <div class="label">
-              Reusable Embeds
-            </div>
-          </a>
-        </div>
-        <div class="column">
-          <a class="ui small orange inverted statistic" href="{% post_url /blog/2014-12-15-content-strategy-for-startup-websites %}">
-            <div class="text value">
-              One Minute
-            </div>
-            <div class="label">
-              Content Workflow
-            </div>
-          </a>
-        </div>
-        <div class="column">
-          <a class="ui small blue inverted statistic" href="/category/#theme">
-            <div class="value">
-              <i class="student icon"></i> {{ site.categories.theme | size  }}
-            </div>
-            <div class="label">
-              Theme Tutorials
-            </div>
-          </a>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
+  <!--Row-->
 <div class="ui vertical segment">
-  <div class="ui centered page stackable divided grid">
+  <div class="ui very relaxed stackable page grid">
     <div class="row">
-      <div class="column">
-        <h1 class="center aligned ui header">
-          Browse OpenTheme Content
-        </h1>
-      </div>
+      
+      <!--Computer Science-->
+      <div class="twelve wide column">
+        <h1 style="font-family: 'Grand Hotel', serif;" class="ui dividing header good-font">Computer Science</h1>
+          <p "five wide column">The Department of Computer Science, part of the Faculty of Science and Engineering, offers a range of specialised undergraduate and postgraduate degree courses.</p>
+        <div class="ui hidden clearing divider"></div>
+        <!--Mission and vision-->
+        <div class="row">
+                
+        <div class="ui inverted segment">
+                <h3 class="header">Vision</h3>
+          
+          <p>To be a leading academic centre of excellence in Africa and the world, through
+                                advancement and promotion of scholarship, research and innovation in the
+                                field of computing.
+          </p>
+        <div class="ui inverted divider"></div>
+                <h3 class="header">Mission</h3>
+        <p class="good-font" >To advance the intellectual and human resource capacity of the nation and the
+                        international community in the field of computing by offering quality academic
+                        programmes that are bench-marked against international standards.</br>
+                        To produce computer scientists who are professionally competent,
+                        responsible and innovative in solving real-world problems.</br>
+                        To promote scholarship through research that addresses national and societal
+                        needs, and advances scientific knowledge.
+        </p>
+        </div>
+     <div class="ui hidden clearing divider"></div>
     </div>
-    <div class="row">
-      <div class="eight wide column">
-
-        <h3 class="ui header">Tags</h3>
-          {% include site-tags.html %}
-
+    <!--gnerjngjenjkbngksebdhkhgsjszkfzbfhgtneujgzbfhfbrtgxhdhtetrsrgd gwsdgsr rehwe vweagtg-->
+    <div class="ui hidden clearing divider"></div>
+      <!--End Mission and vision-->
+             
+             </div>
+      <!--In computer science-->
+      <div class="four wide column">
+        
+       <h3 class="ui dividing header">In Computer Science</h3>
+       <div class="ui bulleted list">
+        <div class="item"><a style="font-size:13px" href="/people/">Our Staff</a></div>
+        <div class="item"><a style="font-size:13px" href="/people/">Our Students</a></div>
+        <div class="item">UBCICT</div>
+        <div class="item"><a style="font-size:13px" href="/resources/">HPCs</a></div>
+        </div>
+        
+      <!--Dimmer Contact Us-->
+        <!--<div class="dimmer demo">-->
+        <div class="ui segment" style="min-height: 8rem;">
+        <div class="ui top attached label">Contact Us</div>
+        <div class="demo icons">
+        <i class="mail icon"></i></br>
+        <p><a style="font-size:13px" href="mailto:someone@example.com">email@provider.com</a></p></br>
+        <i class="call icon"></i></br>
+        <p><a style="font-size:13px" href="tel:+26771234567">+267 - 71 234 567</a></p></br>
+        <i class="computer icon"></i></br>
+        <p><a style="font-size:13px" href="http://creationhub.github.io">creationhub.github.io</a></p></br>
+        </div>
+        </div>
+        <!--Dimmer Contact Us-->      
+        <!--Dimmer News-->
+       
+        <div class="ui hidden clearing divider"></div>
+        <div class="ui segment" style="min-height: 8rem;">
+        <div class="ui top attached label">News</div>
+        <div class=""></div>
+        <!--ui bottom attached label-->
+        </div>
+        
+        <!--Dimmer News-->    
+        <!--Dimmer Motivate Me-->
+        
+        <div class="ui hidden clearing divider"></div>
+        <div class="ui segment" style="min-height: 8rem;">
+        <div class="ui top attached label">Motivate Me</div>
+        <div class=""></div>
+        <!--ui bottom attached label-->
+        </div>
+        
+        <!--Dimmer News-->          
       </div>
-
-      <div class="eight wide column">
-
-        <h3 class="ui header">Categories</h3>
-          {% include site-categories.html %}
-
-      </div>
+      <!--In computer science-->
 
     </div> <!-- /row -->
   </div>
 </div>
-
+<!--End of right column-->

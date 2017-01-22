@@ -1,19 +1,21 @@
 # Site settings
+title: Computer Science
+# tagline: Amazing Websites and Hybrid Apps. Speedily!
+email: creationhubbw@gmail.com
+copyright: CreationHub
+keywords: computer science, ub, cs, ubcs
 
-title: Powerful New Theme for GitHub Pages | OpenTheme.co
-tagline: Amazing Websites and Hybrid Apps. Speedily!
-email: sehgal.manav@gmail.com
-copyright: Manav Sehgal
-keywords: open theme, github pages, semantic ui, single page apps
+#locations:
+ #- center="40.714728,-73.998672"
 
 description: > # this means to ignore newlines until "url:". One indent required.
   Powerful new theme featuring Semantic UI for speedily creating amazing websites and mobile-hybrid apps on GitHub Pages.
 
 # the base hostname & protocol for your site
-url: "http://opentheme.co"
+url: "http://http://creationhub.github.io/"
 
-twitter_username: manavsehgal
-github_username:  manavsehgal
+twitter_username: CreationHub
+github_username: CreationHub
 
 default_image: /img/opentheme-workflow.png
 
@@ -50,7 +52,7 @@ comments: disqus      # Switch disqus | facebook | none - comments. facebook = t
 
 # Embeds
 
-disqus_name: opentheme            # Your site name at Disqus
+disqus_name: Computer Science            # Your site name at Disqus
 
 youtube_controls: 0               # Turn on=1/off=0 Youtube player features when embedding videos
 
@@ -60,11 +62,13 @@ google_map_height: 450            # Default map height. Width adjusts to contain
 
 # API Keys. PLEASE DO NOT USE THESE KEYS. Get your own at links in comments.
 
-google_api_key: "AIzaSyDmt_iRsE8kQ1glUPC2GZpNLBsw1Laj9_0" # https://code.google.com/apis/console/
+#google_api_key: "AIzaSyDmt_iRsE8kQ1glUPC2GZpNLBsw1Laj9_0" # https://code.google.com/apis/console/
 google_analytics_ua: "UA-57703915-1" # Google Analytics site specific id
 google_cse_id: "012558675018178618302:kw1_r8qgyqc" # Google Custom Search Engine unique id
 
 mapbox: "pk.eyJ1Ijoib3BlbnRoZW1lIiwiYSI6ImNIWC1LTUUifQ.vq4k3nfTeTtDAk7eLCrVAw"
+google_api_key: "AIzaSyDhm3DZDtEnYNKw5DDvpFmM-sHs3StGaCQ"
+
 
 facebook_app: "390272554479803" # https://developers.facebook.com/
 

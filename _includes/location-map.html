@@ -1,0 +1,41 @@
+<!--Begin Location Section -->
+<section>
+    <div>
+        <div>
+            <div class="location-description text-left" data-animation="fadeInLeft" data-delay="0">
+                <div class="pull-right" id="location_devfest">
+                    <h3>Location</h3>
+                    <ul>
+                        <li itemprop="name">{{site.eventPlaceCoordinates}}</li>
+                        <li itemprop="address">{{mapCenterCoordinates}}</li>
+                        <p>&nbsp;</p>
+                    </ul>
+                </div>
+
+                <div id="googlemaps_codepursuit">
+                    <iframe src="https://www.google.com/maps/place/24%C2%B039'45.6%22S+25%C2%B055'53.7%22E/@-24.6625478,25.9315987,18z/data=!4m2!3m1!1s0x0:0x0?hl=en-US" width="300" height="200" frameborder="0" style="border:0"></iframe>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- End Location Section -->
+
+
+    <style type="text/css">
+    #googlemaps_devfest { 
+      position:center; 
+      top: 0; 
+      left: 0; 
+      z-index: 0;
+  }
+  #location_devfest { 
+      position: relative; 
+      z-index: 1; 
+      width: 250px;
+      background: white;
+      height: auto;
+      opacity: .95; /* Set the opacity for a slightly transparent Google Maps*/ 
+      color: black;
+  }
+  </style>

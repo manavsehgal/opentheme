@@ -1,7 +1,7 @@
 {
-  "name": "opentheme",
-  "version": "0.0.0",
-  "description": "Powerful New Theme for GitHub Pages",
+  "name": "UBCS",
+  "version": "0.0.1",
+  "description": "University of Botswana Computer Science Department",
   "main": "gulpfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -20,6 +20,27 @@
     "gulp-sass": "^0.7.3",
     "gulp-uglify": "^1.0.2",
     "imagemin-pngquant": "^4.0.0",
+    "gulp-chmod": "^1.2.0",
+    "gulp-clone": "^1.0.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-concat-css": "^2.2.0",
+    "gulp-copy": "0.0.2",
+    "gulp-flatten": "^0.1.0",
+    "gulp-header": "^1.2.2",
+    "gulp-help": "^1.6.0",
+    "gulp-if": "^1.2.5",
+    "gulp-less": "^3.0.3",
+    "gulp-notify": "^2.2.0",
+    "gulp-plumber": "^1.0.1",
+    "gulp-print": "^1.1.0",
+    "gulp-replace": "^0.5.3",
+    "gulp-rtlcss": "^0.1.4",
+    "gulp-util": "^3.0.6",
+    "gulp-watch": "^4.3.3",
+    "map-stream": "0.0.6",
+    "require-dot-file": "^0.4.0",
+    "semantic-ui": "^2.0.6",
+    "yamljs": "^0.2.3",
     "jshint-stylish": "^1.0.0"
   },
   "repository": {

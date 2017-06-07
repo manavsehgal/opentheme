@@ -1,9 +1,9 @@
 <div class="ui inverted footer vertical segment">
-  <div class="ui stackable page grid">
-    <div class="ten wide column">
+  <div class="ui stackable page grid centered">
+    <div class="six wide column">
       <div class="ui three column stackable grid">
         <div class="column">
-          <h5 class="ui inverted header">Theme</h5>
+          <h5 class="ui inverted header">Teme</h5>
           <div class="ui inverted link list">
             <a class="item" href="/blog/">Blog</a>
             <a class="item" href="/category/#theme">Theme Features</a>
@@ -11,40 +11,20 @@
           </div>
         </div>
         <div class="column">
-          <h5 class="ui inverted header">Design</h5>
+          <h5 class="ui inverted header">Linkovi</h5>
           <div class="ui inverted link list">
-            <a class="item" href="{% post_url /blog/2014-12-15-content-strategy-for-startup-websites %}">Content Strategy</a>
-            <a class="item" href="/kitchensink/">Semantic UI Examples</a>
-            <a class="item" href="http://semantic-ui.com/">Semantic UI Site</a>
-          </div>
-        </div>
-        <div class="column">
-          <h5 class="ui inverted header">GitHub</h5>
-          <div class="ui inverted link list">
-            <a class="item" href="https://github.com/open-start/opentheme">Get OpenTheme</a>
-            <a class="item" href="{% post_url /blog/2014-11-26-open-cloud-based-workflow-for-designing-your-website %}">Cloud Workflow</a>
-            <a class="item" href="{% post_url /blog/2014-12-2-data-driven-web-apps-using-github %}">Data Apps</a>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="six wide column">
-      <div class="ui two column stackable grid">
-        <div class="column">
-          <h5 class="ui inverted header">Social</h5>
-          <div class="ui inverted link list">
-            <a class="item" href="https://twitter.com/{{ site.twitter_username }}"><i class="twitter icon"></i> Twitter</a>
-            <a class="item" href="https://github.com/{{ site.github_username }}"><i class="github icon"></i> GitHub</a>
+            <a class="item" href="https://twitter.com/{{ site.twitter_username }}"><i class="blue twitter icon"></i> Twitter</a>
+            <a class="item" href="https://facebook.com/{{ site.facebook_username }}"><i class="blue facebook icon"></i> Facebook</a>
             <a class="item" href="{{ site.url }}/feed.xml"><i class="rss icon"></i> Feed</a>
           </div>
         </div>
         <div class="column">
-          <h5 class="ui inverted header">Contact Us</h5>
+          <h5 class="ui inverted header">Kontaktiraj Nas</h5>
           <addr>
-            123 Your Address Here <br>
-            State, City <br>
+            Vracar 1<br>
+            Srbija, Beograd <br>
           </addr>
-          <p>(000) 123-4567</p>
+          <p>+381 65 4093202</p>
         </div>
       </div>
     </div>
@@ -52,5 +32,5 @@
 </div>
 
 <div class="ui center aligned segment copyright">
-  <i class="world icon"></i> Copyright &copy; {{ site.time | date: "%Y" }}, {{ site.copyright }}.
+  <i class="world icon"></i> Sva prava su zadržana &copy; {{ site.time | date: "%Y" }}, {{ site.copyright }}.
 </div>
